@@ -1,0 +1,23 @@
+version: "3"
+services:
+  redis:
+    image: redis
+  mongo:
+    image: mongo
+    volumes:
+      - "./data/mongo:/data"
+  tellform:
+    expose:
+      - 5000
+    ports:
+      - "127.0.0.1:5000:5000"
+  mail:
+    ports:
+      - "127.0.0.1:5050:8025"
+    expose:
+      - 8025
+  mongoexpress:
+    ports:
+      - "127.0.0.1:5051:8081"
+    expose:
+      - 8081

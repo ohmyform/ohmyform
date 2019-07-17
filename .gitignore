@@ -86,3 +86,6 @@ coverageClient/
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+## Docker
+docker-compose.override.yml

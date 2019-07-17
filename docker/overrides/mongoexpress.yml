@@ -1,0 +1,13 @@
+## TODO: add a compose examples directory with various deployment options.
+version: "3"
+services:
+  mongoexpress:
+    image: mongo-express
+    environment:
+      ME_CONFIG_MONGODB_SERVER: mongo
+    ports:
+      - "5051:8081"
+    links:
+      - mongo
+    depends_on:
+      - mongo
