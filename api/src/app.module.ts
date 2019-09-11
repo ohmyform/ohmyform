@@ -11,15 +11,18 @@ import { AuthModule } from './auth/auth.module';
 import { MailModule } from "./mail/mail.module"
 import { MailerModule } from "@nest-modules/mailer"
 
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/ohmyform'
+const MAILER_URI = process.env.MAILER_URI || 'smtp://localhost:1025'
+
 @Module({
   imports: [
-    TypegooseModule.forRoot('mongodb://localhost/ohmyform', { useNewUrlParser: true }),
-    MongooseModule.forRoot('mongodb://localhost/ohmyform'),
+    TypegooseModule.forRoot(MONGODB_URI, { useNewUrlParser: true }),
+    MongooseModule.forRoot(MONGODB_URI),
     TerminusModule.forRootAsync({
       useClass: TerminusOptionsService,
     }),
     MailerModule.forRoot({
-      transport: 'smtp://localhost:1025',
+      transport: MAILER_URI,
       defaults: {
         from:'"OhMyForm" <noreply@ohmyform.com>',
       }
