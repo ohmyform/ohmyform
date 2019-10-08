@@ -1,6 +1,12 @@
 FROM  node:10-alpine
 MAINTAINER OhMyForm <admin@ohmyform.com>
 
+# Create a group and a user with name "ohmyformUser".
+RUN groupadd -g 999 ohmyformUser && useradd -r -u 999 -g ohmyformUser ohmyformUser
+
+# Change to non-root privilege
+USER ohmyformUser
+
 # Install some needed packages
 RUN apk add --no-cache git python \
 	&& rm -rf /tmp/* \
