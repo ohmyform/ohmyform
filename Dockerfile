@@ -1,10 +1,10 @@
 FROM  node:10-alpine
-MAINTAINER OhMyForm <admin@ohmyform.com>
+LABEL maintainer="OhMyForm <admin@ohmyform.com>"
 
 # Install some needed packages
-RUN apk add --no-cache git python \
+RUN apk add --no-cache git=2.20.1-r0 python=2.7.16-r1 \
 	&& rm -rf /tmp/* \
-	&& npm install --quiet -g grunt bower pm2 \
+	&& npm install --quiet -g grunt@1.0.4 bower@1.8.8 pm2@3.5.1 \
 	&& npm cache clean --force \
 	&& mkdir -p /opt/app/public/lib
 
