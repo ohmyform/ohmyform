@@ -46,8 +46,9 @@ Moving over to Discord so that I can manage things without hassle.
 	- Embeddable Forms
 	- Forms as a Service API
 
-<!-- TODO: Determine roadmap for OhMyForm if it is to be different from OhMyForm's roadmap.
-### On the Roadmap (Tentative pending [refactor](https://github.com/ohmyform/ohmyform/pull/1))
+<!-- TODO: Determine roadmap for OhMyForm if it is to be different from OhMyForm's roadmap. -->
+<!-- ### On the Roadmap (Tentative pending [refactor](https://github.com/ohmyform/ohmyform/pull/1)) -->
+### On the Roadmap for v1.0.0
 	- Implement encryption for all form data
 	- Add Typeform API integration
 	- Add plugin/3rd party integration support (ala Slack)
@@ -56,13 +57,13 @@ Moving over to Discord so that I can manage things without hassle.
 	- Add Custom Background and Dropdown Field Images
 	- Add File Upload Form Field
 	- Deployable with Heroku and DockerHub
--->
 
 
-<!-- TODO: add a CONTRIBUTING.md.
+
+<!-- TODO: add a CONTRIBUTING.md. -->
 ## How to Contribute
 
-Please checkout our CONTRIBUTING.md on ways to contribute to OhMyForm. -->
+Please checkout our CONTRIBUTING.md on ways to contribute to OhMyForm.
 
 ## Quickstart
 
