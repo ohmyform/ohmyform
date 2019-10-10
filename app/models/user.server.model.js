@@ -6,7 +6,7 @@
 var mongoose = require('mongoose'),
 	Schema = mongoose.Schema,
   crypto = require('crypto'),
-  bcrypt = require('bcrypt'),
+  bcrypt = require('bcryptjs'),
 	config = require('../../config/config'),
 	timeStampPlugin = require('../libs/timestamp.server.plugin'),
 	path = require('path'),
