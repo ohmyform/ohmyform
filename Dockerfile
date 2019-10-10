@@ -1,6 +1,9 @@
 FROM  node:10-alpine
 LABEL maintainer="OhMyForm <admin@ohmyform.com>"
 
+# Create a group and a user with name "ohmyform".
+RUN addgroup --gid 9999 ohmyform && adduser -D --uid 9999 -G ohmyform ohmyform
+
 # Install some needed packages
 RUN apk add --no-cache git=2.20.1-r0 python=2.7.16-r1 \
 	&& rm -rf /tmp/* \
@@ -47,6 +50,9 @@ COPY . .
 RUN npm install --only=production \
     && bower install --allow-root -f \
     && grunt build
+
+# Change to non-root privilege
+USER ohmyform
 
 # Run OhMyForm server
 CMD ["node", "server.js"]
