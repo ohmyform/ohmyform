@@ -73,4 +73,6 @@ Follow documentation hosted on [OhMyForm.com](http://ohmyform.com/docs/install/)
 
 [![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/Y2TTePM)
 
-<!-- TODO: Figure out how to generate that contributors table. -->
+## Alternative Social
+[Twitter](https://twitter.com/OhMyForm)
+[Instagram](https://www.instagram.com/ohmyform/)
