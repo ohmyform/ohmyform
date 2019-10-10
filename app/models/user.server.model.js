@@ -110,7 +110,7 @@ UserSchema.virtual('password').get(function () {
  * Create instance method for hashing a password
  */
 UserSchema.statics.hashPassword = UserSchema.methods.hashPassword = function(password) {
-  return bcrypt.hashSync(password, 4);
+  return password ? bcrypt.hashSync(password, 4) : false;
 };
 
 /**
