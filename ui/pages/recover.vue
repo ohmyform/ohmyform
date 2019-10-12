@@ -8,8 +8,8 @@
       <b-form-group>
         <b-form-input
           id="username"
-          aria-label="Username"
           v-model="username"
+          aria-label="Username"
           trim
           placeholder="Username or Email"
         ></b-form-input>

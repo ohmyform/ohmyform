@@ -8,8 +8,8 @@
       <b-form-group>
         <b-form-input
           id="username"
-          aria-label="Username"
           v-model="username"
+          aria-label="Username"
           trim
           placeholder="Username"
         ></b-form-input>
@@ -18,8 +18,8 @@
       <b-form-group>
         <b-form-input
           id="email"
-          aria-label="Email"
           v-model="email"
+          aria-label="Email"
           trim
           placeholder="Email"
         ></b-form-input>
@@ -28,8 +28,8 @@
       <b-form-group>
         <b-form-input
           id="password"
-          aria-label="Password"
           v-model="password"
+          aria-label="Password"
           type="password"
           placeholder="Password"
           trim

@@ -7,9 +7,9 @@
     <b-form class="box" @submit.prevent="submit">
       <b-form-group>
         <b-form-input
-          aria-label="Username"
           id="username"
           v-model="username"
+          aria-label="Username"
           trim
           placeholder="Username or Email"
         ></b-form-input>
@@ -17,9 +17,9 @@
 
       <b-form-group>
         <b-form-input
-          aria-label="Password"
           id="password"
           v-model="password"
+          aria-label="Password"
           type="password"
           placeholder="Password"
           trim
