@@ -1,6 +1,8 @@
 <template>
   <div>
-    <img src="../assets/img/logo_white_small.png" alt="OhMyForm" />
+    <h1 aria-label="Register">
+      <img src="../assets/img/logo_white_small.png" alt="OhMyForm" />
+    </h1>
 
     <b-form class="box" @submit="submit">
       <b-form-group>

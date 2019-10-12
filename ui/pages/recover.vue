@@ -1,6 +1,8 @@
 <template>
   <div>
-    <img src="../assets/img/logo_white_small.png" alt="OhMyForm" />
+    <h1 aria-label="Recover Password">
+      <img src="../assets/img/logo_white_small.png" alt="OhMyForm" />
+    </h1>
 
     <b-form class="box" @submit.prevent="submit">
       <b-form-group>
