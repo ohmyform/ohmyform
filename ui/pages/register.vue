@@ -1,30 +1,35 @@
 <template>
   <div>
-    <img src="../assets/img/logo_white_small.png" alt="OhMyForm" />
+    <h1 aria-label="Register">
+      <img src="../assets/img/logo_white_small.png" alt="OhMyForm" />
+    </h1>
 
     <b-form class="box" @submit="submit">
-      <b-form-group label-for="username">
+      <b-form-group>
         <b-form-input
           id="username"
           v-model="username"
+          aria-label="Username"
           trim
           placeholder="Username"
         ></b-form-input>
       </b-form-group>
 
-      <b-form-group label-for="email">
+      <b-form-group>
         <b-form-input
           id="email"
           v-model="email"
+          aria-label="Email"
           trim
           placeholder="Email"
         ></b-form-input>
       </b-form-group>
 
-      <b-form-group label-for="password">
+      <b-form-group>
         <b-form-input
           id="password"
           v-model="password"
+          aria-label="Password"
           type="password"
           placeholder="Password"
           trim
