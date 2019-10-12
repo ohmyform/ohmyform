@@ -3,27 +3,30 @@
     <img src="../assets/img/logo_white_small.png" alt="OhMyForm" />
 
     <b-form class="box" @submit="submit">
-      <b-form-group label-for="username">
+      <b-form-group>
         <b-form-input
           id="username"
+          aria-label="Username"
           v-model="username"
           trim
           placeholder="Username"
         ></b-form-input>
       </b-form-group>
 
-      <b-form-group label-for="email">
+      <b-form-group>
         <b-form-input
           id="email"
+          aria-label="Email"
           v-model="email"
           trim
           placeholder="Email"
         ></b-form-input>
       </b-form-group>
 
-      <b-form-group label-for="password">
+      <b-form-group>
         <b-form-input
           id="password"
+          aria-label="Password"
           v-model="password"
           type="password"
           placeholder="Password"

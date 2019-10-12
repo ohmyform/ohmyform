@@ -3,9 +3,10 @@
     <img src="../assets/img/logo_white_small.png" alt="OhMyForm" />
 
     <b-form class="box" @submit.prevent="submit">
-      <b-form-group label-for="username">
+      <b-form-group>
         <b-form-input
           id="username"
+          aria-label="Username"
           v-model="username"
           trim
           placeholder="Username or Email"
