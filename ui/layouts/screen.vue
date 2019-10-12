@@ -1,8 +1,8 @@
 <template>
   <div class="screen bg-primary dark">
-    <div class="content">
+    <main class="content">
       <nuxt />
-    </div>
+    </main>
 
     <div class="footer">
       <nuxt-link to="/login">Login</nuxt-link>
