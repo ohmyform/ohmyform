@@ -1,12 +1,15 @@
 $accent: #fae596;
-$primary: #3fb0ac;
+$primary: #379A96;
+
+$font-size-standard: 1rem;
+$font-size-md: 1.25rem;
 
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 1html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
   Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
+  font-size: $font-size-standard;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -36,6 +39,8 @@ $primary: #3fb0ac;
   color: #fff;
   background-color: $primary;
   border-color: $primary;
+  font-size: $font-size-md;
+  font-weight: bold;
 
   &:hover {
     color: #fff;
