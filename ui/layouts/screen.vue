@@ -4,12 +4,12 @@
       <nuxt />
     </main>
 
-    <div class="footer">
+    <footer class="footer">
       <nuxt-link to="/login">Login</nuxt-link>
       <nuxt-link to="/register">Register</nuxt-link>
       <nuxt-link to="/admin">Manage</nuxt-link>
       <a href="https://ohmyform.com">OhMyForm</a>
-    </div>
+    </footer>
   </div>
 </template>
 
