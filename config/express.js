@@ -23,7 +23,7 @@ const express = require('express'),
 
 var mongoose = require('mongoose');
 
-var supportedLanguages = ['en', 'de', 'fr', 'it', 'es'];
+var supportedLanguages = ['en', 'de', 'fr', 'it', 'es', 'cn'];
 
 function containsAnySupportedLanguages(preferredLanguages){
 	var i, currIndex;
