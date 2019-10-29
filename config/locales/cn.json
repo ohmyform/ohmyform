@@ -1,0 +1,22 @@
+{
+	"500_HEADER": "500 - 内部服务器错误",
+	"404_HEADER": "404 - 页面无法找到",
+	"404_BODY": "%s 不是一个有效的地址",
+	"500_BODY": "发生了预料之外的错误，请尝试刷新页面。如果问题仍然存在，请联系我们",
+	"EMAIL_GREETING": "你好!",
+	"VERIFICATION_EMAIL_PARAGRAPH_1": "欢迎来到OhMyForm! 要激活你的新账号，请访问此链接：",
+	"VERIFICATION_EMAIL_LINK_TEXT": "激活我的账号",
+	"VERIFICATION_EMAIL_PARAGRAPH_2": "非常感谢您使用我们的服务！如果有任何疑问或是建议，请不要犹豫，通过以下电子邮件地址提交给我们",
+	"VERIFICATION_EMAIL_SUBJECT": "激活您的 OhMyForm 账号!",
+	"VERIFICATION_EMAIL_TEXT": "请点击以下链接来验证您的账号，或者将它复制到您浏览器的地址栏中： ${URL}",
+	"EMAIL_SIGNATURE": "- OhMyForm 团队",
+	"WELCOME_EMAIL_PARAGRAPH_1": "欢迎您成为我们的新成员！",
+	"WELCOME_EMAIL_PARAGRAPH_2": "我们希望您喜欢使用OhMyForm！如果您有任何问题，请给我们发电子邮件：",
+	"WELCOME_EMAIL_SUBJECT": "欢迎来到 %s！",
+	"WELCOME_EMAIL_TEXT": "您的账号已成功验证。",
+	"RESET_PASSWORD_CONFIRMATION_EMAIL_PARAGRAPH_1": "这条消息是为了礼貌地告知您，您的密码刚刚更改了。",
+	"RESET_PASSWORD_REQUEST_EMAIL_PARAGRAPH_1": "以下链接能让您重置您的密码。请留意，为了保护您的账号安全，此链接将在一小时后过期：",
+	"RESET_PASSWORD_REQUEST_EMAIL_LINK_TEXT": "重置密码",
+	"RESET_PASSWORD_REQUEST_EMAIL_PARAGRAPH_2": "如果您没有重置密码的需求，请忽略此邮件，您的密码将不会更改。",
+    "INVALID_SUB_DOMAIN": "找不到子域名"
+}
