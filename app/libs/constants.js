@@ -50,15 +50,14 @@ var constants = module.exports = {
 	],
 	
     deviceTypes: ['desktop', 'phone', 'tablet', 'other'],
-    languageTypes: ['en', 'fr', 'es', 'it', 'de', 'cn'],
+    languageTypes: ['en', 'fr', 'es', 'it', 'de'],
 
     langCodeToWord: {
 		'en': 'English',
 		'fr': 'Français',
 		'es': 'Español',
 		'it': 'Italiàno',
-		'de': 'Deutsch',
-		'cn': '简体中文'
+		'de': 'Deutsch'
 	},
 
     wordToLangCode: {
@@ -66,8 +65,7 @@ var constants = module.exports = {
 		'Français': 'fr',
 		'Español': 'es',
 		'Italiàno': 'it',
-		'Deutsch': 'de',
-		'简体中文': 'cn'
+		'Deutsch': 'de'
 	},
 
 	privateFields: {
