@@ -17,14 +17,15 @@ angular.module('core').controller('HeaderController', ['$rootScope', '$scope', '
 			$rootScope.hideNav = false;
 			$scope.menu = Menus.getMenu('topbar');
 
-	        $rootScope.languages = ['en', 'fr', 'es', 'it', 'de'];
+	        $rootScope.languages = ['en', 'fr', 'es', 'it', 'de', 'cn'];
 
 	        $rootScope.langCodeToWord = {
 	            'en': 'English',
 	            'fr': 'Français',
 	            'es': 'Español',
 	            'it': 'Italiàno',
-	            'de': 'Deutsch'
+	            'de': 'Deutsch',
+				'cn': '简体中文'）
 	        };
 
 	        $rootScope.wordToLangCode = {
@@ -32,7 +33,8 @@ angular.module('core').controller('HeaderController', ['$rootScope', '$scope', '
 	            'Français': 'fr',
 	            'Español': 'es',
 	            'Italiàno': 'it',
-	            'Deutsch': 'de'
+	            'Deutsch': 'de',
+				'简体中文': 'cn'
 	        };
 
 		    $scope.signout = function() {
