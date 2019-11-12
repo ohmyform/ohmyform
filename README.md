@@ -63,7 +63,7 @@ Moving over to Discord so that I can manage things without hassle.
 <!-- TODO: add a CONTRIBUTING.md. -->
 ## How to Contribute
 
-Please checkout our CONTRIBUTING.md on ways to contribute to OhMyForm.
+Please checkout our [contributing guide](CONTRIBUTING.md) on ways to contribute to OhMyForm.
 
 ## Quickstart
 
