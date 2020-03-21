@@ -8,8 +8,8 @@ services:
     volumes:
       - "./data/mongo:/data"
   ohmyform:
-    image: ohmyform/ohmyform
-    #build: .
+    #image: ohmyform/ohmyform
+    build: .
     #volumes:
     #  - ".:/opt/app"
     environment:
