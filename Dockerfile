@@ -5,7 +5,7 @@ LABEL maintainer="OhMyForm <admin@ohmyform.com>"
 RUN addgroup --gid 9999 ohmyform && adduser -D --uid 9999 -G ohmyform ohmyform
 
 # Install some needed packages
-RUN apk add --no-cache git=2.20.1-r0 python=2.7.16-r1 \
+RUN apk add --no-cache git python \
 	&& rm -rf /tmp/* \
 	&& npm install --quiet -g grunt@1.0.4 bower@1.8.8 pm2@3.5.1 \
 	&& npm cache clean --force \
