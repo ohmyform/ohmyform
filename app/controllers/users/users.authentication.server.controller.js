@@ -19,7 +19,6 @@ var nev = require('email-verification')(mongoose);
 
 // NEV setup and configuration ================
 var config_nev = function () {
-
 	nev.configure({
 
 		verifyMailOptions: {
@@ -32,12 +31,12 @@ var config_nev = function () {
 
 	    persistentUserModel: User,
 	    tempUserCollection: config.tempUserCollection,
-        emailAndUsernameUnique: true,
+      emailAndUsernameUnique: true,
 	    expirationTime: 86400,  // 24 hours
 
 	    verificationURL: config.baseUrl+'/#!/verify/${URL}',
 	    transportOptions: config.mailer.options,
-	    
+
 	    verifySendMailCallback: function(err, info) {
 	      if (err) {
 	        throw err;
@@ -79,7 +78,7 @@ exports.validateVerificationToken = function(req, res){
 	    // redirect to resend verification email
 	    else {
 	    	return res.status(400).send( {message: 'Verification token is invalid or has expired'} );
-	    } 
+	    }
 	});
 };
 
@@ -126,6 +125,7 @@ exports.signup = function(req, res) {
 	// Then save the temporary user
 	nev.createTempUser(user, function (err, existingPersistentUser, newTempUser) {
 		if (err) {
+		  console.error('failed to register user', err)
 			return res.status(400).send({
 				message: errorHandler.getErrorMessage(err)
 			});
@@ -133,11 +133,17 @@ exports.signup = function(req, res) {
 
 		// new user created
 		if (newTempUser) {
-			const fn = pug.compileFile(__dirname + '/../../views/verification.email.view.pug');
-			var renderedHtml = fn(res.locals);
+      let renderedHtml;
+      try {
+        let fn = pug.compileFile(__dirname + '/../../views/verification.email.view.pug', {});
+        renderedHtml = fn(res.locals);
+      } catch (e) {
+        console.error('failed to compile mail template', e);
+        renderedHtml = 'welcome!';
+      }
 
-			var URL = newTempUser[nev.options.URLFieldName];
-			var emailTemplate = {
+      let URL = newTempUser[nev.options.URLFieldName];
+      let emailTemplate = {
 		        subject: i18n.__('VERIFICATION_EMAIL_SUBJECT'),
 		        html: renderedHtml,
 		        text: i18n.__('VERIFICATION_EMAIL_TEXT')
@@ -145,11 +151,12 @@ exports.signup = function(req, res) {
 
 			nev.sendVerificationEmail(user.email, URL, emailTemplate, function (sendEmailErr, info) {
 				if (sendEmailErr) {
+				  console.error('failed to send verification email', sendEmailErr)
 					return res.status(400).send({
-						message: errorHandler.getErrorMessage(err)
+						message: 'Could not send Verification Email'
 					});
 				}
-				return res.status(200).send('An email has been sent to you. Please check it to verify your account.');
+				return res.status(200).send({message: 'An email has been sent to you. Please check it to verify your account.'});
 			});
 		} else {
 			return res.status(400).send({message: 'User with username/email already exists!'});
@@ -161,7 +168,6 @@ exports.signup = function(req, res) {
  * Signin after passport authentication
  */
 exports.signin = function(req, res, next) {
-	
 	passport.authenticate('local', function(err, user, info) {
 		if (err || !user) {
 			res.status(400).send(info);
@@ -179,7 +185,7 @@ exports.signin = function(req, res, next) {
 				}
 
 				res.cookie('langCookie', user.language, { maxAge: 90000, httpOnly: true });
-				
+
 				user = helpers.removeSensitiveModelData('private_user', user.toJSON());
 				return res.json(user);
 			});
