@@ -49,7 +49,7 @@ logger.setupFileLogger = function setupFileLogger() {
     // Check first if the configured path is writable and only then
     // instantiate the file logging transport
     if (fs.openSync(fileLoggerTransport.filename, 'a+')) {
-      logger.add(new winston.transports.File(), fileLoggerTransport);
+      logger.add(new winston.transports.File(fileLoggerTransport));
     }
 
     return true;
