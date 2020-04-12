@@ -21,6 +21,7 @@ services:
       REDIS_URL: redis://redis
       MAILER_SMTP_HOST: mail
       MAILER_SMTP_PORT: 1025
+      MAILER_PASSWORD: 'NONE'
     # command: grunt dev # override command to have livereloading on file change
     links:
       - mongo

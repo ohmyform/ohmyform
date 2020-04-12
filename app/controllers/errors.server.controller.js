@@ -24,7 +24,7 @@ exports.getErrorMessage = function(err) {
 	var message = '';
 
 	if(!err) {
-		return '';
+		return 'Unknown Error';
 	} else if(typeof err === 'string'){
         message = err;
     } else if (err.code) {
