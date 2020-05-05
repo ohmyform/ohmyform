@@ -1,0 +1,71 @@
+
+{
+  "name": "ohmyform",
+  "description": "Opensource alternative to TypeForm",
+  "repository": "https://github.com/ohmyform/ohmyform",
+  "logo": "https://raw.githubusercontent.com/ohmyform/ohmyform/master/public/modules/core/img/brand/logo.png",
+  "keywords": ["form", "survey"],
+  "env": {
+    "BASE_URL": {
+      "description": "Domain name where the site will be hosted",
+      "value": "ohmyform.herokuapp.com"
+    },
+    "MAILER_SERVICE_PROVIDER": {
+      "description": "Set this to any services from https://nodemailer.com/smtp/well-known/ to use a 'well-known' email provider",
+      "value": ""
+    },
+    "MAILER_SMTP_HOST": {
+      "description": "Set this if you are not using a 'MAILER_SERVICE_PROVIDER'",
+      "value": ""
+    },
+    "MAILER_SMTP_PORT": {
+      "description": "Set this if you are not using a 'MAILER_SERVICE_PROVIDER'",
+      "value": ""
+    },
+    "MAILER_EMAIL_ID": {
+      "description": "Username credential of your SMTP service",
+      "value": ""
+    },
+    "MAILER_PASSWORD": {
+      "description": "Password credential of your SMTP service",
+      "value": ""
+    },
+    "MAILER_FROM": {
+      "description": "Email address from which signup/verifications are sent",
+      "value": ""
+    },
+    "CREATE_ADMIN": {
+      "description": "Use this to automatically create an admin user on startup",
+      "value": "TRUE"
+    },
+    "ADMIN_EMAIL": {
+      "description": "The email address used by your default admin account",
+      "value": ""
+    },
+    "ADMIN_USERNAME": {
+      "description": "Username of your default admin account",
+      "value": "admin"
+    },
+    "ADMIN_PASSWORD": {
+      "description": "Password for your default admin account",
+      "value": ""
+    },
+    "SECRET_KEY": {
+      "description": "Database secret",
+      "generator": "secret"
+    },
+    "NODE_ENV": {
+      "description": "Node environment (production or development)",
+      "value": "production"
+    }
+   },
+  "addons": [
+      "mongolab",
+      "heroku-redis"
+   ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
