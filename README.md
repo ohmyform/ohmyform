@@ -5,7 +5,7 @@
 <!-- [![Code Shelter](https://www.codeshelter.co/static/badges/badge-flat.svg)](https://www.codeshelter.co/) -->
 <!-- TODO: Travis CI maybe. -->
 <!-- [![Build Status](https://travis-ci.org/ohmyform/ohmyform.svg?branch=master)](https://travis-ci.org/ohmyform/ohmyform) -->
-![Project Status](https://img.shields.io/badge/status-0.2.1-green.svg)
+[![Financial Contributors on Open Collective](https://opencollective.com/ohmyform/all/badge.svg?label=financial+contributors)](https://opencollective.com/ohmyform) ![Project Status](https://img.shields.io/badge/status-0.2.1-green.svg)
 <!-- TODO: Codeacy maybe. -->
 <!-- [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3491e86eb7194308b8fc80711d736ede)](https://www.codacy.com/app/david-baldwin/ohmyform?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ohmyform/ohmyform&amp;utm_campaign=Badge_Grade) -->
 <!--
@@ -76,3 +76,33 @@ Follow documentation hosted on [OhMyForm.com](http://ohmyform.com/docs/install/)
 ## Alternative Social
 [Twitter](https://twitter.com/OhMyForm)
 [Instagram](https://www.instagram.com/ohmyform/)
+
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/ohmyform/ohmyform/graphs/contributors"><img src="https://opencollective.com/ohmyform/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/ohmyform/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/ohmyform"><img src="https://opencollective.com/ohmyform/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/ohmyform/contribute)]
+
+<a href="https://opencollective.com/ohmyform/organization/0/website"><img src="https://opencollective.com/ohmyform/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/ohmyform/organization/1/website"><img src="https://opencollective.com/ohmyform/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/ohmyform/organization/2/website"><img src="https://opencollective.com/ohmyform/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/ohmyform/organization/3/website"><img src="https://opencollective.com/ohmyform/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/ohmyform/organization/4/website"><img src="https://opencollective.com/ohmyform/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/ohmyform/organization/5/website"><img src="https://opencollective.com/ohmyform/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/ohmyform/organization/6/website"><img src="https://opencollective.com/ohmyform/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/ohmyform/organization/7/website"><img src="https://opencollective.com/ohmyform/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/ohmyform/organization/8/website"><img src="https://opencollective.com/ohmyform/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/ohmyform/organization/9/website"><img src="https://opencollective.com/ohmyform/organization/9/avatar.svg"></a>
