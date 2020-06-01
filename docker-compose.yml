@@ -7,46 +7,46 @@ services:
     image: mongo
     volumes:
       - "./data/mongo:/data"
-#  ohmyform:
-#    build: .
-#    environment:
-#      CREATE_ADMIN: "TRUE"
-#      MONGODB_URI: mongodb://mongo/ohmyform
-#      MAILER_URI: smtp://mail:1025
-#      PORT: 5000
-#    links:
-#      - mongo
-#      - redis
-#      - mail
-#    ports:
-#      - "5200:5000"
-#    depends_on:
-#      - mongo
-#      - redis
-  ui:
-    image: ohmyform/ui
+  ohmyform:
+    build: .
     environment:
-      API_HOST: http://localhost:5100/graphql
-      PORT: 5000
-    ports:
-      - "5000:5000"
-  api:
-    image: ohmyform/api
-    environment:
-      CREATE_ADMIN: "true"
+      CREATE_ADMIN: "TRUE"
       MONGODB_URI: mongodb://mongo/ohmyform
       MAILER_URI: smtp://mail:1025
-      REDIS_URL: redis://redis
       PORT: 5000
     links:
       - mongo
       - redis
       - mail
     ports:
-      - "5100:5000"
+      - "5000:5000"
     depends_on:
       - mongo
       - redis
+#  ui:
+#    image: ohmyform/ui
+#    environment:
+#      API_HOST: http://localhost:5100/graphql
+#      PORT: 5000
+#    ports:
+#      - "5000:5000"
+#  api:
+#    image: ohmyform/api
+#    environment:
+#      CREATE_ADMIN: "true"
+#      MONGODB_URI: mongodb://mongo/ohmyform
+#      MAILER_URI: smtp://mail:1025
+#      REDIS_URL: redis://redis
+#      PORT: 5000
+#    links:
+#      - mongo
+#      - redis
+#      - mail
+#    ports:
+#      - "5100:5000"
+#    depends_on:
+#      - mongo
+#      - redis
   mail:
     image: mailhog/mailhog
     ports:
