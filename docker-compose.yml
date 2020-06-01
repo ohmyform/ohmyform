@@ -37,6 +37,7 @@ services:
       MONGODB_URI: mongodb://mongo/ohmyform
       MAILER_URI: smtp://mail:1025
       REDIS_URL: redis://redis
+      PORT: 5000
     links:
       - mongo
       - redis
