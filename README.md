@@ -1,5 +1,6 @@
-# OhMyForm 0.9.1
+![OhMyForm](public/logo.png)
 
+# OhMyForm 0.9.1
 
 <!-- TODO: Code Shelter maybe. -->
 <!-- [![Code Shelter](https://www.codeshelter.co/static/badges/badge-flat.svg)](https://www.codeshelter.co/) -->
@@ -17,7 +18,7 @@ Moving over to Discord so that I can manage things without hassle.
 [![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/nWbrjtz)
 > An *open source alternative to TypeForm* that can create stunning mobile-ready forms, surveys and questionnaires.
 
-<!-- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ohmyform/ohmyform/tree/production)-->
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ohmyform/ohmyform/tree/master)
 
 ## Table of Contents  
 
@@ -84,7 +85,7 @@ Follow documentation hosted on [OhMyForm.com](http://ohmyform.com/docs/install/)
 ### Code Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/ohmyform/ohmyform/graphs/contributors"><img src="https://opencollective.com/ohmyform-sustainability/contributors.svg?width=890&button=false" alt="Contributors" /></a>
+[![Contributors](https://opencollective.com/ohmyform-sustainability/contributors.svg?width=890&button=false)](https://github.com/ohmyform/ohmyform/graphs/contributors)
 
 ### Financial Contributors
 
@@ -92,13 +93,13 @@ Become a financial contributor and help us sustain our community. [[Contribute](
 
 #### Individuals
 
-<a href="https://opencollective.com/ohmyform-sustainability"><img src="https://opencollective.com/static/images/opencollective-og-default.png?width=890" alt="Individuals"></a>
+[![Individuals](https://opencollective.com/static/images/opencollective-og-default.png?width=890)](https://opencollective.com/ohmyform-sustainability)
 
 #### Organizations
 
 Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/ohmyform-sustainability/contribute)]
 
-<a href="https://opencollective.com/ohmyform-sustainability/organization/0/website"><img src="https://opencollective.com/ohmyform-sustainability/organization/0/avatar.svg"></a>
-<a href="https://opencollective.com/ohmyform-sustainability/organization/1/website"><img src="https://opencollective.com/ohmyform-sustainability/organization/1/avatar.svg"></a>
-<a href="https://opencollective.com/ohmyform-sustainability/organization/2/website"><img src="https://opencollective.com/ohmyform-sustainability/organization/2/avatar.svg"></a>
+[![](https://opencollective.com/ohmyform-sustainability/organization/0/avatar.svg)](https://opencollective.com/ohmyform-sustainability/organization/0/website)
+[![](https://opencollective.com/ohmyform-sustainability/organization/1/avatar.svg)](https://opencollective.com/ohmyform-sustainability/organization/1/website)
+[![](https://opencollective.com/ohmyform-sustainability/organization/2/avatar.svg)](https://opencollective.com/ohmyform-sustainability/organization/2/website)
 

@@ -3,36 +3,20 @@
   "name": "ohmyform",
   "description": "Opensource alternative to TypeForm",
   "repository": "https://github.com/ohmyform/ohmyform",
-  "logo": "https://raw.githubusercontent.com/ohmyform/ohmyform/master/public/modules/core/img/brand/logo.png",
+  "logo": "https://raw.githubusercontent.com/ohmyform/ohmyform/master/public/logo.png",
   "keywords": ["form", "survey"],
   "env": {
     "BASE_URL": {
       "description": "Domain name where the site will be hosted",
       "value": "ohmyform.herokuapp.com"
     },
-    "MAILER_SERVICE_PROVIDER": {
-      "description": "Set this to any services from https://nodemailer.com/smtp/well-known/ to use a 'well-known' email provider",
-      "value": ""
-    },
-    "MAILER_SMTP_HOST": {
-      "description": "Set this if you are not using a 'MAILER_SERVICE_PROVIDER'",
-      "value": ""
-    },
-    "MAILER_SMTP_PORT": {
-      "description": "Set this if you are not using a 'MAILER_SERVICE_PROVIDER'",
-      "value": ""
-    },
-    "MAILER_EMAIL_ID": {
-      "description": "Username credential of your SMTP service",
-      "value": ""
-    },
-    "MAILER_PASSWORD": {
-      "description": "Password credential of your SMTP service",
+    "MAILER_URI": {
+      "description": "Set this to a uri like smtp://localhost:1025 - for more information check https://nodemailer.com/",
       "value": ""
     },
     "MAILER_FROM": {
       "description": "Email address from which signup/verifications are sent",
-      "value": ""
+      "value": "OhMyForm <no-reply@localhost>"
     },
     "CREATE_ADMIN": {
       "description": "Use this to automatically create an admin user on startup",
@@ -67,5 +51,8 @@
     {
       "url": "heroku/nodejs"
     }
-  ]
+  ],
+  "scripts": {
+    "postdeploy": "scripts/heroku/postdeploy.sh"
+  }
 }

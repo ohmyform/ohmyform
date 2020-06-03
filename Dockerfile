@@ -13,6 +13,7 @@ LABEL maintainer="OhMyForm <admin@ohmyform.com>"
 WORKDIR /usr/src/app
 
 COPY api/ .
+COPY --from=builder /usr/src/app/out /usr/src/app/public
 
 RUN yarn install --frozen-lockfile
 RUN yarn build
