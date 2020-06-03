@@ -1,11 +1,12 @@
-# OhMyForm 0.2.1
+# OhMyForm 0.9.1
 
 
 <!-- TODO: Code Shelter maybe. -->
 <!-- [![Code Shelter](https://www.codeshelter.co/static/badges/badge-flat.svg)](https://www.codeshelter.co/) -->
 <!-- TODO: Travis CI maybe. -->
 <!-- [![Build Status](https://travis-ci.org/ohmyform/ohmyform.svg?branch=master)](https://travis-ci.org/ohmyform/ohmyform) -->
-[![Financial Contributors on Open Collective](https://opencollective.com/ohmyform-sustainability/all/badge.svg?label=financial+contributors)](https://opencollective.com/ohmyform-sustainability) ![Project Status](https://img.shields.io/badge/status-0.2.1-green.svg)
+[![Financial Contributors on Open Collective](https://opencollective.com/ohmyform-sustainability/all/badge.svg?label=financial+contributors)](https://opencollective.com/ohmyform-sustainability)
+![Project Status](https://img.shields.io/badge/status-0.9.1-green.svg)
 <!-- TODO: Codeacy maybe. -->
 <!-- [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3491e86eb7194308b8fc80711d736ede)](https://www.codacy.com/app/david-baldwin/ohmyform?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ohmyform/ohmyform&amp;utm_campaign=Badge_Grade) -->
 <!--
@@ -22,7 +23,7 @@ Moving over to Discord so that I can manage things without hassle.
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [OhMyForm 0.2.1](#ohmyform-021)
+- [OhMyForm 0.9.1](#ohmyform-091)
 	- [Table of Contents](#table-of-contents)
 	- [Features](#features)
 		- [Currently following features are implemented:](#currently-following-features-are-implemented)
