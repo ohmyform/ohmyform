@@ -2,7 +2,7 @@
   "name": "ohmyform",
   "description": "Opensource alternative to TypeForm",
   "homepage": "https://github.com/ohmyform/ohmyform",
-  "license": "AGPL",
+  "license": "AGPL-3.0-or-later",
   "repository": {
     "type": "git",
     "url": "https://github.com/ohmyform/ohmyform.git"

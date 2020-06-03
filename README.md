@@ -72,6 +72,8 @@ Please checkout our [contributing guide](CONTRIBUTING.md) on ways to contribute 
 
 Follow documentation hosted on [OhMyForm.com](http://ohmyform.com/docs/install/) it will be the main and hopefully only location to obtain the up to date documentation.
 
+if you pull the repository do not forget to execute: `git submodule update --init`
+
 ## Where to get help
 
 [![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/Y2TTePM)
