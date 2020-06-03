@@ -3,7 +3,10 @@
   "description": "Opensource alternative to TypeForm",
   "repository": "https://github.com/ohmyform/ohmyform",
   "logo": "https://raw.githubusercontent.com/ohmyform/ohmyform/master/public/logo.png",
-  "keywords": ["form", "survey"],
+  "keywords": [
+    "form",
+    "survey"
+  ],
   "env": {
     "BASE_URL": {
       "description": "Domain name where the site will be hosted",
@@ -11,7 +14,7 @@
     },
     "MAILER_URI": {
       "description": "Set this to a uri like smtp://localhost:1025 - for more information check https://nodemailer.com/",
-      "value": ""
+      "value": "smtp://smtp.mailtrap.io:2525"
     },
     "MAILER_FROM": {
       "description": "Email address from which signup/verifications are sent",
@@ -45,11 +48,12 @@
       "description": "Allow Dev Dependencies so we can compile typescript",
       "value": "false"
     }
-   },
+  },
   "addons": [
-      "mongolab",
-      "heroku-redis"
-   ],
+    "mongolab",
+    "heroku-redis",
+    "mailtrap"
+  ],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
