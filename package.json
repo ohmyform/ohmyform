@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/ohmyform/ohmyform.git"
   },
+  "engines": {
+    "yarn": "1.x"
+  },
   "scripts": {
     "heroku-prebuild": "scripts/heroku/prebuild.sh",
     "heroku-postbuild": "scripts/heroku/postbuild.sh"
