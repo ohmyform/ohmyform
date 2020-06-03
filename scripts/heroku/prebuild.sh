@@ -1,6 +1,7 @@
 
 echo "Fetch Submodules"
-git submodule update --init
+git clone --depth 1 https://github.com/ohmyform/ui ui
+git clone --depth 1 https://github.com/ohmyform/api api
 
 echo "Install UI"
 yarn --cwd ui install --frozen-lockfile
