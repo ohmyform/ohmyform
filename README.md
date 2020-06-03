@@ -14,7 +14,7 @@ Moving over to Discord so that I can manage things without hassle.
 [![Gitter](https://badges.gitter.im/ohmyform/Lobby.svg)](https://gitter.im/ohmyform/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 -->
 <!-- TODO: Get ohmyform.com/examples to have some. -->
-[![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/MJqAuAZ)
+[![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/nWbrjtz)
 > An *open source alternative to TypeForm* that can create stunning mobile-ready forms, surveys and questionnaires.
 
 <!-- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ohmyform/ohmyform/tree/production)-->
@@ -84,7 +84,7 @@ Follow documentation hosted on [OhMyForm.com](http://ohmyform.com/docs/install/)
 ### Code Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/ohmyform/ohmyform/graphs/contributors"><img src="https://opencollective.com/ohmyform-sustainability/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/ohmyform/ohmyform/graphs/contributors"><img src="https://opencollective.com/ohmyform-sustainability/contributors.svg?width=890&button=false" alt="Contributors" /></a>
 
 ### Financial Contributors
 
@@ -92,7 +92,7 @@ Become a financial contributor and help us sustain our community. [[Contribute](
 
 #### Individuals
 
-<a href="https://opencollective.com/ohmyform-sustainability"><img src="https://opencollective.com/ohmyform/individuals-sustainability.svg?width=890"></a>
+<a href="https://opencollective.com/ohmyform-sustainability"><img src="https://opencollective.com/static/images/opencollective-og-default.png?width=890" alt="Individuals"></a>
 
 #### Organizations
 
