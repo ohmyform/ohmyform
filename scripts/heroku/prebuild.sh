@@ -1,12 +1,8 @@
 
-cd ui/
-
 echo "Install UI"
-yarn install --frozen-lockfile
-
-cd ../api
+yarn --cwd ui install --frozen-lockfile
 
 echo "Install API"
-yarn install --frozen-lockfile
+yarn --cwd api install --frozen-lockfile
 
 echo "FINISHED prebuild"

@@ -1,17 +1,11 @@
 
-cd ui/
-
 echo "Build and Export UI"
-yarn export
-
-cd ../api
+yarn --cwd ui export
 
 echo "Copy Exported UI to API"
-cp -r ui/out public
-
-yarn install
+cp -r ui/out/ api/public/
 
 echo "Build API"
-yarn build
+yarn --cwd api build
 
 echo "FINISHED postbuild"
