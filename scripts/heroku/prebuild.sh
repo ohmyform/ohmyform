@@ -1,4 +1,7 @@
 
+echo "Fetch Submodules"
+git submodule update --init
+
 echo "Install UI"
 yarn --cwd ui install --frozen-lockfile
 
