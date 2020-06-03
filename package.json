@@ -6,5 +6,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ohmyform/ohmyform.git"
+  },
+  "scripts": {
+    "heroku-prebuild": "scripts/heroku/prebuild.sh",
+    "heroku-postbuild": "scripts/heroku/postbuild.sh"
   }
 }
