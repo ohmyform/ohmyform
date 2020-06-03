@@ -8,6 +8,6 @@ yarn --cwd ui install --frozen-lockfile
 
 echo "Install API"
 yarn --cwd api install --frozen-lockfile
-yarn global install @nestjs/cli
+yarn global add @nestjs/cli
 
 echo "FINISHED prebuild"
