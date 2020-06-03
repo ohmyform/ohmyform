@@ -37,6 +37,10 @@
       "description": "Database secret",
       "generator": "secret"
     },
+    "NODE_ENV": {
+      "description": "Node environment (production or development)",
+      "value": "production"
+    },
     "NPM_CONFIG_PRODUCTION": {
       "description": "Allow Dev Dependencies so we can compile typescript",
       "value": "false"

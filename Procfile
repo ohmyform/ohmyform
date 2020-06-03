@@ -1,1 +1,1 @@
-web: yarn -cwd api start:prod
+web: node api/dist/main
