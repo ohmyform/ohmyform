@@ -1,0 +1,10 @@
+{
+  "name": "ohmyform",
+  "description": "Opensource alternative to TypeForm",
+  "homepage": "https://github.com/ohmyform/ohmyform",
+  "license": "AGPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ohmyform/ohmyform.git"
+  }
+}
