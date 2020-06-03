@@ -8,7 +8,8 @@
     "url": "https://github.com/ohmyform/ohmyform.git"
   },
   "engines": {
-    "yarn": "1.x"
+    "yarn": "1.x",
+    "node": "12.x"
   },
   "scripts": {
     "heroku-prebuild": "scripts/heroku/prebuild.sh",
