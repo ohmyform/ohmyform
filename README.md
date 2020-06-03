@@ -57,6 +57,7 @@ Moving over to Discord so that I can manage things without hassle.
 	- Add Custom Background and Dropdown Field Images
 	- Add File Upload Form Field
 	- Deployable with Heroku and DockerHub
+	- Ditch MongoDB for a drop in replacement with better licensing. 
 
 
 

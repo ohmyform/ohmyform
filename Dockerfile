@@ -1,58 +1,29 @@
-FROM  node:10-alpine
+FROM node:12 as builder
+
+WORKDIR /usr/src/app
+
+COPY ui/ .
+
+RUN yarn install --frozen-lockfile
+RUN yarn export
+
+FROM node:12
 LABEL maintainer="OhMyForm <admin@ohmyform.com>"
 
-# Create a group and a user with name "ohmyform".
-RUN addgroup --gid 9999 ohmyform && adduser -D --uid 9999 -G ohmyform ohmyform
+WORKDIR /usr/src/app
 
-# Install some needed packages
-RUN apk add --no-cache git python \
-	&& rm -rf /tmp/* \
-	&& npm install --quiet -g grunt@1.0.4 bower@1.8.8 pm2@3.5.1 \
-	&& npm cache clean --force \
-	&& mkdir -p /opt/app/public/lib
+COPY api/ .
 
-# to expose the public folder to other containers
-# VOLUME /opt/app
+RUN yarn install --frozen-lockfile
+RUN yarn build
 
-WORKDIR /opt/app
-
-## TODO: Find a method that's better than this for passing ENV's if possible.
-# Set default ENV
-ENV NODE_ENV=development \
-    SECRET_KEY=ChangeMeChangeMe \
-    PORT=5000 \
-    BASE_URL=localhost \
-    SOCKET_PORT=20523 \
-    SIGNUP_DISABLED=FALSE \
-    SUBDOMAINS_DISABLED=TRUE \
-    ENABLE_CLUSTER_MODE=FALSE \
-    MAILER_EMAIL_ID=ohmyform@localhost \
-    MAILER_PASSWORD="" \
-    MAILER_FROM=ohmyform@localhost \
-    MAILER_SERVICE_PROVIDER="" \
-    MAILER_SMTP_HOST="" \
-    MAILER_SMTP_PORT="" \
-    MAILER_SMTP_SECURE="" \
+ENV PORT=3000 \
+    SECRET_KEY=ChangeMe \
     CREATE_ADMIN=FALSE \
     ADMIN_EMAIL=admin@ohmyform.com \
     ADMIN_USERNAME=root \
-    ADMIN_PASSWORD=root \
-    APP_NAME=OhMyForm \
-    APP_KEYWORDS="" \
-    APP_DESC="" \
-    COVERALLS_REPO_TOKEN="" \
-    GOOGLE_ANALYTICS_ID="" \
-    RAVEN_DSN=""
+    ADMIN_PASSWORD=root
 
-# keep .dockerignore up to date
-COPY . .
+EXPOSE 3000
 
-RUN npm install --only=production \
-    && bower install --allow-root -f \
-    && grunt build
-
-# Change to non-root privilege
-USER ohmyform
-
-# Run OhMyForm server
-CMD ["node", "server.js"]
+CMD [ "yarn", "start:prod" ]
