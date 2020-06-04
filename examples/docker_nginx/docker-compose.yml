@@ -3,13 +3,16 @@ services:
   mongo:
     image: mongo
     volumes:
-      - "./data/mongo:/data"
+      - "./data/mongo:/data/db"
   nginx:
     image: nginx:alpine
     volumes:
       - "./default.conf:/etc/nginx/conf.d/default.conf"
     ports:
       - "8080:80"
+    depends_on:
+      - ui
+      - api
   ui:
     image: ohmyform/ui
     environment:

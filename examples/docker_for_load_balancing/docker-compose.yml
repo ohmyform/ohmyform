@@ -5,7 +5,7 @@ services:
   mongo:
     image: mongo
     volumes:
-      - "./data/mongo:/data"
+      - "./data/mongo:/data/db"
   ui:
     image: ohmyform/ui
     environment:
