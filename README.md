@@ -1,30 +1,25 @@
 ![OhMyForm](public/logo.png)
 
-# OhMyForm 0.9.1
+# OhMyForm
 
-<!-- TODO: Code Shelter maybe. -->
-<!-- [![Code Shelter](https://www.codeshelter.co/static/badges/badge-flat.svg)](https://www.codeshelter.co/) -->
-<!-- TODO: Travis CI maybe. -->
-<!-- [![Build Status](https://travis-ci.org/ohmyform/ohmyform.svg?branch=master)](https://travis-ci.org/ohmyform/ohmyform) -->
-[![Financial Contributors on Open Collective](https://opencollective.com/ohmyform-sustainability/all/badge.svg?label=financial+contributors)](https://opencollective.com/ohmyform-sustainability)
-![Project Status](https://img.shields.io/badge/status-0.9.1-green.svg)
-<!-- TODO: Codeacy maybe. -->
-<!-- [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3491e86eb7194308b8fc80711d736ede)](https://www.codacy.com/app/david-baldwin/ohmyform?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ohmyform/ohmyform&amp;utm_campaign=Badge_Grade) -->
-<!--
-Moving over to Discord so that I can manage things without hassle.
-[![Gitter](https://badges.gitter.im/ohmyform/Lobby.svg)](https://gitter.im/ohmyform/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
--->
-<!-- TODO: Get ohmyform.com/examples to have some. -->
-[![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/nWbrjtz)
-> An *open source alternative to TypeForm* that can create stunning mobile-ready forms, surveys and questionnaires.
+![Project Status](https://badgen.net/github/checks/ohmyform/ohmyform)
+![Latest Release](https://badgen.net/github/tag/ohmyform/ohmyform)
+![Docker Pulls](https://badgen.net/docker/pulls/ohmyform/ohmyform)
+[![Lokalise](https://badgen.net/badge/Lokalise/EN/green?icon=libraries)](https://app.lokalise.com/public/379418475ede5d5c6937b0.31012044/)
+![Last Commit](https://badgen.net/github/last-commit/ohmyform/ohmyform)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ohmyform/ohmyform/tree/master)
+
+> An *open source alternative to TypeForm* that can create stunning mobile-ready forms, surveys and questionnaires.
+
+[![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/MJqAuAZ)
+[![Financial Contributors on Open Collective](https://opencollective.com/ohmyform-sustainability/all/badge.svg?label=financial+contributors)](https://opencollective.com/ohmyform-sustainability)
 
 ## Table of Contents  
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [OhMyForm 0.9.1](#ohmyform-091)
+- [OhMyForm](#ohmyform-091)
 	- [Table of Contents](#table-of-contents)
 	- [Features](#features)
 		- [Currently following features are implemented:](#currently-following-features-are-implemented)
