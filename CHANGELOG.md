@@ -12,6 +12,36 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 ### Security
 
+## [0.9.5] - 2020-06-10
+ 
+### Added
+
+- `DEFAULT_ROLE` -> `admin` | `superuser` | `user` - with `user` being the default, making it possible that new users can create their own forms after creating
+- `LOGIN_NOTE` -> markdown for Login Page, to show info text on login page
+- `HIDE_CONTRIB` -> ability to hide contribution banner
+- mobile improvements for lists and home page
+- markdown support for page paragraphs and field description
+- hideable omf badge
+- login notes
+- username in admin toolbar
+- github stars in multiple places
+
+### Changed
+
+- verified spanish translations https://github.com/ohmyform/ui/pull/23
+
+### Fixed
+
+- di on setting resolver, prevented signup settings to be visible in ui
+- return admin of form also for admins
+- yes / no field fixed on admin and user view
+- prev property error on div
+- rating field default on admin
+- number field defaults
+- translations for field validation
+- number validation
+- side menu only shows accessible entries
+
 ## [0.9.4] - 2020-06-09
 
 ### Added
