@@ -10,6 +10,8 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ohmyform/ohmyform/tree/master)
 
+[Demo](https://demo.ohmyform.com/login)
+
 > An *open source alternative to TypeForm* that can create stunning mobile-ready forms, surveys and questionnaires.
 
 [![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/MJqAuAZ)
