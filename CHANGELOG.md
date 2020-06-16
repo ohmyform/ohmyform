@@ -9,8 +9,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 ### Changed
+
+- minify containers to reduce layer size
+
 ### Fixed
 ### Security
+
+- container now runs as non root user
 
 ## [0.9.5] - 2020-06-10
  
