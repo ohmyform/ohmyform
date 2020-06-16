@@ -20,6 +20,9 @@ COPY --from=api /usr/src/app/out /usr/src/app/public
 RUN yarn install --frozen-lockfile
 RUN yarn build
 
+## Glue
+RUN touch /usr/src/app/src/schema.gql && chown ohmyform:ohmyform /usr/src/app/src/schema.gql
+
 ## Production Image.
 FROM node:12
 
