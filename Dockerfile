@@ -1,4 +1,4 @@
-FROM node:12 as builder
+FROM node:12-alpine as builder
 
 WORKDIR /usr/src/app
 
@@ -7,8 +7,11 @@ COPY ui/ .
 RUN yarn install --frozen-lockfile
 RUN yarn export
 
-FROM node:12
+FROM node:12-alpine
 LABEL maintainer="OhMyForm <admin@ohmyform.com>"
+
+# Create a group and a user with name "ohmyform".
+RUN addgroup --gid 9999 ohmyform && adduser -D --uid 9999 -G ohmyform ohmyform
 
 WORKDIR /usr/src/app
 
@@ -26,5 +29,8 @@ ENV PORT=3000 \
     ADMIN_PASSWORD=root
 
 EXPOSE 3000
+
+# Change to non-root privilege
+USER ohmyform
 
 CMD [ "yarn", "start:prod" ]
