@@ -15,6 +15,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Security
 
+## [0.9.7] - 2020-09-02
+
+### Changed
+
+- improved german translation (https://github.com/ohmyform/ui/pull/28)
+
+### Fixed
+
+- colors for landing page buttons
+
+### Security
+
+- upgraded dependencies
+
 ## [0.9.6] - 2020-07-17
 
 ### Added
