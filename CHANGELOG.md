@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Security
 
-## [0.9.7] - 2020-09-02
+## [0.9.8] - 2020-09-02
 
 ### Changed
 
@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 
 - colors for landing page buttons
+- menu selection type
 
 ### Security
 
