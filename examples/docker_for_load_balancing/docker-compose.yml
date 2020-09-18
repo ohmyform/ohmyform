@@ -27,7 +27,6 @@ services:
     links:
       - mongo
       - redis
-      - mail
     ports:
       - "8090:5000"
     depends_on:
