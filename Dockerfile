@@ -1,5 +1,5 @@
 ## Build API
-FROM node:12-alpine as api
+FROM node:14-alpine as api
 
 WORKDIR /usr/src/app
 
