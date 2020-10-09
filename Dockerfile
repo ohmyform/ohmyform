@@ -1,5 +1,5 @@
 ## Build API
-FROM node:12-alpine as api
+FROM node:14-alpine as api
 
 WORKDIR /usr/src/app
 
@@ -9,7 +9,7 @@ RUN yarn install --frozen-lockfile
 RUN yarn export
 
 ## Build APP
-FROM node:12-alpine as app
+FROM node:14-alpine as app
 LABEL maintainer="OhMyForm <admin@ohmyform.com>"
 
 WORKDIR /usr/src/app
@@ -36,7 +36,7 @@ RUN /usr/local/bin/node-prune
 RUN touch /usr/src/app/src/schema.gql && chown 9999:9999 /usr/src/app/src/schema.gql
 
 ## Production Image.
-FROM node:12-alpine
+FROM node:14-alpine
 
 WORKDIR /usr/src/app
 COPY --from=app /usr/src/app /usr/src/app
