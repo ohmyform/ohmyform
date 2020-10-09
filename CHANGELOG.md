@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+- upgrade to node 14 (https://github.com/ohmyform/ohmyform/issues/99)
+
 ### Fixed
 
 ### Security
