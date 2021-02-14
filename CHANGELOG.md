@@ -11,11 +11,31 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+### Fixed
+
+### Security
+
+## [0.9.9] - 2021-02-14
+
+### Added
+
+- Submission export
+- Lokalize reference
+- more languages
+
+### Changed
+
+- updated french translations by @Vercety87
 - upgrade to node 14 (https://github.com/ohmyform/ohmyform/issues/99)
 
 ### Fixed
 
+- missing dependency to @apollo/client
+- footer rendering during authentication check
+
 ### Security
+
+- authentication check for profile page
 
 ## [0.9.8] - 2020-09-02
 
