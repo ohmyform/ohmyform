@@ -13,6 +13,10 @@
 
 <!-- /TOC -->
 
+## Translating
+
+You can help us [translate](https://app.lokalise.com/public/379418475ede5d5c6937b0.31012044/) ever part of OhMyForm, when you want to add a new language please write either in discord or create a new issue.
+
 ## Report issues
 
 You can [create issues](https://github.com/ohmyform/ohmyform/issues/new) to report bug or request feature.
