@@ -26,7 +26,7 @@
     },
     "ADMIN_EMAIL": {
       "description": "The email address used by your default admin account",
-      "value": "admin@localhost"
+      "value": ""
     },
     "ADMIN_USERNAME": {
       "description": "Username of your default admin account",
@@ -38,7 +38,7 @@
     },
     "ADMIN_PASSWORD": {
       "description": "Password for your default admin account",
-      "value": "admin"
+      "value": ""
     },
     "SECRET_KEY": {
       "description": "Database secret",
