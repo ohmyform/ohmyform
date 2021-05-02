@@ -26,15 +26,19 @@
     },
     "ADMIN_EMAIL": {
       "description": "The email address used by your default admin account",
-      "value": ""
+      "value": "admin@localhost"
     },
     "ADMIN_USERNAME": {
       "description": "Username of your default admin account",
       "value": "admin"
     },
+    "LOGIN_NOTE": {
+      "description": "Note next to login form",
+      "value": "Either login with root:root or create your own account to test OhMyForm\n\nData will be deleted at arbitrary intervals!"
+    },
     "ADMIN_PASSWORD": {
       "description": "Password for your default admin account",
-      "value": ""
+      "value": "admin"
     },
     "SECRET_KEY": {
       "description": "Database secret",
@@ -47,10 +51,14 @@
     "NPM_CONFIG_PRODUCTION": {
       "description": "Allow Dev Dependencies so we can compile typescript",
       "value": "false"
+    },
+    "DATABASE_DRIVER": {
+      "description": "Database Driver to use",
+      "value": "postgres"
     }
   },
   "addons": [
-    "mongolab",
+    "heroku-postgresql",
     "heroku-redis",
     "mailtrap"
   ],
