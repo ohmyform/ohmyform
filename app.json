@@ -34,7 +34,7 @@
     },
     "LOGIN_NOTE": {
       "description": "Note next to login form",
-      "value": "Either login with root:root or create your own account to test OhMyForm\n\nData will be deleted at arbitrary intervals!"
+      "value": "Welcome to your new OhMyForm instance, you can remove this login note in the dyno configuration!"
     },
     "ADMIN_PASSWORD": {
       "description": "Password for your default admin account",
@@ -55,6 +55,10 @@
     "DATABASE_DRIVER": {
       "description": "Database Driver to use",
       "value": "postgres"
+    },
+    "DATABASE_SSL": {
+      "description": "Use SSL Connection for database",
+      "value": "true"
     }
   },
   "addons": [

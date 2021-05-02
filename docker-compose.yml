@@ -7,37 +7,33 @@ version: "3"
 services:
   redis:
     image: redis
-  mongo:
-    image: mongo
-    volumes:
-      - "./data/mongo:/data/db"
   ohmyform:
     build: .
     environment:
       CREATE_ADMIN: "TRUE"
-      MONGODB_URI: mongodb://mongo/ohmyform
       MAILER_URI: smtp://mail:1025
-      PORT: 5000
+      DATABASE_DRIVER: postgres
+      DATABASE_URL: postgresql://root:root@db:5432/ohmyform
+      LOGIN_NOTE: "login with root:root!"
+      SECRET_KEY: 12345
     links:
-      - mongo
+      - db
       - redis
       - mail
     ports:
-      - "5000:5000"
+      - "5200:3000"
     depends_on:
-      - mongo
+      - db
       - redis
   mail:
     image: mailhog/mailhog
     ports:
-      - "5050:8025"
-  mongoexpress:
-    image: mongo-express
+      - "5051:8025"
+  db:
+    image: postgres:10-alpine
+    volumes:
+      - ./pg_data:/var/lib/postgresql/data
     environment:
-      ME_CONFIG_MONGODB_SERVER: mongo
-    ports:
-      - "5051:8081"
-    links:
-      - mongo
-    depends_on:
-      - mongo
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: ohmyform

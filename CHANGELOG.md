@@ -11,7 +11,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+- switched to supervisord based combined container
+
 ### Fixed
+
+- heroku deployments
 
 ### Security
 

@@ -1,27 +1,14 @@
-## Build API
-FROM node:14-alpine as api
+## Build UI
+FROM node:14-alpine as ui
 
-WORKDIR /usr/src/app
-
-COPY ui/ .
-
-RUN yarn install --frozen-lockfile
-RUN yarn export
-
-## Build APP
-FROM node:14-alpine as app
-LABEL maintainer="OhMyForm <admin@ohmyform.com>"
-
-WORKDIR /usr/src/app
+WORKDIR /usr/src/ui
 
 RUN apk update && apk add curl bash && rm -rf /var/cache/apk/*
 
 # install node-prune (https://github.com/tj/node-prune)
 RUN curl -sfL https://install.goreleaser.com/github.com/tj/node-prune.sh | bash -s -- -b /usr/local/bin
 
-
-COPY api/ .
-COPY --from=api /usr/src/app/out /usr/src/app/public
+COPY ui/ .
 
 RUN yarn install --frozen-lockfile
 RUN yarn build
@@ -32,22 +19,53 @@ RUN npm prune --production
 # run node prune
 RUN /usr/local/bin/node-prune
 
-## Glue
-RUN touch /usr/src/app/src/schema.gql && chown 9999:9999 /usr/src/app/src/schema.gql
+## Build API
+FROM node:14-alpine as api
+LABEL maintainer="OhMyForm <admin@ohmyform.com>"
+
+WORKDIR /usr/src/api
+
+RUN apk --update  add curl bash && rm -rf /var/cache/apk/*
+
+# install node-prune (https://github.com/tj/node-prune)
+RUN curl -sfL https://install.goreleaser.com/github.com/tj/node-prune.sh | bash -s -- -b /usr/local/bin
+
+COPY api/ .
+
+RUN touch /usr/src/api/src/schema.gql && chown 9999:9999 /usr/src/api/src/schema.gql
+
+RUN yarn install --frozen-lockfile
+RUN yarn build
+
+# remove development dependencies
+RUN npm prune --production
+
+# run node prune
+RUN /usr/local/bin/node-prune
 
 ## Production Image.
 FROM node:14-alpine
 
-WORKDIR /usr/src/app
-COPY --from=app /usr/src/app /usr/src/app
+RUN apk --update add supervisor nginx && rm -rf /var/cache/apk/*
+
+WORKDIR /usr/src
+
+COPY --from=api /usr/src/api /usr/src/api
+COPY --from=ui /usr/src/ui /usr/src/ui
+
 RUN addgroup --gid 9999 ohmyform && adduser -D --uid 9999 -G ohmyform ohmyform
-ENV PORT=3000 \
-    SECRET_KEY=ChangeMe \
+ENV SECRET_KEY=ChangeMe \
     CREATE_ADMIN=FALSE \
     ADMIN_EMAIL=admin@ohmyform.com \
     ADMIN_USERNAME=root \
     ADMIN_PASSWORD=root
 
 EXPOSE 3000
-USER ohmyform
-CMD [ "yarn", "start:prod" ]
+
+RUN mkdir /run/nginx/
+RUN touch /usr/src/supervisord.log && chmod 777 /usr/src/supervisord.log
+COPY supervisord.conf /etc/supervisord.conf
+COPY nginx.conf /etc/nginx/conf.d/ohmyform.conf
+
+CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
+# CMD [ "yarn", "start:prod" ]
