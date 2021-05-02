@@ -1,9 +1,13 @@
 version: "3"
 services:
-  mongo:
-    image: mongo
+  db:
+    image: postgres:10-alpine
     volumes:
-      - "./data/mongo:/data/db"
+      - ./pg_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: ohmyform
   nginx:
     image: nginx:alpine
     volumes:
@@ -24,11 +28,12 @@ services:
       ADMIN_EMAIL: admin@local.host
       ADMIN_USERNAME: admin
       ADMIN_PASSWORD: admin
-      MONGODB_URI: mongodb://mongo/ohmyform
+      DATABASE_DRIVER: postgres
+      DATABASE_URL: postgresql://root:root@db:5432/ohmyform
       MAILER_URI: smtp://local.host
       REDIS_URL: redis://redis
       PORT: 5000
     links:
-      - mongo
+      - db
     depends_on:
-      - mongo
+      - db

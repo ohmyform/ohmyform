@@ -5,6 +5,7 @@ data
 docker
 node_modules
 selenium
+examples
 .all-contributorsrc
 .csslintrc
 .editorconfig
