@@ -13,7 +13,8 @@ services:
   ui:
     image: ohmyform/ui
     environment:
-      API_HOST: http://localhost:8090/graphql
+      ENDPOINT: http://localhost:8090/graphql
+      SERVER_ENDPOINT: http://api:5000/graphql
       PORT: 5000
     ports:
       - "8080:5000"

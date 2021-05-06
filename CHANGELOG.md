@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - heroku deployments
 - fix problem with node-prune on production build
+- variable names in examples (https://github.com/ohmyform/ohmyform/issues/134)
 
 ### Security
 

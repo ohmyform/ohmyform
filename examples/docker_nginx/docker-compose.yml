@@ -20,6 +20,7 @@ services:
   ui:
     image: ohmyform/ui
     environment:
+      SERVER_ENDPOINT: http://api:5000/graphql
       PORT: 5000
   api:
     image: ohmyform/api
