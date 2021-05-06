@@ -17,7 +17,8 @@ RUN yarn build
 RUN npm prune --production
 
 # run node prune
-RUN /usr/local/bin/node-prune
+# there is some problem running node prune that then prevents the frontend to load (just start with /form/1 and it will crash)
+#RUN /usr/local/bin/node-prune
 
 ## Build API
 FROM node:14-alpine as api

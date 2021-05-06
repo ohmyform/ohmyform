@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 
 - heroku deployments
+- fix problem with node-prune on production build
 
 ### Security
 

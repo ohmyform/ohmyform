@@ -61,6 +61,7 @@ local.properties
 .c9/
 data/
 mongod
+pg_data
 
 # General
 # =======
