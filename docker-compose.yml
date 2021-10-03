@@ -21,7 +21,7 @@ services:
       - redis
       - mail
     ports:
-      - "5200:3000"
+      - "3000:3000"
     depends_on:
       - db
       - redis
