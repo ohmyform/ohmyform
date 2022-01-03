@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - heroku deployments
 - fix problem with node-prune on production build
 - variable names in examples (https://github.com/ohmyform/ohmyform/issues/134)
+- error if /run/nginx already exists (https://github.com/ohmyform/ohmyform/pull/148)
 
 ### Security
 
