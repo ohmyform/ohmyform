@@ -67,7 +67,7 @@ EXPOSE 3000
 RUN mkdir -p /run/nginx/
 RUN touch /usr/src/supervisord.log && chmod 777 /usr/src/supervisord.log
 COPY supervisord.conf /etc/supervisord.conf
-COPY nginx.conf /etc/nginx/conf.d/ohmyform.conf
+COPY nginx.conf /etc/nginx/nginx.conf
 
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
 # CMD [ "yarn", "start:prod" ]
