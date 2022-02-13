@@ -11,6 +11,11 @@ import {
   SubmissionStartMutationData,
   SubmissionStartMutationVariables,
 } from '../graphql/mutation/submission.start.mutation'
+import {
+  SUBMISSION_FINISH_MUTATION,
+  SubmissionFinishMutationData,
+  SubmissionFinishMutationVariables,
+} from '../graphql/mutation/submission.finish.mutation'
 
 const logger = debug('useSubmission')
 
@@ -28,6 +33,9 @@ export const useSubmission = (formId: string): Submission => {
   )
   const [save] = useMutation<SubmissionSetFieldMutationData, SubmissionSetFieldMutationVariables>(
     SUBMISSION_SET_FIELD_MUTATION
+  )
+  const [submit] = useMutation<SubmissionFinishMutationData, SubmissionFinishMutationVariables>(
+    SUBMISSION_FINISH_MUTATION
   )
 
   useEffect(() => {
@@ -76,8 +84,11 @@ export const useSubmission = (formId: string): Submission => {
 
   const finish = useCallback(async () => {
     logger('finish submission!!', formId)
-
-    await Promise.resolve()
+    await submit({
+      variables: {
+        submission: submission.id,
+      },
+    })
   }, [submission])
 
   return {

@@ -7,6 +7,7 @@ import { SubmissionSetFieldMutation } from './submission.set.field.mutation'
 import { SubmissionStartMutation } from './submission.start.mutation'
 import { SubmissionStatisticQuery } from './submission.statistic.query'
 import { SubmissionStatisticResolver } from './submission.statistic.resolver'
+import { SubmissionFinishMutation } from './submission.finish.mutation'
 
 export const submissionResolvers = [
   SubmissionFieldResolver,
@@ -15,6 +16,7 @@ export const submissionResolvers = [
   SubmissionQuery,
   SubmissionResolver,
   SubmissionSetFieldMutation,
+  SubmissionFinishMutation,
   SubmissionStartMutation,
   SubmissionStatisticQuery,
   SubmissionStatisticResolver,

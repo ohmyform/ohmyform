@@ -51,21 +51,26 @@ export class SubmissionSetFieldService {
     }
 
     if (submission.percentageComplete === 1) {
-      this.webHook.process(submission).catch(e => {
-        this.logger.error({
-          submission: submission.id,
-          form: submission.formId,
-          error: serializeError(e),
-        }, 'failed to send webhooks')
-      })
-      this.notifications.process(submission).catch(e => {
-        this.logger.error({
-          submission: submission.id,
-          form: submission.formId,
-          error: serializeError(e),
-        }, 'failed to send notifications')
-      })
+      this.finishSubmission(submission)
     }
+  }
+
+  async finishSubmission(submission: SubmissionEntity) {
+    submission.percentageComplete = 1
+    this.webHook.process(submission).catch(e => {
+      this.logger.error({
+        submission: submission.id,
+        form: submission.formId,
+        error: serializeError(e),
+      }, 'failed to send webhooks')
+    })
+    this.notifications.process(submission).catch(e => {
+      this.logger.error({
+        submission: submission.id,
+        form: submission.formId,
+        error: serializeError(e),
+      }, 'failed to send notifications')
+    })
   }
 
   private parseData(
