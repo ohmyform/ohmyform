@@ -1,0 +1,9 @@
+{
+  "admin": "Admin",
+  "checkingCredentials": "Vérification des informations d'identification",
+  "loadingCredentials": "Chargement des informations d'identification",
+  "login": "S'identifier",
+  "logout": "Se déconnecter",
+  "recover": "Mot de passe perdu",
+  "register": "Créer un compte"
+}

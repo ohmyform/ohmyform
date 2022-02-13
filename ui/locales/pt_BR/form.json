@@ -1,0 +1,98 @@
+{
+  "baseData": {
+    "isLive": "Está vivo",
+    "language": "Língua",
+    "showFooter": "Mostrar rodapé",
+    "title": "Título"
+  },
+  "baseDataTab": "Dados Base",
+  "building": "Formulário de construção",
+  "confirmDelete": "Tem certeza de que excluiu este formulário com todos os envios?",
+  "create": "Criar novo formulário",
+  "created": "Formulário criado",
+  "createNow": "Salve ",
+  "creationError": "Não foi possível criar o formulário",
+  "deleted": "Formulário excluído",
+  "deleteError": "Não foi possível excluir o formulário",
+  "deleteNow": "Excluir agora!",
+  "design": {
+    "color": {
+      "answer": "Cor da resposta",
+      "background": "Cor de fundo",
+      "button": "Cor do botao",
+      "buttonActive": "Cor ativa do botão",
+      "buttonText": "Cor do texto do botão",
+      "question": "Pergunta Color"
+    },
+    "font": "Fonte"
+  },
+  "designTab": "Projeto",
+  "endPage": {
+    "action": "Açao",
+    "activeColor": "Cor ativa",
+    "addButton": "Botão Adicionar",
+    "bgColor": "Cor de fundo",
+    "buttons": "Botões",
+    "color": "Cor",
+    "continueButtonText": "Texto do botão Continuar",
+    "paragraph": "Parágrafo",
+    "paragraphInfo": "Use markdown para formatação avançada",
+    "show": "exposição",
+    "text": "Texto",
+    "title": "Título",
+    "url": "URL"
+  },
+  "endPageTab": "Página final",
+  "fieldsTab": "Campos do Formulário",
+  "hooks": {
+    "add": "Adicionar",
+    "deleteNow": "Vazio",
+    "enabled": "Habilitado"
+  },
+  "loading": "Carregando Formulário",
+  "mange": "Editar formulário \" {{title}} \"",
+  "new": "Nova forma",
+  "notifications": {
+    "enabled": "ativado",
+    "fromEmail": "E-mail do remetente",
+    "fromEmailInfo": "Verifique se o seu servidor de e-mail pode enviar deste e-mail",
+    "fromField": "E-mail do remetente",
+    "fromFieldInfo": "Campo com email, definirá o cabeçalho de resposta a",
+    "htmlTemplate": "Modelo HTML",
+    "htmlTemplateInfo": "Você também pode usar o <u> MJML <\/u> para criar seus modelos de email",
+    "subject": "Sujeito",
+    "toEmail": "Seu email",
+    "toEmailInfo": "Se não definido, será enviado ao administrador do formulário",
+    "toField": "Campo Email",
+    "toFieldInfo": "Campo com e-mail para recebimento"
+  },
+  "restart": "Reiniciar formulário",
+  "row": {
+    "admin": "Proprietário",
+    "created": "Criada",
+    "isLive": "Viver",
+    "language": "Língua",
+    "lastModified": "Última modificação",
+    "title": "Título"
+  },
+  "startPage": {
+    "action": "Açao",
+    "activeColor": "Cor ativa",
+    "addButton": "Botão Adicionar",
+    "bgColor": "Cor de fundo",
+    "buttons": "Botões",
+    "color": "Cor",
+    "continueButtonText": "Texto do botão Continuar",
+    "paragraph": "Parágrafo",
+    "paragraphInfo": "Use markdown para formatação avançada",
+    "show": "exposição",
+    "text": "Texto",
+    "title": "Título",
+    "url": "URL"
+  },
+  "startPageTab": "Página inicial",
+  "submitted": "Obrigado pela sua submissão!",
+  "updated": "Formulário atualizado",
+  "updateError": "Não foi possível atualizar o formulário",
+  "updateNow": "Salve "
+}

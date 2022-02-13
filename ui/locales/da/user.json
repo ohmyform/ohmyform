@@ -1,0 +1,14 @@
+{
+  "confirmDelete": "Er du sikker på at du ønsker at slette denne bruger?",
+  "deleted": "Bruger slettet",
+  "deleteError": "Var ikke i stand til at opdatere brugeren",
+  "deleteNow": "Slet nu!",
+  "loading": "Indlæser bruger",
+  "mange": "Rediger bruger \"{{email}}\"",
+  "row": {
+    "created": "Oprettet",
+    "menu": "Tom"
+  },
+  "updateError": "Var ikke i stand til at opdatere brugeren",
+  "updateNow": "Gem"
+}

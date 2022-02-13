@@ -1,0 +1,17 @@
+{
+  "add": "回答を追加する",
+  "city": "市区町村",
+  "country": "国",
+  "created": "作成",
+  "device": {
+    "name": "デバイス名",
+    "type": "デバイスの種類"
+  },
+  "edit": "編集",
+  "export": "出力",
+  "field": "項目",
+  "lastModified": "最終更新",
+  "progress": "進行状況",
+  "submission": "回答",
+  "value": "値"
+}

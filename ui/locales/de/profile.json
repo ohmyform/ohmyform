@@ -1,0 +1,10 @@
+{
+  "email": "E-Mail",
+  "firstName": "Vorname",
+  "language": "Sprache",
+  "lastName": "Nachname",
+  "updated": "Profil aktualisieren",
+  "updateError": "Profil konnte nicht aktualisiert werden",
+  "updateNow": "Speichern",
+  "username": "Benutzername"
+}

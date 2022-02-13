@@ -1,0 +1,32 @@
+{
+  "hooks": {
+    "add": "Tilføj",
+    "confirmDelete": "Tom",
+    "deleteNow": "Tom",
+    "enabled": "Aktiveret"
+  },
+  "hooksTab": "WebHooks",
+  "notifications": {
+    "htmlTemplate": "HTML-skabelon",
+    "subject": "Emne"
+  },
+  "startPage": {
+    "action": "Handling",
+    "activeColor": "Aktiv farve",
+    "addButton": "Tilføj-knappen",
+    "bgColor": "Baggrundsfarve",
+    "buttons": "Knapper",
+    "color": "Farve",
+    "continueButtonText": "Tekst på fortsæt-knappen",
+    "paragraph": "Afsnit",
+    "show": "Vis",
+    "text": "Tekst",
+    "title": "Titel",
+    "url": "URL"
+  },
+  "startPageTab": "Startside",
+  "submitted": "Tak for din indsendelse!",
+  "updated": "Formular opdateret",
+  "updateError": "Var ikke i stand til at opdatere formularen",
+  "updateNow": "Gem"
+}

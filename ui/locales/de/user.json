@@ -1,0 +1,17 @@
+{
+  "baseData": "Basisdaten",
+  "confirmDelete": "Wollen sie diesen Benutzer wirklich löschen?",
+  "deleted": "Benutzer gelöscht",
+  "deleteError": "Benutzer konnte nicht gelöscht werden",
+  "deleteNow": "Jetzt löschen!",
+  "loading": "Benutzer wird geladen",
+  "mange": "Benutzer \"{{email}}\" bearbeiten",
+  "row": {
+    "created": "Erstellt",
+    "email": "E-Mail",
+    "roles": "Rolle"
+  },
+  "updated": "Benutzer aktualisiert",
+  "updateError": "Konnte Benutzer nicht aktualisieren",
+  "updateNow": "Speichern"
+}

@@ -1,0 +1,65 @@
+{
+  "confirmDelete": "Voulez-vous vraiment supprimer ce champ? Vérifiez qu'il n'est référencé nulle part!",
+  "date": {
+    "default": "Date par défaut",
+    "max": "Date max",
+    "min": "Date min",
+    "name": "Date"
+  },
+  "deleteNow": "Supprimer le champ",
+  "description": "La description",
+  "dropdown": {
+    "addOption": "Ajouter une option",
+    "default": "Valeur par défaut",
+    "name": "Menu déroulant",
+    "options": "Les options",
+    "removeOption": "Retirer",
+    "titlePlaceholder": "Titre",
+    "valuePlaceholder": "Valeur"
+  },
+  "email": {
+    "default": "E-mail par défaut",
+    "name": "Email"
+  },
+  "hidden": {
+    "default": "Valeur par défaut",
+    "name": "Caché"
+  },
+  "link": {
+    "default": "Lien par défaut",
+    "name": "URL"
+  },
+  "number": {
+    "default": "Numéro par défaut",
+    "name": "Nombre"
+  },
+  "radio": {
+    "addOption": "Ajouter une option",
+    "default": "Valeur par défaut",
+    "name": "Commutateur radio",
+    "options": "Les options",
+    "removeOption": "Retirer",
+    "titlePlaceholder": "Titre",
+    "valuePlaceholder": "Valeur"
+  },
+  "rating": {
+    "clearNote": "Cliquez à nouveau pour supprimer la valeur par défaut",
+    "default": "Valeur par défaut",
+    "name": "Évaluation"
+  },
+  "required": "Obligatoire",
+  "requiredInfo": "Si nécessaire, la valeur par défaut doit être définie pour permettre aux utilisateurs de soumettre le formulaire!",
+  "textarea": {
+    "default": "Valeur par défaut",
+    "name": "Zone de texte"
+  },
+  "textfield": {
+    "default": "Valeur par défaut",
+    "name": "Ligne de texte"
+  },
+  "title": "Titre",
+  "yes_no": {
+    "default": "Valeur par défaut",
+    "name": "Oui Non"
+  }
+}

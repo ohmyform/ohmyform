@@ -1,0 +1,4 @@
+{
+  "invalidSlug": "Slug må kun indeholde små bogstaver fra a-z, 0-9 og _",
+  "urlRequired": "Angiv venligst en URL"
+}

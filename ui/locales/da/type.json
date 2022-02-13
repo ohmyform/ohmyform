@@ -1,0 +1,11 @@
+{
+  "confirmDelete": "Er du sikker på, at du ønsker at slette dette felt? Undersøg evt. om feltet er refereret til fra noget sted.",
+  "date": {
+    "default": "Standarddato",
+    "max": "Maksimumsdato",
+    "min": "Minimumsdato",
+    "name": "Dato"
+  },
+  "deleteNow": "Slet felt",
+  "description": "Beskrivelse"
+}

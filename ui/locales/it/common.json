@@ -1,0 +1,10 @@
+{
+  "admin": "Admin",
+  "checkingCredentials": "Verifica delle credenziali",
+  "loadingCredentials": "Caricamento delle credenziali",
+  "login": "Entra",
+  "logout": "Logout",
+  "profile": "Profilo",
+  "recover": "Password dimenticata",
+  "register": "Crea account"
+}

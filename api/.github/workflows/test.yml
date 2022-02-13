@@ -1,0 +1,37 @@
+name: Lint
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  run-linters:
+    name: Run linters
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+
+      # ESLint and Prettier must be in `package.json`
+      - name: Install Node.js dependencies
+        run: yarn install --frozen-lockfile --silent
+
+      - name: Lint
+        uses: reviewdog/action-eslint@v1
+        with:
+          reporter: github-pr-review # Change reporter.
+          eslint_flags: '{src,test}/**/*.ts'
+
+      - name: Typecheck
+        uses: andoshin11/typescript-error-reporter-action@v1.0.2
+

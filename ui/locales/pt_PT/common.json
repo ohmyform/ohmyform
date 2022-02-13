@@ -1,0 +1,9 @@
+{
+  "admin": "Admin",
+  "checkingCredentials": "Verificando credenciais",
+  "loadingCredentials": "Carregando credenciais",
+  "login": "Conecte-se",
+  "logout": "Sair",
+  "recover": "Senha perdida",
+  "register": "Criar Conta"
+}

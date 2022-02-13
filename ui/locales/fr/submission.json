@@ -1,0 +1,16 @@
+{
+  "add": "Ajouter une soumission",
+  "city": "Ville",
+  "country": "Pays",
+  "created": "Créé",
+  "device": {
+    "name": "Nom de l'appareil",
+    "type": "Type d'appareil"
+  },
+  "edit": "Éditer",
+  "field": "Champ",
+  "lastModified": "Dernier changement",
+  "progress": "Le progrès",
+  "submission": "Soumission",
+  "value": "Valeur"
+}

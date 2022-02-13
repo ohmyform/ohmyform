@@ -1,0 +1,17 @@
+{
+  "add": "Neue Eingabe starten",
+  "city": "Stadt",
+  "country": "Land",
+  "created": "Erstellt",
+  "device": {
+    "name": "Gerätename",
+    "type": "Gerätetyp"
+  },
+  "edit": "Formular bearbeiten",
+  "export": "Exportieren",
+  "field": "Feld",
+  "lastModified": "Letzte Änderung",
+  "progress": "Fortschritt",
+  "submission": "Eingabe",
+  "value": "Wert"
+}

@@ -1,0 +1,22 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome to OhMyForm</mj-title>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="25px" color="#444" font-family="helvetica">OhMyForm!</mj-text>
+
+        <mj-divider border-color="#444"></mj-divider>
+
+        <mj-text font-size="20px" color="#444" font-family="helvetica">
+          Your Username is {{username}}
+        </mj-text>
+
+        <mj-text font-size="14px" color="#444" font-family="helvetica">
+          <a href="{{confirm}}">Click here to verify your Account</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

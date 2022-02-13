@@ -1,0 +1,16 @@
+{
+  "add": "Dodaj zgłoszenie",
+  "city": "Miasto",
+  "country": "Kraj",
+  "created": "Utworzony",
+  "device": {
+    "name": "Nazwa urządzenia",
+    "type": "Rodzaj urządzenia"
+  },
+  "edit": "Edytować",
+  "field": "Pole",
+  "lastModified": "Ostatnia zmiana",
+  "progress": "Postęp",
+  "submission": "Zgłoszenie",
+  "value": "Wartość"
+}

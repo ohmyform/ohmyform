@@ -1,0 +1,65 @@
+version: "3"
+services:
+  #mongo:
+  #  image: mongo
+  #  ports:
+  #    - "27017:27017"
+  #  volumes:
+  #    - "./data/mongo:/data/db"
+
+  maria:
+    image: mariadb
+    volumes:
+      - ./maria_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: ohmyform
+    ports:
+      - "3306:3306"
+
+  postgres:
+    image: postgres:10-alpine
+    volumes:
+      - ./pg_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: ohmyform
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis
+    ports:
+      - "6003:6379"
+#  api:
+#    build: .
+#    volumes:
+#      - ".:/usr/src/app"
+#    environment:
+#      MONGODB_URI: mongodb://mongo/ohmyform
+#      MAILER_URI: smtp://mail:1025
+#      PORT: 3000
+    #command: yarn start:dev
+#    links:
+#      - mongo
+#      - mail
+#    ports:
+#      - "6100:3000"
+#    depends_on:
+#      - mongo
+  mail:
+    image: mailhog/mailhog
+    ports:
+      - "6001:8025"
+      - "6004:1025"
+  #mongoexpress:
+  #  image: mongo-express
+  #  environment:
+  #    ME_CONFIG_MONGODB_SERVER: mongo
+  #  ports:
+  #    - "6002:8081"
+  #  links:
+  #    - mongo
+  #  depends_on:
+  #    - mongo

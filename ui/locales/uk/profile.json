@@ -1,0 +1,10 @@
+{
+  "email": "Email",
+  "firstName": "Ім'я",
+  "language": "Мова",
+  "lastName": "Прізвище",
+  "updated": "Профіль оновлено",
+  "updateError": "Не вдалося оновити профіль",
+  "updateNow": "Зберегти",
+  "username": "Ім'я користувача"
+}

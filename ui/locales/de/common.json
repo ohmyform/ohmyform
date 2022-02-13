@@ -1,0 +1,9 @@
+{
+  "admin": "Administration",
+  "checkingCredentials": "Zugangsdaten werden geprüft",
+  "loadingCredentials": "Lade Zugangsdaten",
+  "login": "Anmelden",
+  "logout": "Abmelden",
+  "recover": "Passwort vergessen",
+  "register": "Benutzer erstellen"
+}

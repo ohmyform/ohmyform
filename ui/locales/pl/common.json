@@ -1,0 +1,9 @@
+{
+  "admin": "Admin",
+  "checkingCredentials": "Sprawdzanie poświadczeń",
+  "loadingCredentials": "Ładowanie poświadczeń",
+  "login": "Zaloguj sie",
+  "logout": "Wyloguj",
+  "recover": "Zgubione hasło",
+  "register": "Utwórz konto"
+}

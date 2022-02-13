@@ -1,0 +1,17 @@
+{
+  "add": "添加提交",
+  "city": "市",
+  "country": "国家",
+  "created": "已建立",
+  "device": {
+    "name": "设备名称",
+    "type": "设备类型"
+  },
+  "edit": "编辑",
+  "export": "导出",
+  "field": "栏位",
+  "lastModified": "最后一次变更",
+  "progress": "进展",
+  "submission": "提交",
+  "value": "值"
+}

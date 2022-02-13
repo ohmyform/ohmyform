@@ -1,0 +1,65 @@
+{
+  "confirmDelete": "Rimuovere davvero questo campo? Controlla che non sia referenziato da nessuna parte!",
+  "date": {
+    "default": "Data predefinita",
+    "max": "Data massima",
+    "min": "Data minima",
+    "name": "Data"
+  },
+  "deleteNow": "Elimina campo",
+  "description": "Descrizione",
+  "dropdown": {
+    "addOption": "Aggiungi opzione",
+    "default": "Valore predefinito",
+    "name": "Cadere in picchiata",
+    "options": "Opzioni",
+    "removeOption": "Rimuovere",
+    "titlePlaceholder": "Titolo",
+    "valuePlaceholder": "Valore"
+  },
+  "email": {
+    "default": "Email predefinita",
+    "name": "E-mail"
+  },
+  "hidden": {
+    "default": "Valore predefinito",
+    "name": "Nascosto"
+  },
+  "link": {
+    "default": "Link predefinito",
+    "name": "URL"
+  },
+  "number": {
+    "default": "Numero predefinito",
+    "name": "Numero"
+  },
+  "radio": {
+    "addOption": "Aggiungi opzione",
+    "default": "Valore predefinito",
+    "name": "Interruttore radio",
+    "options": "Opzioni",
+    "removeOption": "Rimuovere",
+    "titlePlaceholder": "Titolo",
+    "valuePlaceholder": "Valore"
+  },
+  "rating": {
+    "clearNote": "Fare di nuovo clic per rimuovere il valore predefinito",
+    "default": "Valore predefinito",
+    "name": "Valutazione"
+  },
+  "required": "necessario",
+  "requiredInfo": "Se necessario, è necessario impostare il valore predefinito per consentire agli utenti di inviare il modulo!",
+  "textarea": {
+    "default": "Valore predefinito",
+    "name": "Area di testo"
+  },
+  "textfield": {
+    "default": "Valore predefinito",
+    "name": "Riga di testo"
+  },
+  "title": "Titolo",
+  "yes_no": {
+    "default": "Valore predefinito",
+    "name": "Si No"
+  }
+}

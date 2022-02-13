@@ -1,0 +1,17 @@
+{
+  "add": "ऐड सब्-मिशन्",
+  "city": "शहर",
+  "country": "देश",
+  "created": "बन गया",
+  "device": {
+    "name": "Device Name",
+    "type": "Device Type"
+  },
+  "edit": "एडिट करें",
+  "export": "एक्सपोर्ट",
+  "field": "फील्ड",
+  "lastModified": "अंतिम परिवर्तन",
+  "progress": "प्रगति",
+  "submission": "सब्-मिशन्",
+  "value": "वैल्यू"
+}

@@ -1,0 +1,65 @@
+{
+  "confirmDelete": "Naprawdę usunąć to pole? Sprawdź, czy nigdzie się nie odwołuje!",
+  "date": {
+    "default": "Domyślna data",
+    "max": "Maksymalna data",
+    "min": "Min. Data",
+    "name": "Data"
+  },
+  "deleteNow": "Usuń pole",
+  "description": "Opis",
+  "dropdown": {
+    "addOption": "Dodaj opcję",
+    "default": "Domyślna wartość",
+    "name": "Upuścić",
+    "options": "Opcje",
+    "removeOption": "Usunąć",
+    "titlePlaceholder": "Tytuł",
+    "valuePlaceholder": "Wartość"
+  },
+  "email": {
+    "default": "Domyślny adres e-mail",
+    "name": "E-mail"
+  },
+  "hidden": {
+    "default": "Domyślna wartość",
+    "name": "Ukryty"
+  },
+  "link": {
+    "default": "Domyślny link",
+    "name": "URL"
+  },
+  "number": {
+    "default": "Domyślny numer",
+    "name": "Numer"
+  },
+  "radio": {
+    "addOption": "Dodaj opcję",
+    "default": "Domyślna wartość",
+    "name": "Przełącznik radiowy",
+    "options": "Opcje",
+    "removeOption": "Usunąć",
+    "titlePlaceholder": "Tytuł",
+    "valuePlaceholder": "Wartość"
+  },
+  "rating": {
+    "clearNote": "Kliknij ponownie, aby usunąć wartość domyślną",
+    "default": "Domyślna wartość",
+    "name": "Ocena"
+  },
+  "required": "wymagany",
+  "requiredInfo": "W razie potrzeby należy ustawić wartość domyślną, aby umożliwić użytkownikom przesłanie formularza!",
+  "textarea": {
+    "default": "Domyślna wartość",
+    "name": "Obszar tekstowy"
+  },
+  "textfield": {
+    "default": "Domyślna wartość",
+    "name": "Linia tekstu"
+  },
+  "title": "Tytuł",
+  "yes_no": {
+    "default": "Domyślna wartość",
+    "name": "Tak nie"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "emailFieldRequired": "Please select an Email Field",
+  "emailRequired": "Please provide an Email",
+  "invalidEmail": "Must be a valid email!",
+  "invalidNumber": "Must be a valid number!",
+  "invalidSlug": "Slug can only contain lowercase a-z, 0-9 and _",
+  "invalidUrl": "Must be a valid URL",
+  "languageRequired": "Please select a Language",
+  "mandatoryFieldsMissing": "Mandatory fields missing",
+  "passwordConfirmMismatch": "The two passwords that you entered do not match!",
+  "passwordConfirmRequired": "Please confirm your password!",
+  "passwordMinLength": "Must be longer than or equal to 5 characters!",
+  "passwordRequired": "Please input your password!",
+  "subjectRequired": "Please provide a subject",
+  "templateRequired": "Please provide a template",
+  "titleRequired": "Please provide a title",
+  "urlRequired": "Please provide a Url",
+  "usernameRequired": "Please provide a Username",
+  "valueRequired": "Please provide a Value"
+}

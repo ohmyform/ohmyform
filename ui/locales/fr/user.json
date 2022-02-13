@@ -1,0 +1,17 @@
+{
+  "baseData": "Données de base",
+  "confirmDelete": "Voulez-vous vraiment supprimer cet utilisateur?",
+  "deleted": "Utilisateur supprimé",
+  "deleteError": "n'a pas pu supprimer l'utilisateur",
+  "deleteNow": "Effacer maintenant!",
+  "loading": "Chargement de l'utilisateur",
+  "mange": "Modifier l'utilisateur \" {{email}} \"",
+  "row": {
+    "created": "Créé",
+    "email": "Email",
+    "roles": "Rôle"
+  },
+  "updated": "Utilisateur mis à jour",
+  "updateError": "Impossible de mettre à jour l'utilisateur",
+  "updateNow": "sauver"
+}
