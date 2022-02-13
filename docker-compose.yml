@@ -20,6 +20,7 @@ services:
       - db
       - redis
       - mail
+      - webhook-tester
     ports:
       - "5200:3000"
     depends_on:
@@ -37,3 +38,5 @@ services:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
       POSTGRES_DB: ohmyform
+  webhook-tester:
+    image: coveros/webhook-tester

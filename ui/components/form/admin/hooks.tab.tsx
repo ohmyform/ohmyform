@@ -79,7 +79,7 @@ export const HooksTab: React.FC<Props> = (props) => {
                         name={[hook.name, 'url']}
                         rules={[
                           { required: true, message: t('validation:urlRequired') },
-                          { type: 'url', message: t('validation:invalidUrl') },
+                          { type: 'url', warningOnly: true, message: t('validation:invalidUrl') },
                         ]}
                         labelCol={{ span: 6 }}
                       >

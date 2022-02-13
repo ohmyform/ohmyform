@@ -59,8 +59,9 @@ export class SubmissionHookService {
         return {
           field: submissionField.field.id,
           slug: submissionField.field.slug || null,
-          value: submissionField.field.value,
-        }
+          default_value: submissionField.field.value,
+          content: submissionField.content,
+	}
       }),
     }
 
