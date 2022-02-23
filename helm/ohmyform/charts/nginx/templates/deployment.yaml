@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.app.name }}-deployment
+  namespace: {{ .Values.global.namespace }}
+  labels:
+    app: {{ .Values.app.name }}
+spec:
+  replicas: {{ .Values.deployment.spec.replicas }}
+  selector:
+    matchLabels:
+      app: {{ .Values.app.name }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.app.name }}
+    spec:
+      containers:
+      - image: {{ .Values.deployment.spec.templatee.spec.containers.image }}
+        name: {{ .Values.app.name }}
+        ports:
+        {{- range $port := .Values.service.spec.ports }}
+          - containerPort: {{ $port.port }}
+        {{- end }}
+        volumeMounts:
+          - name: {{ .Values.app.name }}-configmap
+            mountPath: /etc/nginx/conf.d/default.conf
+            subPath: default.conf
+            readOnly: true
+      volumes:
+        - name: {{ .Values.app.name }}-configmap
+          configMap:
+            name: {{ .Values.app.name }}-configmap
+            items:
+              - key: default.conf
+                path: default.conf
+      restartPolicy: {{ .Values.deployment.spec.templatee.spec.restartPolicy }}

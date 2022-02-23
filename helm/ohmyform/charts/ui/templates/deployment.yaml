@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.app.name }}-deployment
+  namespace: {{ .Values.global.namespace }}
+  labels:
+    app: {{ .Values.app.name }}
+spec:
+  replicas: {{ .Values.deployment.spec.replicas }}
+  selector:
+    matchLabels:
+      app: {{ .Values.app.name }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.app.name }}
+    spec:
+      containers:
+        - env:
+            - name: SERVER_ENDPOINT
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.app.name }}-configmap
+                  key: SERVER_ENDPOINT
+            - name: PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.app.name }}-configmap
+                  key: PORT
+          image: {{ .Values.deployment.spec.templatee.spec.containers.image }}
+          name: {{ .Values.app.name }}
+      restartPolicy: {{ .Values.deployment.spec.templatee.spec.restartPolicy }}
