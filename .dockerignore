@@ -19,3 +19,11 @@ docker-compose.yml
 Dockerfile
 Procfile
 protractor.conf.js
+pg_data
+ui/.next
+ui/node_modules
+api/node_modules
+api/pg_data
+api/data
+api/maria_data
+api/dist
