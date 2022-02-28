@@ -11,6 +11,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+### Fixed
+
+### Security
+
+## [1.0.0] - 2022-02-28
+
+### Updates
+
+* https://github.com/ohmyform/api/releases/tag/1.0.0
+* https://github.com/ohmyform/ui/releases/tag/1.0.0
+
+### Changed
+
 - switched to supervisord based combined container
 
 ### Fixed
@@ -20,8 +33,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - variable names in examples (https://github.com/ohmyform/ohmyform/issues/134)
 - error if /run/nginx already exists (https://github.com/ohmyform/ohmyform/pull/148)
 - fix combine images
-
-### Security
 
 ## [0.9.9] - 2021-02-14
 
