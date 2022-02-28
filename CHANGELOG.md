@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 
 - switched to supervisord based combined container
+- upgrade to node 16
 
 ### Fixed
 
