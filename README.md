@@ -14,7 +14,7 @@
 
 > An *open source alternative to TypeForm* that can create stunning mobile-ready forms, surveys and questionnaires.
 
-[![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/MJqAuAZ)
+[![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/3jYMAYg)
 [![Financial Contributors on Open Collective](https://opencollective.com/ohmyform-sustainability/all/badge.svg?label=financial+contributors)](https://opencollective.com/ohmyform-sustainability)
 
 ## Table of Contents  
@@ -79,7 +79,7 @@ if you pull the repository do not forget to execute: `git submodule update --ini
 
 ## Where to get help
 
-[![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/Y2TTePM)
+[![Discord](https://img.shields.io/discord/595773457862492190.svg?label=Discord%20Chat)](https://discord.gg/3jYMAYg)
 
 ## Alternative Social
 [Twitter](https://twitter.com/OhMyForm)
