@@ -9,7 +9,7 @@
   },
   "engines": {
     "yarn": "1.x",
-    "node": "^12 || ^14"
+    "node": "^12 || ^14 || ^16"
   },
   "scripts": {
     "heroku-prebuild": "scripts/heroku/prebuild.sh",

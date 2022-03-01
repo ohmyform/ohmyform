@@ -15,6 +15,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Security
 
+## [1.0.1] - 2022-03-01
+
+### Updates
+
+* https://github.com/ohmyform/api/releases/tag/1.0.1
+* https://github.com/ohmyform/ui/releases/tag/1.0.1
+
 ## [1.0.0] - 2022-02-28
 
 ### Updates
