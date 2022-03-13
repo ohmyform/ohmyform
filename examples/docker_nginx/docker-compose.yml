@@ -8,6 +8,7 @@ services:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
       POSTGRES_DB: ohmyform
+    restart: unless-stopped
   nginx:
     image: nginx:alpine
     volumes:
@@ -17,11 +18,13 @@ services:
     depends_on:
       - ui
       - api
+    restart: unless-stopped
   ui:
     image: ohmyform/ui
     environment:
       SERVER_ENDPOINT: http://api:5000/graphql
       PORT: 5000
+    restart: unless-stopped
   api:
     image: ohmyform/api
     environment:
@@ -38,3 +41,4 @@ services:
       - db
     depends_on:
       - db
+    restart: unless-stopped

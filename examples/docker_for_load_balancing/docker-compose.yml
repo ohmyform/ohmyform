@@ -10,6 +10,7 @@ services:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
       POSTGRES_DB: ohmyform
+    restart: unless-stopped
   ui:
     image: ohmyform/ui
     environment:
@@ -18,6 +19,7 @@ services:
       PORT: 5000
     ports:
       - "8080:5000"
+    restart: unless-stopped
   api:
     image: ohmyform/api
     environment:
@@ -38,3 +40,4 @@ services:
     depends_on:
       - db
       - redis
+    restart: unless-stopped

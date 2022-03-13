@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+- docker restart policy (https://github.com/ohmyform/ohmyform/issues/164)
+
 ### Fixed
 
 ### Security
