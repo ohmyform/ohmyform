@@ -11,11 +11,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
-- docker restart policy (https://github.com/ohmyform/ohmyform/issues/164)
-
 ### Fixed
 
 ### Security
+
+## [1.0.2] - 2022-03-13
+
+### Updates
+
+* https://github.com/ohmyform/api/releases/tag/1.0.2
+* https://github.com/ohmyform/ui/releases/tag/1.0.2
+
+### Changed
+
+- docker restart policy (https://github.com/ohmyform/ohmyform/issues/164)
 
 ## [1.0.1] - 2022-03-01
 
