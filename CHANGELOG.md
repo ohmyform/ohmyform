@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
+* minimal configuration example for caddy server (https://github.com/ohmyform/ohmyform/pull/167)
+
 ### Changed
 
 ### Fixed
