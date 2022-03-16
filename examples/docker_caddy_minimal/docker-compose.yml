@@ -1,0 +1,41 @@
+version: "3.9"
+
+networks:
+        web:
+                external: true
+        internal:
+                external: false
+                driver: bridge
+
+services:
+        caddy:
+                container_name: caddy
+                image: caddy:2-alpine
+                restart: unless-stopped
+                ports:
+                        - "80:80"
+                        - "443:443"
+                volumes:
+                        - /data/caddy/Caddyfile:/etc/caddy/Caddyfile
+                        - /data/caddy/data:/data # Optional
+                        - /data/caddy/config:/config # Optional
+                networks:
+                        - web
+                        - internal
+        ohmyform:
+                container_name: ohmyform
+                image: ohmyform/ohmyform
+                volumes:
+                  - "./data:/data"
+                environment:
+                  CREATE_ADMIN: "TRUE"
+                  ADMIN_EMAIL: admin@local.host
+                  ADMIN_USERNAME: admin
+                  ADMIN_PASSWORD: admin
+                  DATABASE_DRIVER: sqlite
+                  DATABASE_URL: "sqlite:///data/data.sqlite"
+                  MAILER_URI: smtp://local.host
+                  LOGIN_NOTE: "Either login with admin:admin or create your own account to test OhMyForm"
+                restart: unless-stopped
+                networks:
+                        - internal

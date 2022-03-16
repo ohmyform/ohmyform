@@ -1,0 +1,3 @@
+mywebsite.com {
+        reverse_proxy ohmyform:3000
+}
