@@ -4,18 +4,40 @@ All notable changes to this project will be documented in this file.
  
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
- 
+
+<!--
+Template for next version
 ## [Unreleased]
 
 ### Added
-
-* minimal configuration example for caddy server (https://github.com/ohmyform/ohmyform/pull/167)
 
 ### Changed
 
 ### Fixed
 
 ### Security
+-->
+
+## [Unreleased]
+
+### Added
+
+### Changed
+
+### Fixed
+
+### Security
+
+## [1.0.3] - 2022-03-27
+
+### Updates
+
+* https://github.com/ohmyform/api/releases/tag/1.0.3
+* https://github.com/ohmyform/ui/releases/tag/1.0.3
+
+### Added
+
+* minimal configuration example for caddy server (https://github.com/ohmyform/ohmyform/pull/167)
 
 ## [1.0.2] - 2022-03-13
 
