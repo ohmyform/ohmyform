@@ -52,7 +52,7 @@
 	- Custom Subdomains for each User
 	- Implement encryption for all form data
 	- Add Typeform API integration
-	- Add plugin/3rd party integration support (ala Slack)
+	- Add plugin/3rd party integration support (aka Slack)
 	- Create wiki for easy installation and setup
 	- Add Stripe/Payment Form field
 	- Add Custom Background and Dropdown Field Images
@@ -69,7 +69,7 @@ Please checkout our [contributing guide](CONTRIBUTING.md) on ways to contribute 
 
 Follow documentation hosted on [OhMyForm.com](http://ohmyform.com/docs/install/) it will be the main and hopefully only location to obtain the up to date documentation.
 
-if you pull the repository do not forget to execute: `git submodule update --init`
+If you pull the repository do not forget to execute: `git submodule update --init`
 
 ### Some technical Insights
 
