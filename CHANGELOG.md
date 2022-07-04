@@ -26,6 +26,8 @@ Template for next version
 
 ### Fixed
 
+* Fixed typo https://github.com/ohmyform/ohmyform/pull/185
+
 ### Security
 
 ## [1.0.3] - 2022-03-27
