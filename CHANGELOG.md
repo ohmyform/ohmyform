@@ -27,6 +27,7 @@ Template for next version
 ### Fixed
 
 * Fixed typo https://github.com/ohmyform/ohmyform/pull/185
+* node prune location (https://github.com/ohmyform/ohmyform/issues/184)
 
 ### Security
 
