@@ -2,7 +2,7 @@ global:
   localhost:
     enabled: false
   cicommitrefname: ohmyform
-  dns: urba.univ-lille.fr
+  dns: stuff.example.com
   namespace: ohmyform
   ingress: istio
   version: 1.0.0
