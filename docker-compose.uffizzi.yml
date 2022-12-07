@@ -1,0 +1,61 @@
+version: '3'
+
+# uffizzi integration
+x-uffizzi:
+  ingress:
+    service: nginx
+    port: 8081
+
+services:
+
+  redis:
+    image: redis
+
+  nginx:
+    image: nginx:alpine
+    volumes:
+      - ./nginx-uffizzi:/etc/nginx
+
+  db:
+    image: postgres
+    volumes:
+      - pg_data:/var/lib/postgresql
+    ports:
+        - "5432:5432"
+    deploy:
+            resources:
+              limits:
+                memory: 500M
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=ohmyform
+
+  ui:
+    image: "${OHMYFORM_UI_IMAGE}"
+    entrypoint: /bin/sh
+    command:
+         - "-c"
+         - "ENDPOINT=$$UFFIZZI_URL/graphql SERVER_ENDPOINT=$$UFFIZZI_URL/graphql yarn start"
+    deploy:
+      resources:
+        limits:
+          memory: 250M
+
+  api:
+    image: "${OHMYFORM_API_IMAGE}"
+    environment:
+      - CREATE_ADMIN=true
+      - ADMIN_EMAIL=admin@admin.com
+      - ADMIN_USERNAME=admin
+      - ADMIN_PASSWORD=admin
+      - DATABASE_DRIVER=postgres
+      - DATABASE_URL=postgresql://root:root@localhost:5432/ohmyform
+      - REDIS_URL=redis://localhost:6379
+    deploy:
+      resources:
+        limits:
+          memory: 1000M
+
+volumes:
+   pg_data:
