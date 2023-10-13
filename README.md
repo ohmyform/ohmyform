@@ -10,7 +10,7 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ohmyform/ohmyform/tree/master)
 
-[Demo](https://omf-demo.herokuapp.com/)
+[Demo](https://demo.ohmyform.org/) Username and password are just `demo`.  We will reset the demo instance at least once for every new release and possibly more often so don't rely on it for sending actual forms expect no notice for resets.
 
 > An *open source alternative to TypeForm* that can create stunning mobile-ready forms, surveys and questionnaires.
 
