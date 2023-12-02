@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'ui/**'
+      - '.github/workflows/ui-image.yml'
     branches:
       - master
   release:

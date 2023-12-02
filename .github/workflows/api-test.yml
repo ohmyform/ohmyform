@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'api/**'
+      - '.github/workflows/api-test.yml'
     branches:
       - master
 

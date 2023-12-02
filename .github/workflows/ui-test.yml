@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'ui/**'
+      - '.github/workflows/ui-test.yml'
     branches:
       - master
 
