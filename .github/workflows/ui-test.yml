@@ -21,7 +21,17 @@ jobs:
 
     steps:
       - name: Check out Git repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:
+          sparse-checkout: 'ui'
+          sparse-checkout-cone-mode: false
+      - name: Move UI files to root
+        run: |
+          ls -lah
+          shopt -s dotglob
+          mv ui/* .
+          rm -rf ui
+          ls -lah
 
       - name: Set up Node.js
         uses: actions/setup-node@v1
