@@ -1,0 +1,9 @@
+{
+  "email": "E-post",
+  "firstName": "Förnamn",
+  "language": "Språk",
+  "lastName": "Efternamn",
+  "password": "Lösenord",
+  "updateNow": "Spara",
+  "username": "Användarnamn"
+}

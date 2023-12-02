@@ -1,0 +1,10 @@
+{
+  "admin": "एडमिन",
+  "checkingCredentials": "चेकिंग  क्रेडेंशियल",
+  "loadingCredentials": "लोडिंग  क्रेडेंशियल",
+  "login": "लॉग इन करें",
+  "logout": "लॉग आउट करें",
+  "profile": "प्रोफ़ाइल",
+  "recover": "फॉरगेट पासवर्ड?",
+  "register": "अकाउंट बनाएँ"
+}

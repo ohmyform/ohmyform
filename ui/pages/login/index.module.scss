@@ -1,0 +1,11 @@
+
+.otherActions {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}

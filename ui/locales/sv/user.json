@@ -1,0 +1,13 @@
+{
+  "confirmDelete": "Är du säker på att ta bort den här användaren?",
+  "deleteNow": "Ta bort nu!",
+  "deleted": "Användaren har tagits bort",
+  "row": {
+    "created": "Skapad",
+    "email": "E-post",
+    "roles": "Roll"
+  },
+  "updateError": "Kunde inte uppdatera användaren",
+  "updateNow": "Spara",
+  "updated": "Användaren har uppdaterats"
+}

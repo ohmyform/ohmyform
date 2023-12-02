@@ -1,0 +1,222 @@
+name: Lint
+
+on:
+  pull_request:
+    paths:
+      - 'api/**'
+    branches:
+      - master
+
+env:
+  CREATE_ADMIN: true
+  ADMIN_EMAIL: admin@localhost
+  ADMIN_USERNAME: admin
+  ADMIN_PASSWORD: admin
+  MAILER_URI: smtp://localhost:1025
+
+jobs:
+  run-linters:
+    name: run API lint
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: 'api'
+          sparse-checkout-cone-mode: false
+      - name: Move API files to root
+        run: |
+          ls -lah
+          shopt -s dotglob
+          mv api/* .
+          rm -rf api
+          ls -lah
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16
+
+      # ESLint and Prettier must be in `package.json`
+      - name: Install Node.js dependencies
+        run: yarn install --frozen-lockfile --silent
+
+      - run: ls -lah
+
+      - name: Lint
+        uses: reviewdog/action-eslint@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review # Change reporter.
+          eslint_flags: '{src,test}/**/*.ts'
+
+      - name: Typecheck
+        uses: andoshin11/typescript-error-reporter-action@v1.0.2
+
+  run-postgres:
+    name: run API postgres migrations
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:10-alpine
+        env:
+          POSTGRES_USER: root
+          POSTGRES_PASSWORD: root
+          POSTGRES_DB: ohmyform
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: 'api'
+          sparse-checkout-cone-mode: false
+      - name: Move API files to root
+        run: |
+          ls -lah
+          shopt -s dotglob
+          mv api/* .
+          rm -rf api
+          ls -lah
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16
+
+      - name: Install Node.js dependencies
+        run: yarn install --frozen-lockfile --silent
+
+      - name: PostgreSQL Migrations
+        run: yarn typeorm migration:run
+        env:
+          DATABASE_DRIVER: postgres
+
+          TYPEORM_CONNECTION: postgres
+          TYPEORM_HOST: localhost
+          TYPEORM_PORT: 5432
+          TYPEORM_USERNAME: root
+          TYPEORM_PASSWORD: root
+          TYPEORM_DATABASE: ohmyform
+          TYPEORM_AUTO_SCHEMA_SYNC: false
+          TYPEORM_ENTITIES: src/entity/**/*.ts
+          TYPEORM_SUBSCRIBERS: src/subscriber/**/*.ts
+          TYPEORM_MIGRATIONS: src/migrations/postgres/**/*.ts
+          TYPEORM_MIGRATIONS_TRANSACTION_MODE: 'each'
+          TYPEORM_ENTITIES_DIR: src/entity
+          TYPEORM_MIGRATIONS_DIR: src/migrations/postgres
+          TYPEORM_SUBSCRIBERS_DIR: src/subscriber
+
+  run-mariadb:
+    name: run API mariadb migrations
+    runs-on: ubuntu-latest
+
+    services:
+      mariadb:
+        image: mariadb
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: ohmyform
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="healthcheck.sh --connect --innodb_initialized" 
+          --health-interval=10s 
+          --health-timeout=5s 
+          --health-retries=3
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: 'api'
+          sparse-checkout-cone-mode: false
+      - name: Move API files to root
+        run: |
+          ls -lah
+          shopt -s dotglob
+          mv api/* .
+          rm -rf api
+          ls -lah
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16
+
+      - name: Install Node.js dependencies
+        run: yarn install --frozen-lockfile --silent
+
+      - name: MariaDB Migrations
+        run: yarn typeorm migration:run
+        env:
+          DATABASE_DRIVER: mariadb
+
+          TYPEORM_CONNECTION: mariadb
+          TYPEORM_HOST: localhost
+          TYPEORM_PORT: 3306
+          TYPEORM_USERNAME: root
+          TYPEORM_PASSWORD: root
+          TYPEORM_DATABASE: ohmyform
+          TYPEORM_AUTO_SCHEMA_SYNC: false
+          TYPEORM_ENTITIES: src/entity/**/*.ts
+          TYPEORM_SUBSCRIBERS: src/subscriber/**/*.ts
+          TYPEORM_MIGRATIONS: src/migrations/mariadb/**/*.ts
+          TYPEORM_MIGRATIONS_TRANSACTION_MODE: 'each'
+          TYPEORM_ENTITIES_DIR: src/entity
+          TYPEORM_MIGRATIONS_DIR: src/migrations/mariadb
+          TYPEORM_SUBSCRIBERS_DIR: src/subscriber
+
+  run-sqlite:
+    name: run API sqlite migrations
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: 'api'
+          sparse-checkout-cone-mode: false
+      - name: Move API files to root
+        run: |
+          ls -lah
+          shopt -s dotglob
+          mv api/* .
+          rm -rf api
+          ls -lah
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16
+
+      - name: Install Node.js dependencies
+        run: yarn install --frozen-lockfile --silent
+
+      - name: SQLite Migrations
+        run: yarn typeorm migration:run --transaction none
+        env:
+          DATABASE_DRIVER: sqlite
+
+          TYPEORM_CONNECTION: sqlite
+          TYPEORM_USERNAME: root
+          TYPEORM_DATABASE: data.sqlite
+          TYPEORM_AUTO_SCHEMA_SYNC: false
+          TYPEORM_ENTITIES: src/entity/**/*.ts
+          TYPEORM_SUBSCRIBERS: src/subscriber/**/*.ts
+          TYPEORM_MIGRATIONS: src/migrations/sqlite/**/*.ts
+          TYPEORM_MIGRATIONS_TRANSACTION_MODE: 'none'
+          TYPEORM_ENTITIES_DIR: src/entity
+          TYPEORM_MIGRATIONS_DIR: src/migrations/sqlite
+          TYPEORM_SUBSCRIBERS_DIR: src/subscriber

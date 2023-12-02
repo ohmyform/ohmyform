@@ -1,0 +1,50 @@
+name: Lint
+
+on:
+  pull_request:
+    paths:
+      - 'ui/**'
+    branches:
+      - master
+
+jobs:
+  run-linters:
+    name: run UI lint
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: 'ui'
+          sparse-checkout-cone-mode: false
+      - name: Move UI files to root
+        run: |
+          ls -lah
+          shopt -s dotglob
+          mv ui/* .
+          rm -rf ui
+          ls -lah
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16
+
+      # ESLint and Prettier must be in `package.json`
+      - name: Install Node.js dependencies
+        run: yarn install --frozen-lockfile --silent
+
+      - name: Lint
+        uses: reviewdog/action-eslint@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review # Change reporter.
+          eslint_flags: 'pages/ store/ components/ graphql/'
+
+      - name: Typecheck
+        uses: andoshin11/typescript-error-reporter-action@v1.0.2
+

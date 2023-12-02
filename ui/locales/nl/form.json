@@ -1,0 +1,25 @@
+{
+  "continue": "Ga door",
+  "design": {
+    "layout": {
+      "card": "Kaart"
+    }
+  },
+  "fieldsTab": "Formuliervelden",
+  "hooks": {
+    "add": "Toevoegen",
+    "enabled": "Ingeschakeld"
+  },
+  "logic": {
+    "add": "Logica toevoegen"
+  },
+  "next": "Volgende",
+  "notifications": {
+    "add": "Melding toevoegen"
+  },
+  "notificationsTab": "Meldingen",
+  "previous": "Vorige",
+  "startPage": {
+    "paragraphInfo": "Gebruik markdown voor geavanceerde opmaak"
+  }
+}

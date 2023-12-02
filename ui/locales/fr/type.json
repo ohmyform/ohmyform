@@ -1,0 +1,76 @@
+{
+  "add": "Ajouter un champ",
+  "confirmDelete": "Voulez-vous vraiment supprimer ce champ ? Vérifiez qu'il n'est référencé nulle part !",
+  "date": {
+    "default": "Date par défaut",
+    "max": "Date max",
+    "min": "Date min",
+    "name": "Date"
+  },
+  "deleteNow": "Supprimer le champ",
+  "description": "Description",
+  "descriptionInfo": "Utiliser markdown pour le formatage avancé",
+  "dropdown": {
+    "addOption": "Ajouter une option",
+    "default": "Valeur par défaut",
+    "name": "Menu déroulant",
+    "options": "Options",
+    "removeOption": "Supprimer",
+    "titlePlaceholder": "Label",
+    "valuePlaceholder": "Valeur"
+  },
+  "email": {
+    "default": "Email par défaut",
+    "name": "Email"
+  },
+  "hidden": {
+    "default": "Valeur par défaut",
+    "name": "Caché"
+  },
+  "link": {
+    "default": "Lien par défaut",
+    "name": "URL"
+  },
+  "number": {
+    "default": "Nombre par défaut",
+    "name": "Nombre"
+  },
+  "radio": {
+    "addOption": "Ajouter une option",
+    "default": "Valeur par défaut",
+    "name": "Choix simple (radio)",
+    "options": "Options",
+    "removeOption": "Supprimer",
+    "titlePlaceholder": "Label",
+    "valuePlaceholder": "Valeur"
+  },
+  "rating": {
+    "clearNote": "Cliquez à nouveau pour supprimer la valeur par défaut",
+    "default": "Valeur par défaut",
+    "name": "Évaluation"
+  },
+  "required": "Obligatoire",
+  "requiredInfo": "Si obligatoire, la valeur par défaut doit être définie pour permettre aux utilisateurs de soumettre le formulaire !",
+  "slider": {
+    "default": "Valeur par défaut",
+    "max": "Valeur max",
+    "min": "Valeur min",
+    "name": "Carousel",
+    "step": "Taille de l'étape"
+  },
+  "slug": "Slug",
+  "slugInfo": "Utiliser le slug pour passer en paramètre d'URL ?slug=valeur",
+  "textarea": {
+    "default": "Valeur par défaut",
+    "name": "Texte long"
+  },
+  "textfield": {
+    "default": "Valeur par défaut",
+    "name": "Texte court"
+  },
+  "title": "Label",
+  "yes_no": {
+    "default": "Valeur par défaut",
+    "name": "Oui \/ Non"
+  }
+}

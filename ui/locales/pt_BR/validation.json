@@ -1,0 +1,18 @@
+{
+  "emailFieldRequired": "Selecione um campo de email",
+  "emailRequired": "Forneça um email",
+  "invalidEmail": "Deve ser um email válido!",
+  "invalidNumber": "Deve ser um número válido!",
+  "invalidSlug": "Slug só pode conter caracteres minúsculos de a-z, 0-9 e _",
+  "invalidUrl": "Deve ser um URL válido",
+  "languageRequired": "Por favor selecione um idioma",
+  "mandatoryFieldsMissing": "Campos obrigatórios ausentes",
+  "passwordMinLength": "Deve ser maior ou igual a 5 caracteres!",
+  "passwordRequired": "Por favor insira a sua senha!",
+  "subjectRequired": "Forneça um assunto",
+  "templateRequired": "Forneça um modelo",
+  "titleRequired": "Forneça um título",
+  "urlRequired": "Por favor, escreva um link para um endereço web",
+  "usernameRequired": "Forneça um nome de usuário",
+  "valueRequired": "Forneça um valor"
+}

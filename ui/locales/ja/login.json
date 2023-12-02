@@ -1,0 +1,8 @@
+{
+  "invalidLoginCredentials": "ユーザー名またはパスワードが無効です",
+  "loginNow": "ログイン",
+  "note": "メモ",
+  "passwordPlaceholder": "パスワード",
+  "usernamePlaceholder": "ユーザー名",
+  "welcomeBack": "お帰りなさい！"
+}

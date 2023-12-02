@@ -1,0 +1,13 @@
+{
+  "add": "Inzending toevoegen",
+  "city": "Stad",
+  "country": "Land",
+  "created": "Gemaakt",
+  "device": {
+    "type": "Type apparaat"
+  },
+  "edit": "Bewerken",
+  "field": "Veld",
+  "lastModified": "Laatste wijziging",
+  "value": "Waarde"
+}

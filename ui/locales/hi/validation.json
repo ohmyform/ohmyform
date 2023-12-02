@@ -1,0 +1,12 @@
+{
+  "emailFieldRequired": "कृपया एक ईमेल फ़ील्ड का चयन करें",
+  "emailRequired": "कृपया एक ईमेल प्रदान करें",
+  "invalidNumber": "एक वैध संख्या होनी चाहिए!",
+  "invalidSlug": "स्लग में केवल लोअरकेस हो सकता है, 0-9 और _",
+  "languageRequired": "कृपया एक भाषा का चयन करें",
+  "mandatoryFieldsMissing": "अनिवार्य क्षेत्र गायब हैं",
+  "passwordMinLength": "5 पात्रों से अधिक या बराबर होना चाहिए!",
+  "subjectRequired": "कृपया एक विषय प्रदान करें",
+  "titleRequired": "कृपया एक शीर्षक प्रदान करें",
+  "urlRequired": "कृपया एक URL प्रदान करें"
+}

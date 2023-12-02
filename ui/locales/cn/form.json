@@ -1,0 +1,114 @@
+{
+  "baseData": {
+    "isLive": "活着",
+    "language": "语言",
+    "showFooter": "显示页脚",
+    "title": "标题"
+  },
+  "baseDataTab": "基础数据",
+  "building": "建筑形式",
+  "confirmDelete": "您确定删除所有提交的表格吗？",
+  "continue": "继续",
+  "create": "建立新表格",
+  "createNow": "救",
+  "created": "表格已建立",
+  "creationError": "无法建立表格",
+  "deleteError": "无法删除表格",
+  "deleteNow": "立即删除！",
+  "deleted": "表格已删除",
+  "design": {
+    "color": {
+      "answer": "答案颜色",
+      "background": "背景颜色",
+      "button": "按钮颜色",
+      "buttonActive": "按钮活动颜色",
+      "buttonText": "按钮文字颜色",
+      "question": "问题颜色"
+    },
+    "font": "字形",
+    "layout": {
+      "card": "卡片",
+      "slider": "滑杆"
+    },
+    "layouts": "布局"
+  },
+  "designTab": "设计",
+  "endPage": {
+    "action": "行动",
+    "activeColor": "主动色",
+    "addButton": "添加按钮",
+    "bgColor": "背景颜色",
+    "buttons": "纽扣",
+    "color": "颜色",
+    "continueButtonText": "继续按钮文字",
+    "paragraph": "段",
+    "paragraphInfo": "使用markdown进行高级格式化",
+    "show": "显示",
+    "text": "文本",
+    "title": "标题",
+    "url": "网址"
+  },
+  "endPageTab": "结束页",
+  "fieldsTab": "表格栏位",
+  "hooks": {
+    "add": "添加",
+    "confirmDelete": "空",
+    "deleteNow": "空",
+    "enabled": "已启用"
+  },
+  "hooksTab": "WebHooks",
+  "loading": "加载表格",
+  "logic": {
+    "add": "添加逻辑"
+  },
+  "mange": "编辑表单“ {{title}} ”",
+  "new": "新表格",
+  "next": "下一个",
+  "notifications": {
+    "add": "添加通知",
+    "enabled": "已启用",
+    "fromEmail": "发件人电子邮件",
+    "fromEmailInfo": "确保您的邮件服务器可以通过此电子邮件发送",
+    "fromField": "发件人电子邮件",
+    "fromFieldInfo": "带有电子邮件的字段，将设置Reply-To标头",
+    "htmlTemplate": "HTML模板",
+    "htmlTemplateInfo": "您还可以使用<u> MJML <\/u>创建电子邮件模板",
+    "subject": "学科",
+    "toEmail": "你的邮件",
+    "toEmailInfo": "如果未设置，将发送给表单管理员",
+    "toField": "电子邮件栏位",
+    "toFieldInfo": "带有电子邮件的收据字段"
+  },
+  "notificationsTab": "通知",
+  "previous": "上一步",
+  "restart": "重新启动表格",
+  "row": {
+    "admin": "所有者",
+    "created": "已建立",
+    "isLive": "生活",
+    "language": "语言",
+    "lastModified": "最后修改",
+    "menu": "空",
+    "title": "标题"
+  },
+  "startPage": {
+    "action": "行动",
+    "activeColor": "主动色",
+    "addButton": "添加按钮",
+    "bgColor": "背景颜色",
+    "buttons": "纽扣",
+    "color": "颜色",
+    "continueButtonText": "继续按钮文字",
+    "paragraph": "段",
+    "paragraphInfo": "使用markdown进行高级格式化",
+    "show": "显示",
+    "text": "文本",
+    "title": "标题",
+    "url": "网址"
+  },
+  "startPageTab": "首页",
+  "submitted": "感谢您提交！",
+  "updateError": "无法更新表格",
+  "updateNow": "救",
+  "updated": "表格已更新"
+}

@@ -1,0 +1,12 @@
+{
+  "confirmPassword": "Confirmer le mot de passe",
+  "email": "Email",
+  "firstName": "Prénom",
+  "language": "Langue",
+  "lastName": "Nom de famille",
+  "password": "Mot de passe",
+  "updateError": "Impossible de mettre à jour le profil",
+  "updateNow": "Enregistrer",
+  "updated": "Profil mis à jour",
+  "username": "Identifiant"
+}

@@ -1,0 +1,20 @@
+{
+  "emailFieldRequired": "Bitte ein E-Mail Feld auswählen",
+  "emailRequired": "Bitte eine E-Mail angeben",
+  "invalidEmail": "Muss eine gültige E-Mail sein!",
+  "invalidNumber": "Muss eine gültige Zahl sein!",
+  "invalidSlug": "Kann nur Kleinbuchstaben a–z, 0–9 und _ enthalten",
+  "invalidUrl": "Muss eine gültige URL sein",
+  "languageRequired": "Bitte eine Sprache angeben",
+  "mandatoryFieldsMissing": "Es fehlen Pflichtfelder",
+  "passwordConfirmMismatch": "Die beiden eingegebenen Passwörter stimmen nicht überein!",
+  "passwordConfirmRequired": "Bitte bestätigen Sie Ihr Passwort!",
+  "passwordMinLength": "Passwort muss mindestens 5 Zeichen haben!",
+  "passwordRequired": "Bitte ein Passwort angeben",
+  "subjectRequired": "Bitte einen Betreff angeben",
+  "templateRequired": "Bitte eine Vorlage angeben",
+  "titleRequired": "Bitte einen Titel angeben",
+  "urlRequired": "Bitte eine URL angeben",
+  "usernameRequired": "Bitte einen Benutzernamen angeben",
+  "valueRequired": "Bitte einen Wert angeben"
+}

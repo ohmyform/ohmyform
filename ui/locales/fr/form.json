@@ -1,0 +1,114 @@
+{
+  "baseData": {
+    "isLive": "Actif",
+    "language": "Langue",
+    "showFooter": "Afficher le pied de page",
+    "title": "Titre"
+  },
+  "baseDataTab": "Paramètres",
+  "building": "Construction du formulaire",
+  "confirmDelete": "Êtes-vous sûr de supprimer ce formulaire avec toutes ses soumissions?",
+  "continue": "Continuer",
+  "create": "Créer un nouveau formulaire",
+  "createNow": "Enregistrer",
+  "created": "Formulaire créé",
+  "creationError": "Impossible de créer le formulaire",
+  "deleteError": "Impossible de supprimer le formulaire",
+  "deleteNow": "Supprimer",
+  "deleted": "Formulaire supprimé",
+  "design": {
+    "color": {
+      "answer": "Couleur des réponses",
+      "background": "Couleur de l'arrière-plan",
+      "button": "Couleur de l'arrière-plan du bouton",
+      "buttonActive": "Couleur du texte du bouton au survol",
+      "buttonText": "Couleur du texte du bouton",
+      "question": "Couleur des questions"
+    },
+    "font": "Police de caractère",
+    "layout": {
+      "card": "Carte",
+      "slider": "Carousel"
+    },
+    "layouts": "Disposition"
+  },
+  "designTab": "Design",
+  "endPage": {
+    "action": "Action",
+    "activeColor": "Couleur du texte au survol",
+    "addButton": "Ajouter un bouton",
+    "bgColor": "Couleur de l'arrière plan",
+    "buttons": "Boutons",
+    "color": "Couleur",
+    "continueButtonText": "Texte du bouton continuer",
+    "paragraph": "Paragraphe",
+    "paragraphInfo": "Utiliser markdown pour le formatage avancé",
+    "show": "Afficher",
+    "text": "Texte",
+    "title": "Titre",
+    "url": "URL"
+  },
+  "endPageTab": "Page de fin",
+  "fieldsTab": "Champs de formulaire",
+  "hooks": {
+    "add": "Ajouter",
+    "confirmDelete": "Confirmer la suppression",
+    "deleteNow": "Supprimer",
+    "enabled": "Activé"
+  },
+  "hooksTab": "Webhook",
+  "loading": "Chargement du formulaire",
+  "logic": {
+    "add": "Ajouter une logique"
+  },
+  "mange": "Modifier le formulaire \" {{title}} \"",
+  "new": "Nouveau formulaire",
+  "next": "Suivant",
+  "notifications": {
+    "add": "Ajouter une notification",
+    "enabled": "Activé",
+    "fromEmail": "Email de l'expéditeur",
+    "fromEmailInfo": "Assurez-vous que votre serveur de messagerie peut envoyer à partir de cet email",
+    "fromField": "Email de l'expéditeur",
+    "fromFieldInfo": "Champ avec email, définira l'en-tête Répondre à",
+    "htmlTemplate": "Modèle HTML",
+    "htmlTemplateInfo": "Vous pouvez également utiliser <u> MJML <\/u> pour créer vos modèles de courrier électronique",
+    "subject": "Sujet",
+    "toEmail": "Votre email",
+    "toEmailInfo": "S'il n'est pas défini, il sera envoyé à l'administrateur du formulaire",
+    "toField": "Champ de messagerie",
+    "toFieldInfo": "Champ avec email pour réception"
+  },
+  "notificationsTab": "Notifications",
+  "previous": "Précédent",
+  "restart": "Nouvelle soumission",
+  "row": {
+    "admin": "Propriétaire",
+    "created": "Créé",
+    "isLive": "Actif",
+    "language": "Langue",
+    "lastModified": "Dernière modification",
+    "menu": "Actions",
+    "title": "Titre"
+  },
+  "startPage": {
+    "action": "Action",
+    "activeColor": "Couleur du texte au survol",
+    "addButton": "Ajouter un bouton",
+    "bgColor": "Couleur de l'arrière plan",
+    "buttons": "Boutons",
+    "color": "Couleur du texte",
+    "continueButtonText": "Texte du bouton continuer",
+    "paragraph": "Paragraphe",
+    "paragraphInfo": "Utiliser markdown pour le formatage avancé",
+    "show": "Afficher",
+    "text": "Texte",
+    "title": "Titre",
+    "url": "URL"
+  },
+  "startPageTab": "Page de démarrage",
+  "submitted": "Merci pour votre soumission!",
+  "updateError": "Impossible de mettre à jour le formulaire",
+  "updateNow": "Enregistrer",
+  "updated": "Formulaire mis à jour"
+}

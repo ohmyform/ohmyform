@@ -1,0 +1,10 @@
+{
+  "admin": "管理员",
+  "checkingCredentials": "检查凭证",
+  "loadingCredentials": "加载凭证",
+  "login": "登录",
+  "logout": "登出",
+  "profile": "个人资料",
+  "recover": "忘记密码",
+  "register": "创建帐号"
+}

@@ -1,0 +1,111 @@
+{
+  "baseData": {
+    "isLive": "Jest na żywo",
+    "language": "Język",
+    "showFooter": "Pokaż stopkę",
+    "title": "Tytuł"
+  },
+  "baseDataTab": "Dane podstawowe",
+  "building": "Formularz budowlany",
+  "confirmDelete": "Czy na pewno usuniesz ten formularz ze wszystkimi zgłoszeniami?",
+  "continue": "Kontynuuj",
+  "create": "Utwórz nowy formularz",
+  "createNow": "Zapisać",
+  "created": "Formularz utworzony",
+  "creationError": "Nie można utworzyć formularza",
+  "deleteError": "Nie można usunąć formularza",
+  "deleteNow": "Usuń teraz!",
+  "deleted": "Formularz usunięty",
+  "design": {
+    "color": {
+      "answer": "Kolor odpowiedzi",
+      "background": "Kolor tła",
+      "button": "Kolor przycisku",
+      "buttonActive": "Przycisk Aktywny kolor",
+      "buttonText": "Kolor tekstu przycisku",
+      "question": "Kolor pytania"
+    },
+    "font": "Czcionka",
+    "layout": {
+      "card": "Karta",
+      "slider": "Slider"
+    },
+    "layouts": "Wygląd"
+  },
+  "designTab": "Projekt",
+  "endPage": {
+    "action": "Akcja",
+    "activeColor": "Aktywny kolor",
+    "addButton": "Dodaj przycisk",
+    "bgColor": "Kolor tła",
+    "buttons": "guziki",
+    "color": "Kolor",
+    "continueButtonText": "Tekst przycisku Kontynuuj",
+    "paragraph": "Ustęp",
+    "show": "Pokazać",
+    "text": "Tekst",
+    "title": "Tytuł",
+    "url": "URL"
+  },
+  "endPageTab": "Strona końcowa",
+  "fieldsTab": "Pola formularza",
+  "hooks": {
+    "add": "Dodaj",
+    "confirmDelete": "Pusty",
+    "deleteNow": "Pusty",
+    "enabled": "Aktywny"
+  },
+  "hooksTab": "WebHooki",
+  "loading": "Ładowanie formularza",
+  "logic": {
+    "add": "Dodaj logikę"
+  },
+  "mange": "Edytuj formularz „ {{title}} ”",
+  "new": "Nowa forma",
+  "next": "Dalej",
+  "notifications": {
+    "add": "Dodaj powiadomienie",
+    "enabled": "Włączone",
+    "fromEmail": "E-mail nadawcy",
+    "fromEmailInfo": "Upewnij się, że Twój serwer pocztowy może wysyłać z tego e-maila",
+    "fromField": "E-mail nadawcy",
+    "fromFieldInfo": "Pole z e-mailem ustawi nagłówek odpowiedzi",
+    "htmlTemplate": "Szablon HTML",
+    "htmlTemplateInfo": "Możesz również użyć <u> MJML <\/u> aby utworzyć szablony e-mail",
+    "subject": "Przedmiot",
+    "toEmail": "Twój email",
+    "toEmailInfo": "Jeśli nie ustawione, wyśle do administratora formularza",
+    "toField": "Pole e-mail",
+    "toFieldInfo": "Pole z adresem e-mail do odbioru"
+  },
+  "notificationsTab": "Powiadomienia",
+  "previous": "Poprzedni",
+  "restart": "Uruchom ponownie formularz",
+  "row": {
+    "admin": "Właściciel",
+    "created": "Utworzony",
+    "isLive": "Relacja na żywo",
+    "language": "Język",
+    "lastModified": "Ostatnio zmodyfikowany",
+    "title": "Tytuł"
+  },
+  "startPage": {
+    "action": "Akcja",
+    "activeColor": "Aktywny kolor",
+    "addButton": "Dodaj przycisk",
+    "bgColor": "Kolor tła",
+    "buttons": "guziki",
+    "color": "Kolor",
+    "continueButtonText": "Tekst przycisku Kontynuuj",
+    "paragraph": "Ustęp",
+    "show": "Pokazać",
+    "text": "Tekst",
+    "title": "Tytuł",
+    "url": "URL"
+  },
+  "startPageTab": "Strona startowa",
+  "submitted": "Dziękujemy za zgłoszenie!",
+  "updateError": "Nie można zaktualizować formularza",
+  "updateNow": "Zapisać",
+  "updated": "Formularz zaktualizowany"
+}

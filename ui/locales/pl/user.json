@@ -1,0 +1,18 @@
+{
+  "baseData": "Dane podstawowe",
+  "confirmDelete": "Czy na pewno chcesz usunąć tego użytkownika?",
+  "deleteError": "nie można usunąć użytkownika",
+  "deleteNow": "Usuń teraz!",
+  "deleted": "Usunięto użytkownika",
+  "loading": "Ładowanie użytkownika",
+  "mange": "Edytuj użytkownika „ {{email}} ”",
+  "row": {
+    "created": "Utworzono",
+    "email": "E-mail",
+    "menu": "Pusty",
+    "roles": "Rola"
+  },
+  "updateError": "Nie można zaktualizować użytkownika",
+  "updateNow": "Zapisz",
+  "updated": "Użytkownik zaktualizowany"
+}

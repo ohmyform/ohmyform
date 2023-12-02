@@ -1,0 +1,46 @@
+{
+  "continue": "Fortsæt",
+  "design": {
+    "layout": {
+      "card": "Kort"
+    }
+  },
+  "fieldsTab": "Formularfelter",
+  "hooks": {
+    "add": "Tilføj",
+    "confirmDelete": "Tom",
+    "deleteNow": "Tom",
+    "enabled": "Aktiveret"
+  },
+  "hooksTab": "WebHooks",
+  "logic": {
+    "add": "Tilføj logik"
+  },
+  "next": "Næste",
+  "notifications": {
+    "add": "Tilføj meddelelse",
+    "htmlTemplate": "HTML-skabelon",
+    "subject": "Emne"
+  },
+  "notificationsTab": "Meddelelser",
+  "previous": "Forrige",
+  "startPage": {
+    "action": "Handling",
+    "activeColor": "Aktiv farve",
+    "addButton": "Tilføj-knappen",
+    "bgColor": "Baggrundsfarve",
+    "buttons": "Knapper",
+    "color": "Farve",
+    "continueButtonText": "Tekst på fortsæt-knappen",
+    "paragraph": "Afsnit",
+    "show": "Vis",
+    "text": "Tekst",
+    "title": "Titel",
+    "url": "URL"
+  },
+  "startPageTab": "Startside",
+  "submitted": "Tak for din indsendelse!",
+  "updateError": "Var ikke i stand til at opdatere formularen",
+  "updateNow": "Gem",
+  "updated": "Formular opdateret"
+}

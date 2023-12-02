@@ -1,0 +1,18 @@
+{
+  "baseData": "Datos Generales",
+  "confirmDelete": "¿Estás seguro de eliminar a este usuario?",
+  "deleteError": "no se pudo eliminar el usuario",
+  "deleteNow": "¡Elimínalo ahora!",
+  "deleted": "Usuario eliminado",
+  "loading": "Cargando usuario",
+  "mange": "Editar usuario \" {{email}} \"",
+  "row": {
+    "created": "Creado",
+    "email": "Correo electrónico",
+    "menu": "Vacío",
+    "roles": "Roles"
+  },
+  "updateError": "No se pudo actualizar el usuario",
+  "updateNow": "Guardar",
+  "updated": "Usuario actualizado"
+}

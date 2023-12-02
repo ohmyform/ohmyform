@@ -1,0 +1,18 @@
+{
+  "baseData": "Profil de l'utilisateur",
+  "confirmDelete": "Voulez-vous vraiment supprimer cet utilisateur ?",
+  "deleteError": "L'utilisateur n'a pas pu être supprimé",
+  "deleteNow": "Supprimer",
+  "deleted": "Utilisateur supprimé",
+  "loading": "Chargement de l'utilisateur",
+  "mange": "Modifier l'utilisateur : {{email}}",
+  "row": {
+    "created": "Créé",
+    "email": "Email",
+    "menu": "Actions",
+    "roles": "Rôle"
+  },
+  "updateError": "Impossible de mettre à jour l'utilisateur",
+  "updateNow": "Enregistrer",
+  "updated": "Utilisateur mis à jour"
+}

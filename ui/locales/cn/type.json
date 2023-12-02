@@ -1,0 +1,76 @@
+{
+  "add": "新增栏位",
+  "confirmDelete": "确定要删除此字段吗？请检查它在任何地方都没有被引用！",
+  "date": {
+    "default": "预设日期",
+    "max": "最长日期",
+    "min": "最小日期",
+    "name": "日期"
+  },
+  "deleteNow": "删除栏位",
+  "description": "描述",
+  "descriptionInfo": "使用markdown进行高级格式化",
+  "dropdown": {
+    "addOption": "添加选项",
+    "default": "默认值",
+    "name": "落下",
+    "options": "选件",
+    "removeOption": "去掉",
+    "titlePlaceholder": "标题",
+    "valuePlaceholder": "值"
+  },
+  "email": {
+    "default": "默认电子邮件",
+    "name": "电子邮件"
+  },
+  "hidden": {
+    "default": "默认值",
+    "name": "隐"
+  },
+  "link": {
+    "default": "默认链接",
+    "name": "网址"
+  },
+  "number": {
+    "default": "默认号码",
+    "name": "数"
+  },
+  "radio": {
+    "addOption": "添加选项",
+    "default": "默认值",
+    "name": "无线电开关",
+    "options": "选件",
+    "removeOption": "删除",
+    "titlePlaceholder": "标题",
+    "valuePlaceholder": "值"
+  },
+  "rating": {
+    "clearNote": "再次单击以删除默认值",
+    "default": "默认值",
+    "name": "评分"
+  },
+  "required": "需要",
+  "requiredInfo": "如果需要，必须设置默认值以使用户能够提交表单！",
+  "slider": {
+    "default": "默认值",
+    "max": "最大值",
+    "min": "最小值",
+    "name": "滑杆",
+    "step": "每步大小"
+  },
+  "slug": "Slug",
+  "slugInfo": "使用slug传递默认动态作为url get参数slug = value",
+  "textarea": {
+    "default": "默认值",
+    "name": "文字区"
+  },
+  "textfield": {
+    "default": "默认值",
+    "name": "文字行"
+  },
+  "title": "标题",
+  "yes_no": {
+    "default": "默认值",
+    "name": "是\/否"
+  }
+}

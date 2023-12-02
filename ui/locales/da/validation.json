@@ -1,0 +1,19 @@
+{
+  "emailFieldRequired": "Vælg venligst et e-mail-felt",
+  "emailRequired": "Angiv venligst en e-mail",
+  "invalidEmail": "Skal være en gyldig e-mail!",
+  "invalidNumber": "Skal være et gyldigt nummer!",
+  "invalidSlug": "Slug må kun indeholde små bogstaver fra a-z, 0-9 og _",
+  "invalidUrl": "Skal være en gyldig URL",
+  "languageRequired": "Vælg venligst et sprog",
+  "mandatoryFieldsMissing": "Obligatoriske felter mangler",
+  "passwordConfirmRequired": "Bekræft venligst din adgangskode!",
+  "passwordMinLength": "Skal være længere end eller lig med 5 tegn!",
+  "passwordRequired": "Indtast venligst din adgangskode!",
+  "subjectRequired": "Angiv venligst et emne",
+  "templateRequired": "Angiv venligst en skabelon",
+  "titleRequired": "Angiv venligst en titel",
+  "urlRequired": "Angiv venligst en URL",
+  "usernameRequired": "Angiv venligst et brugernavn",
+  "valueRequired": "Angiv venligst en værdi"
+}

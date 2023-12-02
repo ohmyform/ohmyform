@@ -1,0 +1,17 @@
+{
+  "baseData": "Base Data",
+  "confirmDelete": "Are you sure delete this user?",
+  "deleteError": "could not delete user",
+  "deleteNow": "Delete Now!",
+  "deleted": "User deleted",
+  "loading": "Loading User",
+  "mange": "Edit User \"{{email}}\"",
+  "row": {
+    "created": "Created",
+    "email": "Email",
+    "roles": "Role"
+  },
+  "updateError": "Could not update user",
+  "updateNow": "Save",
+  "updated": "User updated"
+}

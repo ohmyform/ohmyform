@@ -1,0 +1,58 @@
+@import "variables";
+@import "node_modules/swiper/swiper.scss";
+@import "../node_modules/react-github-button/assets/style.css";
+@import "../node_modules/leaflet/dist/leaflet.css";
+
+:root {
+  --backgroundColor: #{$background-color};
+  --primaryColor: #{$primary-color};
+  --textColorSecondary: #{$text-color-secondary};
+
+  --amplify-primary-color: #{$primary-color};
+  --amplify-primary-tint: #{lighten($primary-color, 0.1)};
+  --amplify-primary-shade: #{$primary-color};
+}
+
+.sidebar-toggle {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+  color: #FFF;
+
+  &:hover {
+    color: #1890ff;
+  }
+}
+
+.full-height {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+.ant-spin-nested-loading > div > .ant-spin {
+  max-height: unset;
+}
+
+.swiper-container {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+
+  .swiper-wrapper {
+    position: fixed
+  }
+}
+
+.admin {
+  .sidemenu {
+    .ant-layout-sider-children {
+      display: flex;
+      flex-direction: column;
+
+      .language-selector {
+        padding-left: 12px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "confirmDelete": "Deseja mesmo remover este campo? Verifique se não está referenciado em nenhum lugar!",
+  "date": {
+    "default": "Data padrão",
+    "max": "Data máxima",
+    "min": "Data mínima",
+    "name": "Encontro"
+  },
+  "deleteNow": "Excluir campo",
+  "description": "Descrição",
+  "descriptionInfo": "Use markdown para formatação avançada",
+  "dropdown": {
+    "addOption": "Adicionar opção",
+    "default": "Valor padrão",
+    "name": "Suspenso",
+    "options": "Opções",
+    "removeOption": "Retirar",
+    "titlePlaceholder": "Título",
+    "valuePlaceholder": "Valor"
+  },
+  "email": {
+    "default": "Email padrão",
+    "name": "O email"
+  },
+  "hidden": {
+    "default": "Valor padrão",
+    "name": "Escondido"
+  },
+  "link": {
+    "default": "Link padrão",
+    "name": "URL"
+  },
+  "number": {
+    "default": "Número padrão",
+    "name": "Número"
+  },
+  "radio": {
+    "addOption": "Adicionar opção",
+    "default": "Valor padrão",
+    "name": "Interruptor de rádio",
+    "options": "Opções",
+    "removeOption": "Retirar",
+    "titlePlaceholder": "Título",
+    "valuePlaceholder": "Valor"
+  },
+  "rating": {
+    "clearNote": "Clique novamente para remover o valor padrão",
+    "default": "Valor padrão",
+    "name": "Avaliação"
+  },
+  "required": "Requeridos",
+  "requiredInfo": "Se necessário, o valor padrão deve ser definido para permitir que os usuários enviem o formulário!",
+  "slug": "Slug",
+  "textarea": {
+    "default": "Valor padrão",
+    "name": "Área de texto"
+  },
+  "textfield": {
+    "default": "Valor padrão",
+    "name": "Linha de texto"
+  },
+  "title": "Título",
+  "yes_no": {
+    "default": "Valor padrão",
+    "name": "Sim não"
+  }
+}

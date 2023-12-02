@@ -1,0 +1,20 @@
+{
+  "emailFieldRequired": "请选择一个电子邮件字段",
+  "emailRequired": "请提供电子邮件",
+  "invalidEmail": "必须是有效的电子邮件！",
+  "invalidNumber": "必须是一个有效的数字！",
+  "invalidSlug": "Slug只能包含小写字母az，0-9和下划线",
+  "invalidUrl": "必须是有效的网址",
+  "languageRequired": "请选择一种语言",
+  "mandatoryFieldsMissing": "必填字段缺失",
+  "passwordConfirmMismatch": "您输入的两个密码不匹配！",
+  "passwordConfirmRequired": "请确认您的密码！",
+  "passwordMinLength": "必须大于或等于5个字符！",
+  "passwordRequired": "请输入您的密码！",
+  "subjectRequired": "请提供一个主题",
+  "templateRequired": "请提供模板",
+  "titleRequired": "请提供标题",
+  "urlRequired": "请提供一个链接",
+  "usernameRequired": "请提供一个用户名",
+  "valueRequired": "请提供一个值"
+}

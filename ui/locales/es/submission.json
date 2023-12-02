@@ -1,0 +1,16 @@
+{
+  "add": "Agregar Envío",
+  "city": "Ciudad",
+  "country": "País",
+  "created": "Creado",
+  "device": {
+    "name": "Nombre del dispositivo",
+    "type": "Tipo de dispositivo"
+  },
+  "edit": "Editar",
+  "field": "Campo",
+  "lastModified": "Ultimo cambio",
+  "progress": "Progreso",
+  "submission": "Envío",
+  "value": "Valor"
+}
