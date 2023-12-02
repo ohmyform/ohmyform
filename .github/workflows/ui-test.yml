@@ -7,13 +7,9 @@ on:
     branches:
       - master
 
-defaults:
-  run:
-    working-directory: ui/
-
 jobs:
   run-linters:
-    name: run UI ling
+    name: run UI lint
     runs-on: ubuntu-latest
     permissions:
       contents: read

@@ -14,10 +14,6 @@ env:
   ADMIN_PASSWORD: admin
   MAILER_URI: smtp://localhost:1025
 
-defaults:
-  run:
-    working-directory: api/
-
 jobs:
   run-linters:
     name: run API lint
