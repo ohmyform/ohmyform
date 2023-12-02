@@ -21,6 +21,13 @@ jobs:
         with:
           sparse-checkout: 'ui'
           sparse-checkout-cone-mode: false
+      - name: Move UI files to root
+        run: |
+          ls -lah
+          shopt -s dotglob
+          mv ui/* .
+          rm -rf ui
+          ls -lah
 
       - name: Set up Node.js
         uses: actions/setup-node@v4

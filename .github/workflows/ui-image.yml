@@ -10,10 +10,6 @@ on:
     types:
       - published
 
-defaults:
-  run:
-    working-directory: ui/
-
 jobs:
   build:
     name: push UI docker image
@@ -25,6 +21,13 @@ jobs:
         with:
           sparse-checkout: 'ui'
           sparse-checkout-cone-mode: false
+      - name: Move UI files to root
+        run: |
+          ls -lah
+          shopt -s dotglob
+          mv ui/* .
+          rm -rf ui
+          ls -lah
 
       - name: Log in to Docker Hub
         uses: docker/login-action@v3

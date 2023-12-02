@@ -28,6 +28,13 @@ jobs:
         with:
           sparse-checkout: 'api'
           sparse-checkout-cone-mode: false
+      - name: Move API files to root
+        run: |
+          ls -lah
+          shopt -s dotglob
+          mv api/* .
+          rm -rf api
+          ls -lah
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -75,6 +82,13 @@ jobs:
         with:
           sparse-checkout: 'api'
           sparse-checkout-cone-mode: false
+      - name: Move API files to root
+        run: |
+          ls -lah
+          shopt -s dotglob
+          mv api/* .
+          rm -rf api
+          ls -lah
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -128,6 +142,13 @@ jobs:
         with:
           sparse-checkout: 'api'
           sparse-checkout-cone-mode: false
+      - name: Move API files to root
+        run: |
+          ls -lah
+          shopt -s dotglob
+          mv api/* .
+          rm -rf api
+          ls -lah
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -167,6 +188,13 @@ jobs:
         with:
           sparse-checkout: 'api'
           sparse-checkout-cone-mode: false
+      - name: Move API files to root
+        run: |
+          ls -lah
+          shopt -s dotglob
+          mv api/* .
+          rm -rf api
+          ls -lah
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
