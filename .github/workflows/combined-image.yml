@@ -9,7 +9,7 @@ on:
       - 'supervisord.conf'
       - 'nginx.conf'
       - 'docker/**'
-      - '.github/workflows'
+      - '.github/workflows/**'
     branches:
       - master
   release:
