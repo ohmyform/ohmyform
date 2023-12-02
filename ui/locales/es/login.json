@@ -1,0 +1,8 @@
+{
+  "invalidLoginCredentials": "nombre de usuario \/ contraseña no son válidos",
+  "loginNow": "Inicia sesión ahora",
+  "note": "Nota",
+  "passwordPlaceholder": "Contraseña",
+  "usernamePlaceholder": "Nombre de usuario",
+  "welcomeBack": "¡Bienvenido!"
+}

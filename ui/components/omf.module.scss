@@ -1,0 +1,71 @@
+$omf: #000;
+$omfText: #FFF;
+$support: #000;
+
+.badge {
+  left: -65px;
+  height: 30px;
+  top: 40px;
+  position: absolute;
+  text-decoration: none;
+  width: 250px;
+  transform: rotate(-45deg);
+  z-index: 100;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+
+  span {
+    background: transparentize($omf, 0.3);
+    color: $omfText;
+    font-size: 14px;
+    left: 0;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    width: 250px;
+    box-shadow: rgba($omf, 0.2) 1px 1px 10px;
+    transition: opacity 1s;
+    &:last-child {
+      background: transparentize($support, 0.3);
+      opacity: 0;
+    }
+  }
+
+  :hover span {
+    &:first-child {
+      opacity: 0;
+    }
+    &:last-child {
+      opacity: 1;
+    }
+  }
+
+  span {
+    opacity: 1 !important;
+    backface-visibility: hidden;
+    transition: transform 1s;
+    &:last-child {
+      transform: rotateX(180deg);
+    }
+  }
+
+  &:hover span {
+    &:first-child {
+      transform: rotateX(180deg);
+    }
+    &:last-child {
+      transform: rotateX(360deg);
+    }
+  }
+
+  @media (max-width: 500px) {
+    left: -85px;
+    height: 30px;
+    top: 20px;
+    width: 250px;
+
+    span {
+      font-size: 11px;
+    }
+  }
+}

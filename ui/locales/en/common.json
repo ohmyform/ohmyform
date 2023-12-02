@@ -1,0 +1,10 @@
+{
+  "admin": "Admin",
+  "checkingCredentials": "Checking Credentials",
+  "loadingCredentials": "Loading Credentials",
+  "login": "Login",
+  "logout": "Logout",
+  "profile": "Profile",
+  "recover": "Lost Password",
+  "register": "Create Account"
+}

@@ -1,0 +1,114 @@
+{
+  "baseData": {
+    "isLive": "Öffentlich",
+    "language": "Sprache",
+    "showFooter": "Fußzeile anzeigen",
+    "title": "Titel"
+  },
+  "baseDataTab": "Basisdaten",
+  "building": "Formular wird aufgebaut",
+  "confirmDelete": "Wollen Sie dieses Formular mit allen Einträgen löschen?",
+  "continue": "Fortsetzen",
+  "create": "Neues Formular erstellen",
+  "createNow": "Speichern",
+  "created": "Formular erstellt",
+  "creationError": "Formular konnte nicht erstellt werden",
+  "deleteError": "Formular konnte nicht gelöscht werden",
+  "deleteNow": "Jetzt löschen!",
+  "deleted": "Formular gelöscht",
+  "design": {
+    "color": {
+      "answer": "Antwortfarbe",
+      "background": "Hintergrundfarbe",
+      "button": "Farbe der Schaltfläche",
+      "buttonActive": "Farbe der aktiven Schaltfläche",
+      "buttonText": "Farbe des Schaltflächentextes",
+      "question": "Fragenfarbe"
+    },
+    "font": "Schriftart",
+    "layout": {
+      "card": "Karte",
+      "slider": "Schieberegler"
+    },
+    "layouts": "Layout"
+  },
+  "designTab": "Design",
+  "endPage": {
+    "action": "Aktion",
+    "activeColor": "Aktive Farbe",
+    "addButton": "Aktion hinzufügen",
+    "bgColor": "Hintergrundfarbe",
+    "buttons": "Aktionen",
+    "color": "Textfarbe",
+    "continueButtonText": "Text der Schaltfläche Weiter",
+    "paragraph": "Absatz",
+    "paragraphInfo": "Verwenden Sie Markdown für erweiterte Formatierung",
+    "show": "Anzeigen",
+    "text": "Text",
+    "title": "Titel",
+    "url": "URL"
+  },
+  "endPageTab": "Endseite",
+  "fieldsTab": "Formularfelder",
+  "hooks": {
+    "add": "Hinzufügen",
+    "confirmDelete": "Wollen Sie diesen Webhook wirklich löschen?",
+    "deleteNow": "Nun löschen",
+    "enabled": "Aktiv"
+  },
+  "hooksTab": "Webhooks",
+  "loading": "Formular wird geladen",
+  "logic": {
+    "add": "Logik hinzufügen"
+  },
+  "mange": "Formular \"{{title}}\" bearbeiten",
+  "new": "Neues Formular",
+  "next": "Nächste",
+  "notifications": {
+    "add": "Benachrichtigung hinzufügen",
+    "enabled": "Aktiv",
+    "fromEmail": "Absender-E-Mail",
+    "fromEmailInfo": "Stellen Sie sicher, dass Ihr Mailserver von dieser E-Mail senden kann",
+    "fromField": "Absender-E-Mail",
+    "fromFieldInfo": "Feld mit E-Mail, setzt den Reply-To-Header",
+    "htmlTemplate": "HTML-Vorlage",
+    "htmlTemplateInfo": "Sie können auch <u>MJML<\/u> verwenden, um Ihre E-Mail-Vorlagen zu erstellen",
+    "subject": "Betreff",
+    "toEmail": "Ihre E-Mail",
+    "toEmailInfo": "Als Standard wird die E-Mail des Administrators verwendet",
+    "toField": "E-Mail-Feld",
+    "toFieldInfo": "Feld mit E-Mail für den Empfang"
+  },
+  "notificationsTab": "Benachrichtigungen",
+  "previous": "Vorherige",
+  "restart": "Formular neu starten",
+  "row": {
+    "admin": "Verwalter",
+    "created": "Erstellt",
+    "isLive": "Öffentlich",
+    "language": "Sprache",
+    "lastModified": "Letzte Änderung",
+    "menu": "Aktionen",
+    "title": "Titel"
+  },
+  "startPage": {
+    "action": "Aktion",
+    "activeColor": "Aktive Farbe",
+    "addButton": "Aktion hinzufügen",
+    "bgColor": "Hintergrundfarbe",
+    "buttons": "Aktionen",
+    "color": "Textfarbe",
+    "continueButtonText": "Text der Schaltfläche Weiter",
+    "paragraph": "Absatz",
+    "paragraphInfo": "Verwenden Sie Markdown für erweiterte Formatierung",
+    "show": "Anzeigen",
+    "text": "Text",
+    "title": "Titel",
+    "url": "URL"
+  },
+  "startPageTab": "Startseite",
+  "submitted": "Vielen Dank für Ihre Eingaben!",
+  "updateError": "Formular konnte nicht aktualisiert werden",
+  "updateNow": "Speichern",
+  "updated": "Formular aktualisiert"
+}

@@ -1,0 +1,58 @@
+{
+  "add": "Lägg till fält",
+  "date": {
+    "default": "Standarddatum",
+    "name": "Datum"
+  },
+  "deleteNow": "Ta bort fält",
+  "description": "Beskrivning",
+  "descriptionInfo": "Använd markdown för avancerad formatering",
+  "dropdown": {
+    "addOption": "Lägg till alternativ",
+    "default": "Standardvärde",
+    "options": "Alternativ",
+    "removeOption": "Ta bort",
+    "titlePlaceholder": "Titel",
+    "valuePlaceholder": "Värde"
+  },
+  "email": {
+    "name": "E-post"
+  },
+  "hidden": {
+    "default": "Standardvärde",
+    "name": "Dold"
+  },
+  "radio": {
+    "addOption": "Lägg till alternativ",
+    "default": "Standardvärde",
+    "options": "Alternativ",
+    "removeOption": "Ta bort",
+    "titlePlaceholder": "Titel",
+    "valuePlaceholder": "Värde"
+  },
+  "rating": {
+    "clearNote": "Klicka igen för att ta bort standardvärdet.",
+    "default": "Standardvärde",
+    "name": "Betyg"
+  },
+  "required": "Krävs",
+  "slider": {
+    "default": "Standardvärde",
+    "min": "Minsta värde",
+    "name": "Skjutreglage",
+    "step": "Stegstorlek"
+  },
+  "textarea": {
+    "default": "Standardvärde",
+    "name": "Textområde"
+  },
+  "textfield": {
+    "default": "Standardvärde",
+    "name": "Textrad"
+  },
+  "title": "Titel",
+  "yes_no": {
+    "default": "Standardvärde",
+    "name": "Ja \/ Nej"
+  }
+}

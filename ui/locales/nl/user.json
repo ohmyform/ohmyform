@@ -1,0 +1,15 @@
+{
+  "baseData": "Basisgegevens",
+  "confirmDelete": "Weet je zeker dat je deze gebruiker verwijdert?",
+  "deleteError": "kon gebruiker niet verwijderen",
+  "deleteNow": "Verwijder nu!",
+  "deleted": "Gebruiker verwijderd",
+  "loading": "Gebruiker laden",
+  "mange": "Gebruiker bewerken \" {{email}} \"",
+  "row": {
+    "created": "Gemaakt",
+    "email": "E-mail",
+    "roles": "Rol"
+  },
+  "updated": "Gebruiker bijgewerkt"
+}

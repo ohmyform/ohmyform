@@ -1,0 +1,17 @@
+{
+  "add": "Add Submission",
+  "city": "City",
+  "country": "Country",
+  "created": "Created",
+  "device": {
+    "name": "Device Name",
+    "type": "Device Type"
+  },
+  "edit": "Edit",
+  "export": "Export",
+  "field": "Field",
+  "lastModified": "Last Change",
+  "progress": "Progress",
+  "submission": "Submission",
+  "value": "Value"
+}

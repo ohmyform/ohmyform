@@ -1,0 +1,38 @@
+{
+  "add": "Veld toevoegen",
+  "confirmDelete": "Dit veld echt verwijderen? Controleer of er nergens naar verwezen wordt!",
+  "deleteNow": "Veld verwijderen",
+  "descriptionInfo": "Gebruik markdown voor geavanceerde opmaak",
+  "email": {
+    "name": "E-mail"
+  },
+  "hidden": {
+    "default": "Standaardwaarde"
+  },
+  "radio": {
+    "addOption": "Optie toevoegen",
+    "default": "Standaardwaarde",
+    "titlePlaceholder": "Titel",
+    "valuePlaceholder": "Waarde"
+  },
+  "rating": {
+    "default": "Standaardwaarde"
+  },
+  "slider": {
+    "default": "Standaardwaarde",
+    "name": "Schuifregelaar",
+    "step": "Stapgrootte"
+  },
+  "textarea": {
+    "default": "Standaardwaarde",
+    "name": "Tekstgebied"
+  },
+  "textfield": {
+    "default": "Standaardwaarde"
+  },
+  "title": "Titel",
+  "yes_no": {
+    "default": "Standaardwaarde",
+    "name": "Ja \/ Nee"
+  }
+}

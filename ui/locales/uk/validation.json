@@ -1,0 +1,18 @@
+{
+  "emailFieldRequired": "Виберіть оберіть поле електронної пошти",
+  "emailRequired": "Будь ласка, введіть адресу електронної пошти",
+  "invalidEmail": "Має бути дійсною адресою електронної пошти!",
+  "invalidNumber": "Має бути припустимим числом!",
+  "invalidSlug": "Slug може містити лише малі літери az, 0-9 та _",
+  "invalidUrl": "Має бути дійсною URL-адресою",
+  "languageRequired": "Виберіть мову",
+  "mandatoryFieldsMissing": "Обов’язкові поля відсутні",
+  "passwordMinLength": "Має бути довшим або рівним 5 символам!",
+  "passwordRequired": "Будь ласка, введіть ваш пароль!",
+  "subjectRequired": "Будь ласка, надайте тему",
+  "templateRequired": "Будь ласка, введіть шаблон",
+  "titleRequired": "Будь ласка, введіть заголовок",
+  "urlRequired": "Укажіть URL-адресу",
+  "usernameRequired": "Введіть ім’я користувача",
+  "valueRequired": "Будь ласка, заповніть поле"
+}

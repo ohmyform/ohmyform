@@ -1,0 +1,16 @@
+{
+  "add": "Lägg till inlämning",
+  "city": "Stad",
+  "country": "Land",
+  "created": "Skapad",
+  "device": {
+    "name": "Enhetsnamn",
+    "type": "Enhetstyp"
+  },
+  "edit": "Redigera",
+  "field": "Fält",
+  "lastModified": "Senaste ändringen",
+  "progress": "Framsteg",
+  "submission": "Inlämning",
+  "value": "Värde"
+}

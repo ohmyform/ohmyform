@@ -1,0 +1,12 @@
+{
+  "confirmPassword": "Confirm Password",
+  "email": "Email",
+  "firstName": "First Name",
+  "language": "Language",
+  "lastName": "Last Name",
+  "password": "Password",
+  "updateError": "Could not update Profile",
+  "updateNow": "Save",
+  "updated": "Profile updated",
+  "username": "Username"
+}

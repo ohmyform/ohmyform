@@ -1,0 +1,68 @@
+{
+  "confirmDelete": "¿Eliminar realmente este campo? ¡Compruebe que no esté referenciado en ningún lado!",
+  "date": {
+    "default": "Fecha predeterminada",
+    "max": "Fecha máxima",
+    "min": "Fecha min",
+    "name": "Fecha"
+  },
+  "deleteNow": "Eliminar campo",
+  "description": "Descripción",
+  "descriptionInfo": "Use markdown para formateo avanzado",
+  "dropdown": {
+    "addOption": "Agregar opción",
+    "default": "Valor por defecto",
+    "name": "Desplegable",
+    "options": "Opciones",
+    "removeOption": "Eliminar",
+    "titlePlaceholder": "Título",
+    "valuePlaceholder": "Valor"
+  },
+  "email": {
+    "default": "Email predeterminado",
+    "name": "Correo electrónico"
+  },
+  "hidden": {
+    "default": "Valor por defecto",
+    "name": "Oculto"
+  },
+  "link": {
+    "default": "Enlace predeterminado",
+    "name": "URL"
+  },
+  "number": {
+    "default": "Número predeterminado",
+    "name": "Número"
+  },
+  "radio": {
+    "addOption": "Agregar opción",
+    "default": "Valor por defecto",
+    "name": "Interruptor de radio",
+    "options": "Opciones",
+    "removeOption": "Eliminar",
+    "titlePlaceholder": "Título",
+    "valuePlaceholder": "Valor"
+  },
+  "rating": {
+    "clearNote": "Haga clic nuevamente para eliminar el valor predeterminado",
+    "default": "Valor por defecto",
+    "name": "Clasificación"
+  },
+  "required": "Necesario",
+  "requiredInfo": "Si es necesario, el valor predeterminado debe establecerse para que los usuarios puedan enviar el formulario.",
+  "slug": "Slug",
+  "slugInfo": "Utilice slug para pasar la dinámica predeterminada como parámetro de url? Slug = value",
+  "textarea": {
+    "default": "Valor por defecto",
+    "name": "Área de texto"
+  },
+  "textfield": {
+    "default": "Valor por defecto",
+    "name": "Línea de texto"
+  },
+  "title": "Título",
+  "yes_no": {
+    "default": "Valor por defecto",
+    "name": "Sí No"
+  }
+}

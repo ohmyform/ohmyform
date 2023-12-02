@@ -1,0 +1,37 @@
+{
+  "continue": "Fortsätta",
+  "design": {
+    "layout": {
+      "card": "Kort",
+      "slider": "Skjutreglage"
+    },
+    "layouts": "Layout"
+  },
+  "endPage": {
+    "paragraphInfo": "Använd markdown för avancerad formatering"
+  },
+  "fieldsTab": "Formulärfält",
+  "hooks": {
+    "add": "Lägg till",
+    "enabled": "Aktiverad"
+  },
+  "logic": {
+    "add": "Lägg till logik"
+  },
+  "next": "Nästa",
+  "notifications": {
+    "add": "Lägg till meddelande"
+  },
+  "notificationsTab": "Meddelanden",
+  "previous": "Föregående",
+  "startPage": {
+    "paragraphInfo": "Använd markdown för avancerad formatering",
+    "show": "Visa",
+    "text": "Text",
+    "title": "Titel"
+  },
+  "startPageTab": "Startsida",
+  "submitted": "Tack för din bidrag!",
+  "updateNow": "Spara",
+  "updated": "Formuläret har uppdaterats"
+}

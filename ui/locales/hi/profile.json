@@ -1,0 +1,12 @@
+{
+  "confirmPassword": "पासवर्ड की पुष्टि कीजिये",
+  "email": "ईमेल",
+  "firstName": "नाम",
+  "language": "भाषा",
+  "lastName": "सरनेम ",
+  "password": "पासवर्ड",
+  "updateError": "प्रोफ़ाइल अपडेट नहीं हो पाई",
+  "updateNow": "सेव करे",
+  "updated": "प्रोफ़ाइल अपडेट हो गयी",
+  "username": "यूजरनेम"
+}

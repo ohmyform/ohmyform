@@ -1,0 +1,12 @@
+{
+  "confirmPassword": "Powtórz Hasło",
+  "email": "E-mail",
+  "firstName": "Imię",
+  "language": "Język",
+  "lastName": "Nazwisko",
+  "password": "Hasło",
+  "updateError": "Nie można zaktualizować profilu",
+  "updateNow": "Zapisz",
+  "updated": "Profil zaktualizowany",
+  "username": "Nazwa Użytkownika"
+}

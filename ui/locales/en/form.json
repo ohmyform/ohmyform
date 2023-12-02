@@ -1,0 +1,117 @@
+{
+  "baseData": {
+    "isLive": "Is Live",
+    "language": "Language",
+    "showFooter": "Show Footer",
+    "title": "Title"
+  },
+  "baseDataTab": "Base Data",
+  "building": "Building Form",
+  "confirmDelete": "Do you really want to delete this form with all submissions?",
+  "continue": "Continue",
+  "create": "Create new form",
+  "createNow": "Save",
+  "created": "Form Created",
+  "creationError": "Could not create form",
+  "deleteError": "Could not delete form",
+  "deleteNow": "Delete Now!",
+  "deleted": "Form deleted",
+  "design": {
+    "color": {
+      "answer": "Answer Color",
+      "background": "Background Color",
+      "button": "Button Color",
+      "buttonActive": "Button Active Color",
+      "buttonText": "Button Text Color",
+      "question": "Question Color"
+    },
+    "font": "Font",
+    "layout": {
+      "card": "Card",
+      "slider": "Slider"
+    },
+    "layouts": "Layout"
+  },
+  "designTab": "Design",
+  "endPage": {
+    "action": "Action",
+    "activeColor": "Active Color",
+    "addButton": "Add Button",
+    "bgColor": "Background Color",
+    "buttons": "Buttons",
+    "color": "Color",
+    "continueButtonText": "Continue Button Text",
+    "paragraph": "Paragraph",
+    "paragraphInfo": "Use markdown for advanced formatting",
+    "show": "Show",
+    "text": "Text",
+    "title": "Title",
+    "url": "Url"
+  },
+  "endPageTab": "End Page",
+  "fieldsTab": "Form Fields",
+  "hooks": {
+    "add": "Add",
+    "enabled": "Enabled"
+  },
+  "hooksTab": "WebHooks",
+  "loading": "Loading Form",
+  "logic": {
+    "action": {
+      "disable": "Disable",
+      "jumpTo": "Jump To",
+      "require": "Require",
+      "visible": "Visible"
+    },
+    "add": "Add Logic"
+  },
+  "mange": "Edit Form \"{{title}}\"",
+  "new": "New Form",
+  "next": "Next",
+  "notifications": {
+    "add": "Add Notification",
+    "enabled": "Enabled",
+    "fromEmail": "Sender Email",
+    "fromEmailInfo": "Make sure your mailserver can send from this email",
+    "fromField": "Sender Email",
+    "fromFieldInfo": "Field with Email, will set the Reply-To header",
+    "htmlTemplate": "HTML Template",
+    "htmlTemplateInfo": "You can also use <u>MJML<\/u> to create your email templates",
+    "subject": "Subject",
+    "toEmail": "Your Email",
+    "toEmailInfo": "If not set will send to the admin of the form",
+    "toField": "Email Field",
+    "toFieldInfo": "Field with Email for receipt"
+  },
+  "notificationsTab": "Notifications",
+  "previous": "Previous",
+  "restart": "Restart Form",
+  "row": {
+    "admin": "Owner",
+    "created": "Created",
+    "isLive": "Live",
+    "language": "Language",
+    "lastModified": "Last Modified",
+    "title": "Title"
+  },
+  "startPage": {
+    "action": "Action",
+    "activeColor": "Active Color",
+    "addButton": "Add Button",
+    "bgColor": "Background Color",
+    "buttons": "Buttons",
+    "color": "Color",
+    "continueButtonText": "Continue Button Text",
+    "paragraph": "Paragraph",
+    "paragraphInfo": "Use markdown for advanced formatting",
+    "show": "Show",
+    "text": "Text",
+    "title": "Title",
+    "url": "Url"
+  },
+  "startPageTab": "Start Page",
+  "submitted": "Thank you for your submission!",
+  "updateError": "Could not update form",
+  "updateNow": "Save",
+  "updated": "Form updated"
+}

@@ -1,0 +1,10 @@
+{
+  "admin": "管理",
+  "checkingCredentials": "認証を確認しています",
+  "loadingCredentials": "認証情報を読み込んでいます",
+  "login": "ログイン",
+  "logout": "ログアウト",
+  "profile": "プロフィール",
+  "recover": "パスワードを忘れた場合",
+  "register": "アカウント作成"
+}

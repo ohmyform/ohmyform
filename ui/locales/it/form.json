@@ -1,0 +1,90 @@
+{
+  "baseData": {
+    "isLive": "È in diretta",
+    "language": "linguaggio",
+    "showFooter": "Mostra piè di pagina",
+    "title": "Titolo"
+  },
+  "baseDataTab": "Dati di base",
+  "building": "Modulo di costruzione",
+  "confirmDelete": "Sei sicuro di eliminare questo modulo con tutti gli invii?",
+  "create": "Crea un nuovo modulo",
+  "createNow": "Salva",
+  "created": "Modulo creato",
+  "creationError": "Impossibile creare il modulo",
+  "deleteError": "Impossibile eliminare il modulo",
+  "deleteNow": "Cancella ora!",
+  "deleted": "Modulo eliminato",
+  "design": {
+    "color": {
+      "answer": "Rispondi al colore",
+      "background": "Colore di sfondo",
+      "button": "Colore pulsante",
+      "buttonActive": "Pulsante Colore attivo",
+      "buttonText": "Colore testo pulsante",
+      "question": "Domanda di colore"
+    },
+    "font": "Font"
+  },
+  "designTab": "Design",
+  "endPage": {
+    "action": "Azione",
+    "activeColor": "Colore attivo",
+    "addButton": "Aggiungi pulsante",
+    "bgColor": "Colore di sfondo",
+    "buttons": "pulsanti",
+    "color": "Colore",
+    "continueButtonText": "Continua pulsante testo",
+    "paragraph": "Paragrafo",
+    "show": "Mostrare",
+    "text": "Testo",
+    "title": "Titolo",
+    "url": "url"
+  },
+  "endPageTab": "Pagina finale",
+  "loading": "Modulo di caricamento",
+  "mange": "Modifica modulo \" {{title}} \"",
+  "new": "Nuovo modulo",
+  "notifications": {
+    "enabled": "Abilitato",
+    "fromEmail": "Email del mittente",
+    "fromEmailInfo": "Assicurati che il tuo mailserver possa inviare da questa email",
+    "fromField": "Email del mittente",
+    "fromFieldInfo": "Campo con e-mail, imposterà l'intestazione Rispondi a",
+    "htmlTemplate": "Modello HTML",
+    "htmlTemplateInfo": "Puoi anche utilizzare <u> MJML <\/u> per creare i tuoi modelli di email",
+    "subject": "Soggetto",
+    "toEmail": "La tua email",
+    "toEmailInfo": "Se non impostato, verrà inviato all'amministratore del modulo",
+    "toField": "Campo email",
+    "toFieldInfo": "Campo con e-mail per la ricevuta"
+  },
+  "restart": "Riavvia modulo",
+  "row": {
+    "admin": "Proprietario",
+    "created": "Creato",
+    "isLive": "Vivere",
+    "language": "linguaggio",
+    "lastModified": "Ultima modifica",
+    "title": "Titolo"
+  },
+  "startPage": {
+    "action": "Azione",
+    "activeColor": "Colore attivo",
+    "addButton": "Aggiungi pulsante",
+    "bgColor": "Colore di sfondo",
+    "buttons": "pulsanti",
+    "color": "Colore",
+    "continueButtonText": "Continua pulsante testo",
+    "paragraph": "Paragrafo",
+    "show": "Mostrare",
+    "text": "Testo",
+    "title": "Titolo",
+    "url": "url"
+  },
+  "startPageTab": "Pagina iniziale",
+  "submitted": "Grazie per la vostra presentazione!",
+  "updateError": "Impossibile aggiornare il modulo",
+  "updateNow": "Salva",
+  "updated": "Modulo aggiornato"
+}

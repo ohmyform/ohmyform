@@ -1,0 +1,8 @@
+{
+  "invalidLoginCredentials": "ім'я користувача або пароль були введені неправильно!",
+  "loginNow": "Увійти зараз",
+  "note": "Примітка",
+  "passwordPlaceholder": "Пароль",
+  "usernamePlaceholder": "Ім'я користувача",
+  "welcomeBack": "З поверненням!"
+}

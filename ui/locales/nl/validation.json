@@ -1,0 +1,18 @@
+{
+  "emailFieldRequired": "Selecteer een e-mail veld",
+  "emailRequired": "Geef een e-mail",
+  "invalidEmail": "Moet een geldig e-mailadres zijn!",
+  "invalidNumber": "Moet een geldig nummer zijn!",
+  "invalidUrl": "Moet een geldige URL zijn",
+  "languageRequired": "Selecteer een taal",
+  "mandatoryFieldsMissing": "Verplichte velden ontbreken",
+  "passwordConfirmRequired": "Bevestig uw wachtwoord!",
+  "passwordMinLength": "Moet langer zijn dan of gelijk zijn aan 5 tekens!",
+  "passwordRequired": "Voer uw wachtwoord in!",
+  "subjectRequired": "Geef een onderwerp",
+  "templateRequired": "Geef een sjabloon",
+  "titleRequired": "Geef een titel op",
+  "urlRequired": "Geef een Url",
+  "usernameRequired": "Geef een gebruikersnaam op",
+  "valueRequired": "Geef een waarde"
+}

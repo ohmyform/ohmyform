@@ -1,0 +1,12 @@
+{
+  "confirmPassword": "确认密码",
+  "email": "电子邮件",
+  "firstName": "名字",
+  "language": "语言",
+  "lastName": "姓",
+  "password": "密码",
+  "updateError": "无法更新个人资料",
+  "updateNow": "保存",
+  "updated": "个人资料已更新",
+  "username": "用户名"
+}

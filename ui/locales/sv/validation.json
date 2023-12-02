@@ -1,0 +1,11 @@
+{
+  "invalidNumber": "Måste vara ett giltigt nummer!",
+  "languageRequired": "Välj ett språk",
+  "mandatoryFieldsMissing": "Obligatoriska fält saknas",
+  "passwordRequired": "Vänligen ange ditt lösenord!",
+  "subjectRequired": "Ange ett ämne",
+  "templateRequired": "Ange en mall",
+  "titleRequired": "Ange en titel",
+  "usernameRequired": "Ange ett användarnamn",
+  "valueRequired": "Ange ett värde"
+}

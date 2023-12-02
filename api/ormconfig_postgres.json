@@ -1,0 +1,22 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "username": "root",
+  "password": "root",
+  "database": "ohmyform",
+  "synchronize": false,
+  "logging": false,
+  "entities": [
+    "src/entity/**/*.ts"
+  ],
+  "migrations": [
+    "src/migrations/postgres/**/*.ts"
+  ],
+  "migrationsTransactionMode": "each",
+  "subscribers": [
+    "src/subscriber/**/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "src/migrations/postgres"
+  }
+}

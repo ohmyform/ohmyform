@@ -1,0 +1,100 @@
+{
+  "baseData": {
+    "isLive": "Es en vivo",
+    "language": "Idioma",
+    "showFooter": "Mostrar pie de página",
+    "title": "Título"
+  },
+  "baseDataTab": "Datos Generales",
+  "building": "Formulario de construcción",
+  "confirmDelete": "¿Estás seguro de eliminar este formulario con todos los envíos?",
+  "create": "Crear nuevo formulario",
+  "createNow": "Guardar",
+  "created": "Formulario creado",
+  "creationError": "No se pudo crear el formulario",
+  "deleteError": "No se pudo eliminar el formulario",
+  "deleteNow": "¡Eliminar ahora!",
+  "deleted": "Formulario eliminado",
+  "design": {
+    "color": {
+      "answer": "Color de respuesta",
+      "background": "Color de fondo",
+      "button": "Color del boton",
+      "buttonActive": "Color activo del botón",
+      "buttonText": "Color del texto del botón",
+      "question": "Color de la pregunta"
+    },
+    "font": "Fuente"
+  },
+  "designTab": "Diseño",
+  "endPage": {
+    "action": "Acción",
+    "activeColor": "Color activo",
+    "addButton": "Agregar botón",
+    "bgColor": "Color de fondo",
+    "buttons": "Botones",
+    "color": "Color",
+    "continueButtonText": "Continuar texto del botón",
+    "paragraph": "Párrafo",
+    "paragraphInfo": "Use markdown para formateo avanzado",
+    "show": "mostrar",
+    "text": "Texto",
+    "title": "Título",
+    "url": "Url"
+  },
+  "endPageTab": "Página final",
+  "fieldsTab": "Campos",
+  "hooks": {
+    "add": "Agregar",
+    "confirmDelete": "Vacío",
+    "deleteNow": "Vacío",
+    "enabled": "Habilitado"
+  },
+  "hooksTab": "WebHooks",
+  "loading": "Formulario de carga",
+  "mange": "Editar formulario \" {{title}} \"",
+  "new": "Nuevo formulario",
+  "notifications": {
+    "enabled": "Habilitado",
+    "fromEmail": "Correo electrónico del remitente",
+    "fromEmailInfo": "Asegúrese de que su servidor de correo pueda enviar desde este correo electrónico",
+    "fromField": "Correo electrónico del remitente",
+    "fromFieldInfo": "Asegúrese de que su servidor de correo pueda enviar desde este correo electrónico",
+    "htmlTemplate": "Plantilla HTML",
+    "htmlTemplateInfo": "También puede usar <u> MJML <\/u> para crear sus plantillas de correo electrónico",
+    "subject": "Tema",
+    "toEmail": "Tu correo electrónico",
+    "toEmailInfo": "Si no está configurado, se enviará al administrador del formulario",
+    "toField": "Correo electrónico de destino",
+    "toFieldInfo": "Dirección de correo electrónico que recibirá las notificaiones"
+  },
+  "restart": "Reiniciar formulario",
+  "row": {
+    "admin": "Propietario",
+    "created": "Creado",
+    "isLive": "En Vivo",
+    "language": "Idioma",
+    "lastModified": "Última modificación",
+    "title": "Título"
+  },
+  "startPage": {
+    "action": "Acción",
+    "activeColor": "Color activo",
+    "addButton": "Agregar botón",
+    "bgColor": "Color de fondo",
+    "buttons": "Botones",
+    "color": "Color",
+    "continueButtonText": "Texto del botón continuar",
+    "paragraph": "Párrafo",
+    "paragraphInfo": "Use markdown para formateo avanzado",
+    "show": "mostrar",
+    "text": "Texto",
+    "title": "Título",
+    "url": "Url"
+  },
+  "startPageTab": "Página de inicio",
+  "submitted": "Gracias por tu presentación!",
+  "updateError": "No se pudo actualizar el formulario",
+  "updateNow": "Guardar",
+  "updated": "Formulario actualizado"
+}

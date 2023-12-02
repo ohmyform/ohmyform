@@ -1,0 +1,12 @@
+{
+  "confirmPassword": "パスワードの確認",
+  "email": "メール",
+  "firstName": "姓",
+  "language": "言語",
+  "lastName": "名",
+  "password": "パスワード",
+  "updateError": "プロフィールの更新でエラー",
+  "updateNow": "保存",
+  "updated": "プロフィールを更新しました",
+  "username": "ユーザー名"
+}

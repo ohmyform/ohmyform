@@ -1,0 +1,120 @@
+{
+  "baseData": {
+    "isLive": "受付中",
+    "language": "言語",
+    "showFooter": "フッターを表示",
+    "title": "題名"
+  },
+  "baseDataTab": "基本データ",
+  "building": "フォーム作成中",
+  "confirmDelete": "このフォームをすべての回答とともに削除します。よろしいですか？",
+  "continue": "続ける",
+  "create": "新規フォームの作成",
+  "createNow": "保存",
+  "created": "フォームを作成しました",
+  "creationError": "フォームの作成でエラー",
+  "deleteError": "フォームの削除でエラー",
+  "deleteNow": "すぐに削除！",
+  "deleted": "フォームを削除しました",
+  "design": {
+    "color": {
+      "answer": "回答の色",
+      "background": "背景色",
+      "button": "ボタン色",
+      "buttonActive": "アクティブなボタン色",
+      "buttonText": "ボタンテキスト色",
+      "question": "質問の色"
+    },
+    "font": "フォント",
+    "layout": {
+      "card": "カード",
+      "slider": "スライド"
+    },
+    "layouts": "レイアウト"
+  },
+  "designTab": "デザイン",
+  "endPage": {
+    "action": "アクション",
+    "activeColor": "アクティブ色",
+    "addButton": "ボタンを追加する",
+    "bgColor": "背景色",
+    "buttons": "ボタン",
+    "color": "色",
+    "continueButtonText": "Continue ボタンのテキスト",
+    "paragraph": "段落",
+    "paragraphInfo": "markdown を使えば詳細な書式を設定できます",
+    "show": "表示する",
+    "text": "テキスト",
+    "title": "タイトル",
+    "url": "URL"
+  },
+  "endPageTab": "終了ページ",
+  "fieldsTab": "フォームの項目",
+  "hooks": {
+    "add": "追加する",
+    "confirmDelete": "削除します。よろしいですか？",
+    "deleteNow": "すぐに削除",
+    "enabled": "有効"
+  },
+  "hooksTab": "WebHook",
+  "loading": "フォームを読み込んでいます",
+  "logic": {
+    "action": {
+      "disable": "無効に",
+      "jumpTo": "ジャンプ先",
+      "require": "必須",
+      "visible": "表示"
+    },
+    "add": "ロジックを追加"
+  },
+  "mange": "「{{title}}」のフォームを編集",
+  "new": "新規フォーム",
+  "next": "次",
+  "notifications": {
+    "add": "通知を追加",
+    "enabled": "有効",
+    "fromEmail": "送信者メールアドレス",
+    "fromEmailInfo": "お使いのメールサーバーがこのメールからの送信ができることを確認すること",
+    "fromField": "送信者アドレス項目",
+    "fromFieldInfo": "メールにReply-To（返信先）として設定するアドレスのフォーム項目",
+    "htmlTemplate": "HTML テンプレート",
+    "htmlTemplateInfo": "メールテンプレートには、<u>MJML<\/u> も使えます",
+    "subject": "件名",
+    "toEmail": "受信者アドレス",
+    "toEmailInfo": "設定しなければ、このフォームの作成者のメールアドレスに送信します",
+    "toField": "受信者メールアドレスの項目",
+    "toFieldInfo": "回答受け付けメールの送信先アドレスとして利用するフォームの項目"
+  },
+  "notificationsTab": "通知",
+  "previous": "前",
+  "restart": "最初から",
+  "row": {
+    "admin": "オーナー",
+    "created": "作成",
+    "isLive": "受付中",
+    "language": "言語",
+    "lastModified": "最終更新",
+    "menu": "メニュー",
+    "title": "題名"
+  },
+  "startPage": {
+    "action": "アクション",
+    "activeColor": "アクティブ色",
+    "addButton": "ボタンを追加する",
+    "bgColor": "背景色",
+    "buttons": "ボタン",
+    "color": "色",
+    "continueButtonText": "Continue ボタンのテキスト",
+    "paragraph": "段落",
+    "paragraphInfo": "markdown を使えば詳細な書式を設定できます",
+    "show": "表示する",
+    "text": "テキスト",
+    "title": "タイトル",
+    "url": "URL"
+  },
+  "startPageTab": "開始ページ",
+  "submitted": "回答ありがとうございます。",
+  "updateError": "フォームの更新でエラー",
+  "updateNow": "保存",
+  "updated": "フォームを更新しました"
+}

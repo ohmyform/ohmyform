@@ -1,0 +1,76 @@
+{
+  "add": "項目を追加する",
+  "confirmDelete": "このフィールドを削除します。他から参照されていないことを確認してください。削除してよろしいですか？",
+  "date": {
+    "default": "既定の日付",
+    "max": "最大日付",
+    "min": "最小日付",
+    "name": "日付"
+  },
+  "deleteNow": "項目を削除する",
+  "description": "説明",
+  "descriptionInfo": "markdown を使えば詳細な書式を設定できます",
+  "dropdown": {
+    "addOption": "選択肢を追加",
+    "default": "既定の値",
+    "name": "ドロップダウン",
+    "options": "選択肢",
+    "removeOption": "削除",
+    "titlePlaceholder": "表示名",
+    "valuePlaceholder": "値"
+  },
+  "email": {
+    "default": "既定のメールアドレス",
+    "name": "メールアドレス"
+  },
+  "hidden": {
+    "default": "既定の値",
+    "name": "非表示"
+  },
+  "link": {
+    "default": "既定のリンク",
+    "name": "URL"
+  },
+  "number": {
+    "default": "既定の値",
+    "name": "数"
+  },
+  "radio": {
+    "addOption": "選択肢を追加",
+    "default": "既定の値",
+    "name": "ラジオボタン",
+    "options": "選択肢",
+    "removeOption": "削除する",
+    "titlePlaceholder": "表示名",
+    "valuePlaceholder": "値"
+  },
+  "rating": {
+    "clearNote": "既定の値をリセットするには、再度クリック",
+    "default": "既定の値",
+    "name": "評価"
+  },
+  "required": "必須項目",
+  "requiredInfo": "ユーザーが回答を送信できるよう、必要に応じて既定の値を設定する必要があります。",
+  "slider": {
+    "default": "既定の値",
+    "max": "最大値",
+    "min": "最小値",
+    "name": "スライド",
+    "step": "ステップの大きさ"
+  },
+  "slug": "スラッグ（Slug）",
+  "slugInfo": "URLのパラメーターで値を設定するためにスラッグ（Slug）を利用できます ?slug=value",
+  "textarea": {
+    "default": "既定の値",
+    "name": "テキストエリア"
+  },
+  "textfield": {
+    "default": "既定の値",
+    "name": "テキスト行"
+  },
+  "title": "項目名",
+  "yes_no": {
+    "default": "既定の値",
+    "name": "はい・いいえ"
+  }
+}

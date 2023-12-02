@@ -1,0 +1,76 @@
+{
+  "add": "Feld hinzufügen",
+  "confirmDelete": "Wollen Sie das Feld wirklich löschen? Bitte achten Sie darauf, dass es keine Referenzen mehr auf dieses Feld gibt!",
+  "date": {
+    "default": "Standarddatum",
+    "max": "Neustes mögliches Datum",
+    "min": "Ältestes mögliches Datum",
+    "name": "Datum"
+  },
+  "deleteNow": "Feld löschen",
+  "description": "Beschreibung",
+  "descriptionInfo": "Verwenden Sie Markdown für erweiterte Formatierung",
+  "dropdown": {
+    "addOption": "Auswahl hinzufügen",
+    "default": "Standardwert",
+    "name": "Dropdown-Liste",
+    "options": "Auswahl",
+    "removeOption": "Entfernen",
+    "titlePlaceholder": "Titel",
+    "valuePlaceholder": "Wert"
+  },
+  "email": {
+    "default": "Standard-E-Mail",
+    "name": "E-Mail"
+  },
+  "hidden": {
+    "default": "Standardwert",
+    "name": "Versteckt"
+  },
+  "link": {
+    "default": "Standard-URL",
+    "name": "URL"
+  },
+  "number": {
+    "default": "Standardzahl",
+    "name": "Zahl"
+  },
+  "radio": {
+    "addOption": "Auswahl hinzufügen",
+    "default": "Standardwert",
+    "name": "Auswahlliste",
+    "options": "Auswahl",
+    "removeOption": "Entfernen",
+    "titlePlaceholder": "Titel",
+    "valuePlaceholder": "Wert"
+  },
+  "rating": {
+    "clearNote": "Klicken Sie erneut, um den Standardwert zu entfernen",
+    "default": "Standardbewertung",
+    "name": "Bewertung"
+  },
+  "required": "Pflichtfeld",
+  "requiredInfo": "Bei Bedarf muss der Standardwert festgelegt werden, damit Benutzer ein Formular senden können!",
+  "slider": {
+    "default": "Standardwert",
+    "max": "Maximalwert",
+    "min": "Minimalwert",
+    "name": "Schieberegler",
+    "step": "Schrittweite"
+  },
+  "slug": "Schnecke",
+  "slugInfo": "Verwenden Sie slug, um die Standard-Dynamik als URL-Parameter \"?slug=value\" zu übergeben",
+  "textarea": {
+    "default": "Standardwert",
+    "name": "Mehrzeiliger Text"
+  },
+  "textfield": {
+    "default": "Standardwert",
+    "name": "Einzeiliger Text"
+  },
+  "title": "Titel",
+  "yes_no": {
+    "default": "Standardwert",
+    "name": "Ja \/ Nein"
+  }
+}

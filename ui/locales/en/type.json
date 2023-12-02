@@ -1,0 +1,87 @@
+{
+  "add": "Add Field",
+  "confirmDelete": "Really remove this field? Check that it is not referenced anywhere!",
+  "checkbox": {
+    "addOption": "Add Checkbox",
+    "default": "Default Value",
+    "name": "Checkbox",
+    "options": "Checkboxes",
+    "removeOption": "Remove"
+  },
+  "date": {
+    "default": "Default Date",
+    "max": "Max Date",
+    "min": "Min Date",
+    "name": "Date"
+  },
+  "deleteNow": "Delete Field",
+  "description": "Description",
+  "descriptionInfo": "Use markdown for advanced formatting",
+  "dropdown": {
+    "addOption": "Add Option",
+    "default": "Default Value",
+    "name": "Dropdown",
+    "options": "Options",
+    "removeOption": "Remove",
+    "titlePlaceholder": "Title",
+    "valuePlaceholder": "Value"
+  },
+  "email": {
+    "default": "Default Email",
+    "name": "Email"
+  },
+  "hidden": {
+    "default": "Default Value",
+    "name": "Hidden"
+  },
+  "link": {
+    "default": "Default Link",
+    "name": "URL"
+  },
+  "location": {
+    "name": "Map Location",
+    "default": "Default Location"
+  },
+  "number": {
+    "default": "Default Number",
+    "name": "Number"
+  },
+  "radio": {
+    "addOption": "Add Option",
+    "default": "Default Value",
+    "name": "Radio Switch",
+    "options": "Options",
+    "removeOption": "Remove",
+    "titlePlaceholder": "Title",
+    "valuePlaceholder": "Value"
+  },
+  "rating": {
+    "clearNote": "Click again to remove the default value",
+    "default": "Default Value",
+    "name": "Rating"
+  },
+  "required": "Required",
+  "requiredInfo": "If required, default value must be set to enable users to submit form!",
+  "slider": {
+    "default": "Default Value",
+    "max": "Max Value",
+    "min": "Min Value",
+    "name": "Slider",
+    "step": "Step Size"
+  },
+  "slug": "Slug",
+  "slugInfo": "Use slug to pass the default dynamic as url parameter ?slug=value",
+  "textarea": {
+    "default": "Default Value",
+    "name": "Text Area"
+  },
+  "textfield": {
+    "default": "Default Value",
+    "name": "Text Line"
+  },
+  "title": "Title",
+  "yes_no": {
+    "default": "Default Value",
+    "name": "Yes \/ No"
+  }
+}

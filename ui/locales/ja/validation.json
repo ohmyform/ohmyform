@@ -1,0 +1,20 @@
+{
+  "emailFieldRequired": "メールアドレスの項目を選んでください",
+  "emailRequired": "メールアドレスを入力してください",
+  "invalidEmail": "有効なメールアドレスではありません！",
+  "invalidNumber": "数字として認識できません！",
+  "invalidSlug": "スラッグ（Slug）では、小文字の a-z、 0-9 そして _ だけしか使えません",
+  "invalidUrl": "有効な URL ではありません",
+  "languageRequired": "言語を選んでください",
+  "mandatoryFieldsMissing": "必要な項目が入力されていません",
+  "passwordConfirmMismatch": "入力した2つのパスワードが一致しません！",
+  "passwordConfirmRequired": "パスワードを確認してください。",
+  "passwordMinLength": "5 文字以上を入力してください！",
+  "passwordRequired": "パスワードを入力してください！",
+  "subjectRequired": "件名を入力してください",
+  "templateRequired": "テンプレートを入力してください",
+  "titleRequired": "項目名を入力してください",
+  "urlRequired": "URL を入力してください",
+  "usernameRequired": "ユーザー名を入力してください",
+  "valueRequired": "値を入力してください"
+}
