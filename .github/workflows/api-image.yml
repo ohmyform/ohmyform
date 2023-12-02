@@ -16,7 +16,7 @@ defaults:
 
 jobs:
   build:
-    name: Push Docker image to Docker Hub
+    name: push API docker image
     runs-on: ubuntu-latest
 
     steps:

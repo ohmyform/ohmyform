@@ -16,7 +16,7 @@ defaults:
 
 jobs:
   run-linters:
-    name: Run linters
+    name: run UI ling
     runs-on: ubuntu-latest
 
     steps:

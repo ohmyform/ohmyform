@@ -17,7 +17,7 @@ on:
 
 jobs:
   build:
-    name: Push Docker image to Docker Hub
+    name: push OHMYFORM docker image
     runs-on: ubuntu-latest
 
     steps:
