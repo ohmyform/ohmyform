@@ -42,6 +42,8 @@ jobs:
       - name: Install Node.js dependencies
         run: yarn install --frozen-lockfile --silent
 
+      - run: ls -lah
+
       - name: Lint
         uses: reviewdog/action-eslint@v1
         with:
