@@ -47,7 +47,7 @@ RUN /usr/local/bin/node-prune
 ## Production Image.
 FROM node:16-alpine
 
-RUN apk --update add supervisor nginx && rm -rf /var/cache/apk/*
+RUN apk --update --no-cache add supervisor nginx
 
 WORKDIR /usr/src
 

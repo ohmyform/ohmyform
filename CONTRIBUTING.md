@@ -28,7 +28,11 @@ Here is how to setup your development environment:
 ### Clone the project
 
 ```
-$ git clone https://github.com/ohmyform/ohmyform
+$ git clone --recursive https://github.com/ohmyform/ohmyform
+```
+If you have already cloned it, you can pull submodules with
+```
+$ git submodule update --init --recursive
 ```
 
 ### Run the server locally
