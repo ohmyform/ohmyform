@@ -1,6 +1,6 @@
 # Minimal Config
 
-will start one omf container with mongodb, persisting data.
+will start one omf container with persisting data in sqlite.
 
 after startup you can access it at *:8080
 
