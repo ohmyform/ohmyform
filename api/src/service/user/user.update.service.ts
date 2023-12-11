@@ -64,6 +64,6 @@ export class UserUpdateService {
       return false
     }
 
-    return input[property] == user[property]
+    return input[property] !== user[property]
   }
 }
