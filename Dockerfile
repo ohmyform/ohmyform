@@ -26,7 +26,7 @@ LABEL maintainer="OhMyForm <admin@ohmyform.com>"
 
 WORKDIR /usr/src/api
 
-RUN apk --update --no-cache add curl bash g++ make libpng-dev
+RUN apk --update --no-cache add curl bash g++ make libpng-dev python3
 
 # install node-prune (https://github.com/tj/node-prune)
 RUN curl -sf https://gobinaries.com/tj/node-prune | sh
