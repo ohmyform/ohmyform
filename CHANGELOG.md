@@ -19,6 +19,7 @@ Template for next version
 - Fixed typo https://github.com/ohmyform/ohmyform/pull/185
 - node prune location (https://github.com/ohmyform/ohmyform/issues/184)
 - use monorepo (https://github.com/ohmyform/ohmyform/pull/221)
+- update to node 20 (https://github.com/ohmyform/ohmyform/issues/228)
 
 ## [1.0.3] - 2022-03-27
 
