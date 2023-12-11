@@ -8,6 +8,7 @@
   "baseDataTab": "Dados Base",
   "building": "Formulário de construção",
   "confirmDelete": "Tem certeza de que excluiu este formulário com todos os envios?",
+  "continue": "Continuar",
   "create": "Criar novo formulário",
   "createNow": "Salve ",
   "created": "Formulário criado",
@@ -24,7 +25,12 @@
       "buttonText": "Cor do texto do botão",
       "question": "Pergunta Color"
     },
-    "font": "Fonte"
+    "font": "Fonte",
+    "layout": {
+      "card": "Cartão",
+      "slider": "Slider"
+    },
+    "layouts": "Layout"
   },
   "designTab": "Projeto",
   "endPage": {
@@ -46,13 +52,26 @@
   "fieldsTab": "Campos do Formulário",
   "hooks": {
     "add": "Adicionar",
+    "confirmDelete": "Vazio",
     "deleteNow": "Vazio",
     "enabled": "Habilitado"
   },
+  "hooksTab": "WebHooks",
   "loading": "Carregando Formulário",
+  "logic": {
+    "action": {
+      "disable": "Desativar",
+      "jumpTo": "Ir para",
+      "require": "Exigir",
+      "visible": "Visível"
+    },
+    "add": "Adicionar lógica"
+  },
   "mange": "Editar formulário \" {{title}} \"",
   "new": "Nova forma",
+  "next": "Próximo",
   "notifications": {
+    "add": "Adicionar Notificação",
     "enabled": "ativado",
     "fromEmail": "E-mail do remetente",
     "fromEmailInfo": "Verifique se o seu servidor de e-mail pode enviar deste e-mail",
@@ -66,6 +85,8 @@
     "toField": "Campo Email",
     "toFieldInfo": "Campo com e-mail para recebimento"
   },
+  "notificationsTab": "Notificações",
+  "previous": "Anterior",
   "restart": "Reiniciar formulário",
   "row": {
     "admin": "Proprietário",
@@ -73,6 +94,7 @@
     "isLive": "Viver",
     "language": "Língua",
     "lastModified": "Última modificação",
+    "menu": "Vazio",
     "title": "Título"
   },
   "startPage": {

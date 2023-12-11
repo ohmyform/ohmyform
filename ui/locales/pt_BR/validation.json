@@ -7,12 +7,14 @@
   "invalidUrl": "Deve ser um URL válido",
   "languageRequired": "Por favor selecione um idioma",
   "mandatoryFieldsMissing": "Campos obrigatórios ausentes",
+  "passwordConfirmMismatch": "As senhas que você digitou não coincidem!",
+  "passwordConfirmRequired": "Por favor confirme sua senha!",
   "passwordMinLength": "Deve ser maior ou igual a 5 caracteres!",
   "passwordRequired": "Por favor insira a sua senha!",
   "subjectRequired": "Forneça um assunto",
   "templateRequired": "Forneça um modelo",
   "titleRequired": "Forneça um título",
-  "urlRequired": "Por favor, escreva um link para um endereço web",
+  "urlRequired": "Por favor, escreva uma URL válida.",
   "usernameRequired": "Forneça um nome de usuário",
   "valueRequired": "Forneça um valor"
 }

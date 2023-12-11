@@ -26,6 +26,7 @@ Template for next version
 - [API] delete visitors on form delete (https://github.com/ohmyform/ohmyform/issues/181)
 - [API] add mutation to delete submissions as form admin (https://github.com/ohmyform/ohmyform/issues/186)
 - [UI] add interface to delete submissions as form admin (https://github.com/ohmyform/ohmyform/issues/186)
+- [UI] update translations: hi, ja, pt_BR, uk
 
 ## [1.0.3] - 2022-03-27
 

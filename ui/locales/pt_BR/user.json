@@ -9,9 +9,10 @@
   "row": {
     "created": "Criada",
     "email": "O email",
+    "menu": "Vazio",
     "roles": "Função"
   },
   "updateError": "Não foi possível atualizar o usuário",
-  "updateNow": "Salve ",
+  "updateNow": "Salvar",
   "updated": "Usuário atualizado"
 }

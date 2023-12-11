@@ -1,8 +1,10 @@
 {
+  "confirmPassword": "Confirmar Senha",
   "email": "O email",
   "firstName": "Primeiro nome",
   "language": "Língua",
   "lastName": "Último nome",
+  "password": "Senha",
   "updateError": "Não foi possível atualizar o perfil",
   "updateNow": "Salve ",
   "updated": "perfil atualizado",

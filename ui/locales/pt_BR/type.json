@@ -1,4 +1,12 @@
 {
+  "add": "Adicionar Campo",
+  "checkbox": {
+    "addOption": "Adicionar Checkbox",
+    "default": "Valor Padrão",
+    "name": "Checkbox",
+    "options": "Checkboxes",
+    "removeOption": "Remover"
+  },
   "confirmDelete": "Deseja mesmo remover este campo? Verifique se não está referenciado em nenhum lugar!",
   "date": {
     "default": "Data padrão",
@@ -30,6 +38,10 @@
     "default": "Link padrão",
     "name": "URL"
   },
+  "location": {
+    "default": "Local Padrão",
+    "name": "Localização no Mapa"
+  },
   "number": {
     "default": "Número padrão",
     "name": "Número"
@@ -50,7 +62,15 @@
   },
   "required": "Requeridos",
   "requiredInfo": "Se necessário, o valor padrão deve ser definido para permitir que os usuários enviem o formulário!",
+  "slider": {
+    "default": "Valor Padrão",
+    "max": "Valor Máximo",
+    "min": "Valor Mínimo",
+    "name": "Slider",
+    "step": "Tamanho"
+  },
   "slug": "Slug",
+  "slugInfo": "Use slug para passar a dinâmica padrão como parâmetro de URL ?slug=value",
   "textarea": {
     "default": "Valor padrão",
     "name": "Área de texto"

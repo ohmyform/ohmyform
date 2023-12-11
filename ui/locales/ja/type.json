@@ -1,5 +1,12 @@
 {
   "add": "項目を追加する",
+  "checkbox": {
+    "addOption": "チェックボックスを追加",
+    "default": "既定の値",
+    "name": "チェックボックス",
+    "options": "チェックボックス",
+    "removeOption": "削除する"
+  },
   "confirmDelete": "このフィールドを削除します。他から参照されていないことを確認してください。削除してよろしいですか？",
   "date": {
     "default": "既定の日付",
@@ -30,6 +37,10 @@
   "link": {
     "default": "既定のリンク",
     "name": "URL"
+  },
+  "location": {
+    "default": "既定の場所",
+    "name": "地図の場所"
   },
   "number": {
     "default": "既定の値",

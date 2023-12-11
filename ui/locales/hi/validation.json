@@ -5,6 +5,8 @@
   "invalidSlug": "स्लग में केवल लोअरकेस हो सकता है, 0-9 और _",
   "languageRequired": "कृपया एक भाषा का चयन करें",
   "mandatoryFieldsMissing": "अनिवार्य क्षेत्र गायब हैं",
+  "passwordConfirmMismatch": "आपके द्वारा दर्ज किए गए दो पासवर्ड मेल नहीं खाते!",
+  "passwordConfirmRequired": "कृपया अपने पासवर्ड की पुष्टि करें!",
   "passwordMinLength": "5 पात्रों से अधिक या बराबर होना चाहिए!",
   "subjectRequired": "कृपया एक विषय प्रदान करें",
   "titleRequired": "कृपया एक शीर्षक प्रदान करें",

@@ -1,6 +1,20 @@
 {
   "confirmDelete": "क्या आप वास्तव में सभी सबमिशन के साथ इस फॉर्म को हटाना चाहते हैं?",
+  "continue": "जारी रखना",
+  "design": {
+    "layout": {
+      "card": "कार्ड"
+    }
+  },
   "fieldsTab": "फॉर्म फ़ील्ड",
+  "logic": {
+    "action": {
+      "disable": "बंद ",
+      "require": "जरुरी"
+    }
+  },
+  "next": "अगला",
+  "previous": "पिछला",
   "startPage": {
     "paragraphInfo": "Formatting के लिए मार्कडाउन का उपयोग करें"
   }
