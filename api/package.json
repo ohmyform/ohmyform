@@ -73,7 +73,7 @@
     "rimraf": "^3.0.2",
     "rxjs": "^7.5.4",
     "serialize-error": "^8.1.0",
-    "sqlite3": "^5.0.2",
+    "sqlite3": "^5.1.6",
     "typeorm": "^0.2.44"
   },
   "devDependencies": {

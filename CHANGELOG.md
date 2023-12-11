@@ -22,6 +22,8 @@ Template for next version
 - update to node 20 (https://github.com/ohmyform/ohmyform/issues/228)
 - fix missing python error in api (https://github.com/ohmyform/ohmyform/issues/199)
 - [API] fix change user role (https://github.com/ohmyform/api/pull/49)
+- [API] update sqlite to 5.1.6
+- [API] delete visitors on form delete (https://github.com/ohmyform/ohmyform/issues/181)
 
 ## [1.0.3] - 2022-03-27
 

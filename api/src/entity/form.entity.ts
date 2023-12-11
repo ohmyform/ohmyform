@@ -31,10 +31,10 @@ export class FormEntity {
   @Column(() => AnalyticsEmbedded)
   public analytics: AnalyticsEmbedded = new AnalyticsEmbedded()
 
-  @OneToMany(() => VisitorEntity, visitor => visitor.form)
+  @OneToMany(() => VisitorEntity, visitor => visitor.form, { cascade: true })
   public visitors: VisitorEntity[]
 
-  @OneToMany(() => SubmissionEntity, submission => submission.form)
+  @OneToMany(() => SubmissionEntity, submission => submission.form, { cascade: true })
   public submissions: SubmissionEntity[]
 
   @OneToMany(() => FormFieldEntity, field => field.form, { eager: true, orphanedRowAction: 'delete', cascade: true })
