@@ -20,6 +20,7 @@ Template for next version
 - node prune location (https://github.com/ohmyform/ohmyform/issues/184)
 - use monorepo (https://github.com/ohmyform/ohmyform/pull/221)
 - update to node 20 (https://github.com/ohmyform/ohmyform/issues/228)
+- fix missing python error in api (https://github.com/ohmyform/ohmyform/issues/199)
 
 ## [1.0.3] - 2022-03-27
 
