@@ -2,7 +2,7 @@ import { MutationHookOptions, MutationTuple, useMutation } from '@apollo/client'
 import { gql } from '@apollo/client/core'
 
 interface Data {
-  form: {
+  submission: {
     id
   }
 }
@@ -12,21 +12,21 @@ interface Variables {
 }
 
 const MUTATION = gql`
-  mutation deleteUser($id: ID!) {
-    form: deleteUser(id: $id) {
+  mutation submissionDelete($id: ID!) {
+    submission: submissionDelete(id: $id) {
       id
     }
   }
 `
 
-export const useUserDeleteMutation = (
+export const useSubmissionDeleteMutation = (
   options: MutationHookOptions<Data, Variables> = {}
 ): MutationTuple<Data, Variables> => {
   const oldUpdate = options.update
 
   options.update = (cache, result, options) => {
     cache.evict({
-      fieldName: 'listUsers',
+      fieldName: 'listSubmissions',
     })
     cache.gc()
 

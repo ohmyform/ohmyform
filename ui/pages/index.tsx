@@ -1,4 +1,4 @@
-import { Alert, Layout } from 'antd'
+import { Alert, Layout, Space } from 'antd'
 import { AuthFooter } from 'components/auth/footer'
 import { GetStaticProps, NextPage } from 'next'
 import getConfig from 'next/config'
@@ -78,8 +78,26 @@ const Index: NextPage = () => {
 
       {status.error && (
         <Alert
-          message={`There is an error with your API connection: ${status.error.message}`}
-          style={{ marginBottom: 40, marginLeft: 16, marginRight: 16 }}
+          type={'error'}
+          message={
+            <Space direction={'vertical'}>
+              <div>There is an error with your API connection:</div>
+              <code>{status.error.message}</code>
+              <div style={{
+                fontStyle: 'italic',
+              }}>
+                We need to be able to access the server graphql endpoint at /graphql,{' '}
+                if you only stared the{' '}
+                <a href={'https://hub.docker.com/r/ohmyform/ui'}>ohmyform/ui</a>{' '}
+                container you are missing the{' '}
+                <a href={'https://hub.docker.com/r/ohmyform/api'}>ohmyform/api</a>{' '}
+                container. As an alternative you can also start the{' '}
+                <a href={'https://hub.docker.com/r/ohmyform/ohmyform'}>ohmyform/ohmyform</a>{' '}
+                container which includes both the ui and the api.
+              </div>
+            </Space>
+          }
+          style={{marginBottom: 40, marginLeft: 16, marginRight: 16 }}
         />
       )}
       <AuthFooter />

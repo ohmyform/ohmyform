@@ -1,4 +1,4 @@
-import { Button, Progress, Table } from 'antd'
+import { Button, message, Popconfirm, Progress, Table } from 'antd'
 import { PaginationProps } from 'antd/es/pagination'
 import { ProgressProps } from 'antd/lib/progress'
 import { ColumnsType } from 'antd/lib/table/interface'
@@ -10,12 +10,15 @@ import dayjs from 'dayjs'
 import { NextPage } from 'next'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import React, { useState } from 'react'
+import React, { useCallback, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { ExportSubmissionAction } from '../../../../components/form/admin/export.submission.action'
 import { SubmissionValues } from '../../../../components/form/admin/submission.values'
 import { FormPagerFragment } from '../../../../graphql/fragment/form.pager.fragment'
 import { SubmissionFragment } from '../../../../graphql/fragment/submission.fragment'
+import {
+  useSubmissionDeleteMutation,
+} from '../../../../graphql/mutation/submission.delete.mutation'
 import { useSubmissionPagerQuery } from '../../../../graphql/query/submission.pager.query'
 
 const Submissions: NextPage = () => {
@@ -44,6 +47,21 @@ const Submissions: NextPage = () => {
       setEntries(pager.entries)
     },
   })
+  const [deleteMutation] = useSubmissionDeleteMutation()
+
+  const doDelete = useCallback(async (id) => {
+    try {
+      await deleteMutation({
+        variables: {
+          id,
+        },
+      })
+
+      await message.success(t('submission:deleted'))
+    } catch (e) {
+      await message.error(t('submission:deleteError'))
+    }
+  }, [])
 
   const columns: ColumnsType<SubmissionFragment> = [
     {
@@ -78,6 +96,22 @@ const Submissions: NextPage = () => {
         return <TimeAgo date={date} />
       },
       responsive: ['lg'],
+    },
+    {
+      title: ' ',
+      render(_, submission) {
+        return (
+          <Popconfirm
+            title={t('submission:confirmDelete')}
+            onConfirm={() => doDelete(submission.id)}
+          >
+            <Button danger>
+              {t('submission:deleteNow')}
+            </Button>
+          </Popconfirm>
+        )
+      },
+      width: 100,
     },
   ]
 

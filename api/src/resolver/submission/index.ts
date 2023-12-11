@@ -1,3 +1,4 @@
+import { SubmissionDeleteMutation } from './submission.delete.mutation'
 import { SubmissionFieldResolver } from './submission.field.resolver'
 import { SubmissionListQuery } from './submission.list.query'
 import { SubmissionProgressResolver } from './submission.progress.resolver'
@@ -10,6 +11,7 @@ import { SubmissionStatisticResolver } from './submission.statistic.resolver'
 import { SubmissionFinishMutation } from './submission.finish.mutation'
 
 export const submissionResolvers = [
+  SubmissionDeleteMutation,
   SubmissionFieldResolver,
   SubmissionListQuery,
   SubmissionProgressResolver,

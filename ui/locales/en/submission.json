@@ -1,8 +1,13 @@
 {
   "add": "Add Submission",
   "city": "City",
+  "confirmDelete": "Really delete Submission?",
   "country": "Country",
   "created": "Created",
+  "delete.button": "Delete",
+  "deleteError": "Could not delete Submission",
+  "deleteNow": "Delete",
+  "deleted": "Submission deleted",
   "device": {
     "name": "Device Name",
     "type": "Device Type"

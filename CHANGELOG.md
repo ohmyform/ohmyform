@@ -24,6 +24,8 @@ Template for next version
 - [API] fix change user role (https://github.com/ohmyform/api/pull/49)
 - [API] update sqlite to 5.1.6
 - [API] delete visitors on form delete (https://github.com/ohmyform/ohmyform/issues/181)
+- [API] add mutation to delete submissions as form admin (https://github.com/ohmyform/ohmyform/issues/186)
+- [UI] add interface to delete submissions as form admin (https://github.com/ohmyform/ohmyform/issues/186)
 
 ## [1.0.3] - 2022-03-27
 

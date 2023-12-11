@@ -20,7 +20,7 @@ export class SubmissionEntity {
   @PrimaryGeneratedColumn()
   public id: number
 
-  @OneToMany(() => SubmissionFieldEntity, field => field.submission, { eager: true })
+  @OneToMany(() => SubmissionFieldEntity, field => field.submission, { eager: true, cascade: true })
   public fields: SubmissionFieldEntity[]
 
   @ManyToOne(() => FormEntity, form => form.submissions, { eager: true })
@@ -29,7 +29,7 @@ export class SubmissionEntity {
   @RelationId('form')
   readonly formId: number
 
-  @ManyToOne(() => VisitorEntity, visitor => visitor.submissions, { eager: true })
+  @ManyToOne(() => VisitorEntity, visitor => visitor.submissions, { eager: true, cascade: true })
   public visitor: VisitorEntity
 
   @Column()
