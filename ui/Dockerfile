@@ -1,4 +1,4 @@
-FROM node:14-alpine AS builder
+FROM node:20-alpine AS builder
 MAINTAINER OhMyForm <admin@ohmyform.com>
 
 WORKDIR /usr/src/app
@@ -20,7 +20,7 @@ RUN npm prune --production
 # there is some problem running node prune that then prevents the frontend to load (just start with /form/1 and it will crash)
 #RUN /usr/local/bin/node-prune
 
-FROM node:14-alpine
+FROM node:20-alpine
 MAINTAINER OhMyForm <admin@ohmyform.com>
 
 # Create a group and a user with name "ohmyform".

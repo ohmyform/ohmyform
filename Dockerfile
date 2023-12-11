@@ -1,5 +1,5 @@
 ## Build UI
-FROM node:16-alpine as ui
+FROM node:20-alpine as ui
 
 WORKDIR /usr/src/ui
 
@@ -21,7 +21,7 @@ RUN npm prune --production
 #RUN /usr/local/bin/node-prune
 
 ## Build API
-FROM node:16-alpine as api
+FROM node:20-alpine as api
 LABEL maintainer="OhMyForm <admin@ohmyform.com>"
 
 WORKDIR /usr/src/api
@@ -45,7 +45,7 @@ RUN npm prune --production
 RUN /usr/local/bin/node-prune
 
 ## Production Image.
-FROM node:16-alpine
+FROM node:20-alpine
 
 RUN apk --update add supervisor nginx && rm -rf /var/cache/apk/*
 

@@ -1,9 +1,9 @@
-FROM node:14-alpine AS builder
+FROM node:20-alpine AS builder
 MAINTAINER OhMyForm <admin@ohmyform.com>
 
 WORKDIR /usr/src/app
 
-RUN apk update && apk add curl bash && rm -rf /var/cache/apk/*
+RUN apk --update --no-cache add curl bash
 
 # install node-prune (https://github.com/tj/node-prune)
 RUN curl -sf https://gobinaries.com/tj/node-prune | sh
@@ -22,7 +22,7 @@ RUN npm prune --production
 # run node prune
 RUN /usr/local/bin/node-prune
 
-FROM node:14-alpine
+FROM node:20-alpine
 MAINTAINER OhMyForm <admin@ohmyform.com>
 
 # Create a group and a user with name "ohmyform".
