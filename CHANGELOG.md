@@ -27,6 +27,7 @@ Template for next version
 - [API] add mutation to delete submissions as form admin (https://github.com/ohmyform/ohmyform/issues/186)
 - [UI] add interface to delete submissions as form admin (https://github.com/ohmyform/ohmyform/issues/186)
 - [UI] update translations: hi, ja, pt_BR, uk
+- make nginx listen on ipv4 and ipv5 (https://github.com/ohmyform/ohmyform/pull/232)
 
 ## [1.0.3] - 2022-03-27
 
