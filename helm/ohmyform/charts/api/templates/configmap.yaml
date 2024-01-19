@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Values.app.name }}-configmap
+  namespace: {{ .Values.global.namespace }}
+  labels:
+    app: {{ .Values.app.name }}
+data:
+  CREATE_ADMIN: {{ .Values.configmap.data.CREATE_ADMIN | quote  }}
+  ADMIN_EMAIL: {{ .Values.configmap.data.ADMIN_EMAIL }}
+  ADMIN_USERNAME: {{ .Values.configmap.data.ADMIN_USERNAME }}
+  ADMIN_PASSWORD: {{ .Values.configmap.data.ADMIN_PASSWORD }}
+  DATABASE_DRIVER: {{ .Values.configmap.data.DATABASE_DRIVER }}
+  DATABASE_URL: {{ .Values.configmap.data.DATABASE_URL }}
+  MAILER_URI: {{ .Values.configmap.data.MAILER_URI }}
+  REDIS_URL: {{ .Values.configmap.data.REDIS_URL }}
+  PORT: {{ .Values.configmap.data.PORT | quote  }}

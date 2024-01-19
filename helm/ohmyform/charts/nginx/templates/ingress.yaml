@@ -1,0 +1,36 @@
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: {{ .Values.app.name }}-gateway
+  namespace: {{ .Values.global.namespace }}
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+    - port:
+        number: 80
+        name: http
+        protocol: HTTP
+      hosts:
+        - "{{ .Values.global.cicommitrefname }}.{{ .Values.global.dns }}"
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: {{ .Values.app.name }}-virtualservice
+  namespace: {{ .Values.global.namespace }}
+spec:
+  hosts:
+    - "{{ .Values.global.cicommitrefname }}.{{ .Values.global.dns }}"
+  gateways:
+    - {{ .Values.app.name }}-gateway
+  http:
+    - match:
+        - uri:
+            prefix: /
+      route:
+        - destination:
+            host: {{ .Values.app.name }}-service
+            port:
+              number: {{ (index .Values.service.spec.ports 0).port }}

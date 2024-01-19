@@ -1,0 +1,67 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.app.name }}-deployment
+  namespace: {{ .Values.global.namespace }}
+  labels:
+    app: {{ .Values.app.name }}
+spec:
+  replicas: {{ .Values.deployment.spec.replicas }}
+  selector:
+    matchLabels:
+      app: {{ .Values.app.name }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.app.name }}
+    spec:
+      containers:
+        - env:
+            - name: CREATE_ADMIN
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.app.name }}-configmap
+                  key: CREATE_ADMIN
+            - name: ADMIN_EMAIL
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.app.name }}-configmap
+                  key: ADMIN_EMAIL
+            - name: ADMIN_USERNAME
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.app.name }}-configmap
+                  key: ADMIN_USERNAME
+            - name: ADMIN_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.app.name }}-configmap
+                  key: ADMIN_PASSWORD
+            - name: DATABASE_DRIVER
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.app.name }}-configmap
+                  key: DATABASE_DRIVER
+            - name: DATABASE_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.app.name }}-configmap
+                  key: DATABASE_URL
+            - name: MAILER_URI
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.app.name }}-configmap
+                  key: MAILER_URI
+            - name: REDIS_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.app.name }}-configmap
+                  key: REDIS_URL
+            - name: PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.app.name }}-configmap
+                  key: PORT
+          image: {{ .Values.deployment.spec.templatee.spec.containers.image }}
+          name: {{ .Values.app.name }}
+      restartPolicy: {{ .Values.deployment.spec.templatee.spec.restartPolicy }}

@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Values.app.name }}-configmap
+  namespace: {{ .Values.global.namespace }}
+  labels:
+    app: {{ .Values.app.name }}
+data:
+  SERVER_ENDPOINT: {{ .Values.configmap.data.SERVER_ENDPOINT | quote }}
+  PORT: {{ .Values.configmap.data.PORT | quote }}

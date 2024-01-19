@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.app.name }}-service
+  namespace: {{ .Values.global.namespace }}
+  labels:
+    app: {{ .Values.app.name }}
+spec:
+  selector:
+    app: {{ .Values.app.name }}
+  #type: {{ .Values.service.type }}
+  type: NodePort
+  ports:
+  {{- range $port := .Values.service.spec.ports }}
+    - port: {{ $port.port }}
+      targetPort: {{ $port.targetPort }}
+      name: {{ $port.name }}
+      nodePort: 32263
+  {{- end }}
+

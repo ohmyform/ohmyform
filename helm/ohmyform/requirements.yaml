@@ -1,0 +1,9 @@
+dependencies:
+  - name: db
+    version: 0.1.0
+  - name: api
+    version: 0.1.0
+  - name: ui
+    version: 0.1.0
+  - name: nginx
+    version: 0.1.0

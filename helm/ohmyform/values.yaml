@@ -1,0 +1,114 @@
+global:
+  localhost:
+    enabled: false
+  cicommitrefname: ohmyform
+  dns: stuff.example.com
+  namespace: ohmyform
+  ingress: istio
+  version: 1.0.0
+
+db:
+  app:
+    name: postgresqldb
+  service:
+    type: ClusterIP
+    spec:
+      ports:
+        - port: 5432
+          targetPort: 5432
+          name: jdbc
+  deployment:
+    spec:
+      replicas: 1
+      templatee:
+        spec:
+          containers:
+            image: postgres:10-alpine
+          restartPolicy: Always
+  configmap:
+    data:
+      user: postgres
+      dbname: ohmyform
+  secret:
+    type: Opaque
+    data:
+      pwd: cm9vdAo= #root
+
+ui:
+  app:
+    name: ui
+  deployment:
+    spec:
+      replicas: 1
+      templatee:
+        spec:
+          containers:
+            image: ohmyform/ui
+          restartPolicy: Always
+  service:
+    type: ClusterIP
+    spec:
+      ports:
+        - port: 5000
+          targetPort: 5000
+          name: jdbc
+  configmap:
+    data:
+      SERVER_ENDPOINT: http://ui-service.ohmyform.svc.cluster.local:5000/graphql
+      PORT: "5000"
+
+api:
+  app:
+    name: api
+  deployment:
+    spec:
+      replicas: 1
+      templatee:
+        spec:
+          containers:
+            image: ohmyform/api
+          restartPolicy: Always
+  service:
+    type: ClusterIP
+    spec:
+      ports:
+        - port: 5000
+          targetPort: 5000
+          name: jdbc
+  configmap:
+    data:
+      CREATE_ADMIN: "true"
+      ADMIN_EMAIL: admin@local.host
+      ADMIN_USERNAME: admin
+      ADMIN_PASSWORD: admin
+      DATABASE_DRIVER: postgres
+      DATABASE_URL: postgresql://postgres:root@postgresqldb-service.ohmyform.svc.cluster.local:5432/ohmyform
+      MAILER_URI: smtp://local.host
+      REDIS_URL: redis://redis
+      PORT: "5000"
+
+nginx:
+  app:
+    name: webapp
+  service:
+    type: ClusterIP
+    spec:
+      ports:
+        - port: 80
+          targetPort: 80
+          name: admin
+  deployment:
+    spec:
+      replicas: 1
+      templatee:
+        spec:
+          containers:
+            image: nginx:alpine
+          restartPolicy: Always
+  ingress:
+    spec:
+      rules:
+        http:
+          paths:
+            - path: /
+              pathType: Prefix

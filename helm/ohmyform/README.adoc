@@ -1,0 +1,26 @@
+= Helm charts
+Nom de l’auteur <aitkarrafarid@gmail.com>
+v1.0, 2022-02-23
+:toc:
+:toc-title: Liste des rubriques
+:imagesdir: ../images
+
+image::/images/helm.png[float="center"]
+
+== Ingress
+- Istio : OK
+- Traefik : TODO...
+- Nginx : TODO...
+
+== Commandes CLI
+----
+$ helm upgrade --install \
+-f ./ohmyform/values.yaml \
+ohmyform ./ohmyform \
+--create-namespace \
+--namespace ohmyform
+
+$ helm ls -n ohmyform
+
+$ helm delete ohmyform -n ohmyform
+----
