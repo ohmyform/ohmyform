@@ -1,4 +1,5 @@
 # Please try FormBricks it's far more feature rich and seems like it's an ethical FOSS alternative.
+If you depend on this project still at this point please consider adopting the project.  However I will wish to ensure that it will be in good hands and not just going to be another piece in the supply chain problems for FOSS.
 
 ![OhMyForm](public/logo.png)
 
