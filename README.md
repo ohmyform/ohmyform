@@ -1,3 +1,5 @@
+# Please try FormBricks it's far more feature rich and seems like it's an ethical FOSS alternative.
+
 ![OhMyForm](public/logo.png)
 
 # OhMyForm
