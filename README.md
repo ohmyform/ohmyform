@@ -3,7 +3,7 @@ If you depend on this project still at this point please consider adopting the p
 
 ![OhMyForm](public/logo.png)
 
-# OhMyForm
+# OhMyForm -- 
 
 ![Project Status](https://badgen.net/github/checks/ohmyform/ohmyform)
 ![Latest Release](https://badgen.net/github/tag/ohmyform/ohmyform)
