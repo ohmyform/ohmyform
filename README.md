@@ -1,6 +1,13 @@
 # Please try FormBricks it's far more feature rich and seems like it's an ethical FOSS alternative.
 If you depend on this project still at this point please consider adopting the project.  However I will wish to ensure that it will be in good hands and not just going to be another piece in the supply chain problems for FOSS.
 
+*edit 
+We definitely endorse moving over to Formbricks at this stage. They are very much, by every measure, a vastly more advanced vision of what we would have eventually wanted to head towards ethically and feature-wise. Please consider supporting their project, and we deeply believe you will be in good hands. Have a look at their website, star their GitHub repository, and consider subscribing to their project financially. I truly believe it's a great option.  
+
+[https://formbricks.com](https://formbricks.com) star their git repository and head to it via GitHub search or their website. Thanks for all the contributions and users.
+
+
+
 ![OhMyForm](public/logo.png)
 
 # OhMyForm
